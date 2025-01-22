@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url(fonts/Archivo-Regular.woff2);
+    font-weight: 400;
+    display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url(fonts/Archivo-Bold.woff2);
+    font-weight: 700;
+    display: swap;
+}
+
+:root {
+    --primary-color: #212121;
+    --primary-background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 3.6vw;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    html {
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (min-width: 1281px) {
+    html {
+        font-size: 1vw;
+    }
+
+}
+
+
+body {
+    color: var(--primary-color);
+    background-color: var(--primary-background-color);
+    font-family: 'Archivo', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+address {
+    font-style: normal;
+}
