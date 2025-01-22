@@ -31,11 +31,7 @@
 				<a href="https://www.youtube.com/@tohlpeaks" target="_blank" rel="me">YouTube</a>
 			</li>
 			<li>
-				<a
-					href="https://ffm.bio/tohlpeaks"
-					target="_blank"
-					rel="me">Other digital platforms</a
-				>
+				<a href="https://ffm.bio/tohlpeaks" target="_blank" rel="me">Other digital platforms</a>
 			</li>
 		</ul>
 		<address>
@@ -48,7 +44,9 @@
 					<a href="https://x.com/tohlpeaks" target="_blank" rel="me">X</a>
 				</li>
 				<li>
-					<a href="https://discord.gg/MnKBeR3eNm" target="_blank" rel="me">Discord</a>
+					<a href="https://discordapp.com/users/283132253465477120" target="_blank" rel="me"
+						>Discord</a
+					>
 				</li>
 				<li>mail: tohlpeaks(at)proton(dot)me</li>
 			</ul>
