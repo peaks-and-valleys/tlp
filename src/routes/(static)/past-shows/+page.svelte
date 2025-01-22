@@ -36,7 +36,7 @@
 				(2022-10-30, Namba Bears, Osaka)
 			</li>
 		</ul>
-		<h2>Participated as a performer or DJ</h2>
+		<h2>Participated as a performer</h2>
 		<h3>2025</h3>
 		<ul>
 			<li>
