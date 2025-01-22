@@ -14,9 +14,10 @@
     display: swap;
 }
 
+
 :root {
-    --primary-color: #212121;
-    --primary-background-color: #e0e0e0;
+    --primary-color: #333333;
+    --primary-background-color: #eeeeee;
 }
 
 @media screen and (max-width: 768px) {
