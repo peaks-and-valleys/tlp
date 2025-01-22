@@ -6,7 +6,7 @@
 <main>
 	<article>
 		<h1>FATAL WOVND</h1>
-		<p>An egocentric platform, run by TohLPeaks</p>
+		<p>An egocentric platform, run by <strong>TohLPeaks</strong></p>
 		<h2>Announcement</h2>
 		<h3>Next show</h3>
 		<p>
