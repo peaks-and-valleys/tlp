@@ -10,10 +10,10 @@
 		<h2>Announcement</h2>
 		<h3>Next show</h3>
 		<p>
-			system_crash - <time>2025-01-24 22:00</time> @ Bhanc, Osaka:
+			system_crash - <time>2025-01-24 22:00</time> at Bhanc, Osaka:
 			<a href="https://x.com/ruehaduki/status/1880249440126337279" target="_blank">Info</a>
 		</p>
-		<h2>Portfolio</h2>
+		<h2>Works</h2>
 		<ul>
 			<li><a href="/discography">Discography</a></li>
 			<li><a href="/past-shows">Past shows</a></li>
