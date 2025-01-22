@@ -38,6 +38,7 @@
 :root {
     --primary-color: #212121;
     --primary-background-color: #eeeeee;
+    --accent-blue: #0011dd;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,12 +64,17 @@
 
 body {
     color: var(--primary-color);
-    background: no-repeat fixed top right / 55% url(/images/tlp-grind.svg),
+    background: no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),
         var(--primary-background-color);
     font-family: 'Prodigy Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
         'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+    margin: 0 0.625em;
 }
 
 address {
     font-style: normal;
+}
+
+a {
+    color: var(--accent-blue);
 }
