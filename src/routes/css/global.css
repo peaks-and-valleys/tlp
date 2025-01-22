@@ -2,6 +2,7 @@
     font-family: 'Archivo';
     src: url(fonts/Archivo-Regular.woff2);
     font-weight: 400;
+    size-adjust: 108%;
     display: swap;
 }
 
@@ -9,6 +10,7 @@
     font-family: 'Archivo';
     src: url(fonts/Archivo-Bold.woff2);
     font-weight: 700;
+    size-adjust: 108%;
     display: swap;
 }
 
@@ -19,9 +21,8 @@
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 3.6vw;
+        font-size: 3.8vw;
     }
-
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
@@ -42,7 +43,8 @@
 body {
     color: var(--primary-color);
     background-color: var(--primary-background-color);
-    font-family: 'Archivo', 'Helvetica Neue', 'Arial', sans-serif;
+    font-family: 'Archivo', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+        'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
 }
 
 address {

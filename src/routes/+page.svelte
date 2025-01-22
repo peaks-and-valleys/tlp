@@ -8,14 +8,13 @@
 
 <h2>Current Status</h2>
 
-<h2>Works</h2>
+<h2>Portfolio</h2>
 <ul>
-    <li><a href="/discography">Discography</a></li>
-    <li><a href="/past-shows">Past Shows</a></li>
+	<li><a href="/discography">Discography</a></li>
+	<li><a href="/past-shows">Past Shows</a></li>
 </ul>
 
 <h2>Links</h2>
-
 <h3>Music / Video</h3>
 <ul>
 	<li>
@@ -55,7 +54,7 @@
 <h2>Misc</h2>
 <ul>
 	<li>
-		<a href="https://log.tohlpeaks.party/" target="_blank" rel="me">My blog (external)</a>
+		<a href="https://log.tohlpeaks.party/" target="_blank" rel="me">Blog</a>
 	</li>
 	<li>
 		<a href="https://discord.gg/MnKBeR3eNm" target="_blank">Discord Server</a>
