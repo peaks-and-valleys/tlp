@@ -55,7 +55,7 @@
 			<h2>Misc</h2>
 			<ul>
 				<li>
-					<a href="https://log.tohlpeaks.party/" target="_blank" rel="me">Blog</a>
+					<a href="https://log.tohlpeaks.party/" target="_blank" rel="me">Blog (written in Japanese)</a>
 				</li>
 				<li>
 					<a href="https://discord.gg/MnKBeR3eNm" target="_blank">Discord server</a>
