@@ -10,7 +10,7 @@
 
 <main>
 	<article>
-		<h1>Past Shows</h1>
+		<h1>Past shows</h1>
 		<h2>Hosted by me</h2>
 		<ul>
 			<li>
