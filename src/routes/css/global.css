@@ -2,6 +2,7 @@
     font-family: 'Bricolage Grotesque';
     src: url(/fonts/BricolageGrotesque[opsz,wdth,wght].woff2);
     font-style: normal;
+    font-weight: 200 800;
     size-adjust: 110%;
     font-display: swap;
 }
@@ -14,20 +15,20 @@
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
     html {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
 }
 
 @media screen and (min-width: 1281px) {
     html {
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
 }
@@ -40,7 +41,7 @@ body {
     font-family: 'Bricolage Grotesque', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
         'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
     font-weight: 400;
-    font-variation-settings: "opsz" 16, "wdth" 100, "wght" 400;
+    font-variation-settings: "opsz" 24, "wdth" 100, "wght" 400;
     margin: 0 0.625em;
 }
 
