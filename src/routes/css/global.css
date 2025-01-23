@@ -1,39 +1,11 @@
 @font-face {
-    font-family: 'Prodigy Sans';
-    src: url(/fonts/ProdigySans-Regular.woff2);
-    font-weight: 400;
-    font-style: normal;
-    size-adjust: 108%;
-    display: swap;
-}
-
-@font-face {
-    font-family: 'Prodigy Sans';
-    src: url(/fonts/ProdigySans-Italic.woff2);
-    font-weight: 400;
-    font-style: italic;
-    size-adjust: 108%;
-    display: swap;
-}
-
-@font-face {
-    font-family: 'Prodigy Sans';
-    src: url(/fonts/ProdigySans-Bold.woff2);
+    font-family: 'Bricolage Grotesque';
+    src: url(/fonts/BricolageGrotesque[opsz,wdth,wght].woff2);
     font-weight: 700;
     font-style: normal;
-    size-adjust: 108%;
+    size-adjust: 110%;
     display: swap;
 }
-
-@font-face {
-    font-family: 'Prodigy Sans';
-    src: url(/fonts/ProdigySans-BoldItalic.woff2);
-    font-weight: 700;
-    font-style: italic;
-    size-adjust: 108%;
-    display: swap;
-}
-
 
 :root {
     --primary-color: #212121;
@@ -66,9 +38,25 @@ body {
     color: var(--primary-color);
     background: no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),
         var(--primary-background-color);
-    font-family: 'Prodigy Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+    font-family: 'Bricolage Grotesque', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
         'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+    font-style: normal;
+    font-stretch: 100%;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-variation-settings: "opsz" 16, "wdth" 100, "wght" 400;
     margin: 0 0.625em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 700;
+    font-variation-settings: "opsz" 16, "wdth" 100, "wght" 700;
 }
 
 address {
