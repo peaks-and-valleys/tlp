@@ -12,38 +12,45 @@
 	<article>
 		<h1>Past shows</h1>
 		<h2>Hosted by me</h2>
+		<em>Sometimes, I host small gigs.</em>
 		<ul>
 			<li>
 				<a href="https://ra.co/events/2007523" target="_blank">FATAL CLUB [CASE 03]</a>
-				(2024-10-12, environment 0g, Osaka)
+				(<time>2024-10-12</time>, environment 0g, Osaka)
 			</li>
 			<li>
 				<a href="https://ra.co/events/1946633" target="_blank">FATAL CLUB [CASE 02]</a>
-				(2024-07-05, environment 0g, Osaka)
+				(<time>2024-07-05</time>, environment 0g, Osaka)
 			</li>
 			<li>
 				<a href="https://ra.co/events/1876303" target="_blank">FATAL CLUB [CASE 01]</a>
-				(2024-03-24, environment 0g, Osaka)
+				(<time>2024-03-24</time>, environment 0g, Osaka)
 			</li>
 			<li>
 				<a href="https://www.instagram.com/li/CxabBk0SQfQ/" target="_blank">鏡像破壊</a>
-				(2023-11-12, environment 0g, Osaka)
+				(<time>2023-11-12</time>, environment 0g, Osaka)
 			</li>
 			<li>
 				<a href="https://twitter.com/tohlpeaks/status/1570381932365434880" target="_blank"
 					>miracle☆sugar - sato♡shin & TohLPeaks Release Party -</a
 				>
-				(2022-10-30, Namba Bears, Osaka)
+				(<time>2022-10-30</time>, Namba Bears, Osaka)
 			</li>
 		</ul>
 		<h2>Participated as a performer</h2>
+		<em>I can perform both IRL and URL.</em>
 		<h3>2025</h3>
 		<ul>
+			<li>
+				<a href="https://x.com/ruehaduki/status/1880249440126337279" target="_blank">system_crash</a
+				>
+				(<time>2025-01-24</time>, Bhanc, Osaka)
+			</li>
 			<li>
 				<a href="https://www.instagram.com/li/DDrVkO_S79x/" target="_blank"
 					>ZVocal31: Death Insurance Japan Tour Kobe</a
 				>
-				(2025-01-13, RINKAITEN, Hyogo)
+				(<time>2025-01-13</time>, RINKAITEN, Hyogo)
 			</li>
 		</ul>
 		<h3>2024</h3>
