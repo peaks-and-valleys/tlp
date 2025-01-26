@@ -6,13 +6,9 @@
 <main>
 	<article>
 		<h1>FATAL WOVND</h1>
-		<p>An egocentric platform, run by <strong>TohLPeaks</strong></p>
+		<em>An egocentric platform, run by <strong>TohLPeaks</strong></em>
 		<h2>Announcement</h2>
-		<h3>Next show</h3>
-		<p>
-			system_crash - <time>2025-01-24 22:00</time> at Bhanc, Osaka:
-			<a href="https://x.com/ruehaduki/status/1880249440126337279" target="_blank">Info</a>
-		</p>
+		<p>I will tour in Spain and UK. More info TBA</p>
 		<nav>
 			<h2>Works</h2>
 			<ul>

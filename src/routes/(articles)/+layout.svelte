@@ -6,15 +6,13 @@
 </script>
 
 <header>
-    <nav>
-		<a href="/">Back to index page</a>
+	<nav>
+		<p><a href="/">Back to index page</a></p>
 	</nav>
 </header>
 
 {@render children()}
 
 <footer>
-	<nav>
-		<a href="/">Back to index page</a>
-	</nav>
+	<p><a href="/">Back to index page</a></p>
 </footer>

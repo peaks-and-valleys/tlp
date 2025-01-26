@@ -11,6 +11,7 @@
     --primary-color: #212121;
     --primary-background-color: #eeeeee;
     --accent-blue: #0011dd;
+    --accent-red: #ee1100;
 }
 
 @media screen and (max-width: 768px) {
@@ -62,4 +63,10 @@ address {
 
 a {
     color: var(--accent-blue);
+
+    @media (hover: hover) {
+        &:hover {
+            color: var(--accent-red)
+        }
+    }
 }
