@@ -56,6 +56,12 @@
 				<li>
 					<a href="https://discord.gg/MnKBeR3eNm" target="_blank">Discord server</a>
 				</li>
+				<li>
+					<a href="https://www.paypal.com/paypalme/tohlpeaks" target="_blank">Donate via PayPal</a>
+				</li>
+				<li>
+					<a href="/recommendations">Recommendations</a>
+				</li>
 			</ul>
 		</nav>
 	</article>
