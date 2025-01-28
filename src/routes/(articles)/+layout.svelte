@@ -12,7 +12,3 @@
 </header>
 
 {@render children()}
-
-<footer>
-	<p><a href="/">← Back to index page</a></p>
-</footer>
