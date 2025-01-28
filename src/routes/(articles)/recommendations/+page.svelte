@@ -37,14 +37,17 @@
             <li>
                 <a href="https://nuthings.wordpress.com/" target="_blank">environment 0g</a>
             </li>
+            <li>
+                <a href="https://namba-bears.main.jp" target="_blank">Namba BEARS</a>
+            </li>
         </ul>
         <h3>Internet radios</h3>
         <ul>
             <li>
-                <a href="https://somnyan.stream/" target="_blank">Somnyan In-ter-face</a>
+                <a href="https://datafruits.fm/" target="_blank">datafruits.fm</a>
             </li>
             <li>
-                <a href="https://datafruits.fm/" target="_blank">datafruits.fm</a>
+                <a href="https://somnyan.stream/" target="_blank">Somnyan In-ter-face</a>
             </li>
         </ul>
 	</article>
