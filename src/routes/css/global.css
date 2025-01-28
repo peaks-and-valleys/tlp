@@ -79,6 +79,11 @@ a {
             color: var(--accent-red)
         }
     }
+
+    &[href*="://"]:not([href^="https://tohlpeaks.party"])::after {
+        content: "[↗]";
+        display: inline-block;
+    }
 }
 
 img {
