@@ -20,9 +20,21 @@
 				<time datetime="2025-03-07">7/3/2025</time> - Bristol, UK
 			</li>
 		</ul>
-		<img loading="lazy" src="/images/index/2025-02-22-BCN.jpg" alt="">
-		<img loading="lazy" src="/images/index/2025-02-27-MDR.jpg" alt="">
-		<img loading="lazy" src="/images/index/2025-03-07-BRS.jpg" alt="">
+		<img
+			loading="lazy"
+			src="/images/index/2025-02-22-BCN.jpg"
+			alt="The event flyer that is planned on 22nd February 2025 in Barcelona, Spain."
+		/>
+		<img
+			loading="lazy"
+			src="/images/index/2025-02-27-MDR.jpg"
+			alt="The event flyer that is planned on 27th February 2025 in Madrid, Spain."
+		/>
+		<img
+			loading="lazy"
+			src="/images/index/2025-03-07-BRS.jpg"
+			alt="The event flyer that is planned on 7th March 2025 in Bristol, UK."
+		/>
 		<nav>
 			<h2>Works</h2>
 			<ul>
@@ -65,7 +77,9 @@
 			<h2>Misc</h2>
 			<ul>
 				<li>
-					<a href="https://log.tohlpeaks.party/" target="_blank" rel="me">Blog (written in Japanese)</a>
+					<a href="https://log.tohlpeaks.party/" target="_blank" rel="me"
+						>Blog (written in Japanese)</a
+					>
 				</li>
 				<li>
 					<a href="https://discord.gg/MnKBeR3eNm" target="_blank">Discord server</a>
