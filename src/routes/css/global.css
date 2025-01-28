@@ -16,22 +16,32 @@
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 5vw;
+        font-size: 4.66vw;
+    }
+
+    img {
+        width: 90%;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
     html {
-        font-size: 3vw;
+        font-size: 2.66vw;
     }
 
+    img {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 1281px) {
     html {
-        font-size: 1.5vw;
+        font-size: 1.33vw;
     }
 
+    img {
+        width: 40%;
+    }
 }
 
 
@@ -69,4 +79,9 @@ a {
             color: var(--accent-red)
         }
     }
+}
+
+img {
+    display: block;
+    margin-bottom: 0.7rem;
 }

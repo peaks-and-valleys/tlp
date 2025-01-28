@@ -8,7 +8,21 @@
 		<h1>FATAL WOVND</h1>
 		<em>An egocentric platform, run by <strong>TohLPeaks</strong></em>
 		<h2>Announcement</h2>
-		<p>I will tour in Spain and UK. More info TBA</p>
+		<strong>I will tour in Spain and UK.</strong>
+		<ul>
+			<li>
+				<time datetime="2025-02-22">22/2/2025</time> - Barcelona, Spain
+			</li>
+			<li>
+				<time datetime="2025-02-27">27/2/2025</time> - Madrid, Spain
+			</li>
+			<li>
+				<time datetime="2025-03-07">7/3/2025</time> - Bristol, UK
+			</li>
+		</ul>
+		<img loading="lazy" src="/images/index/2025-02-22-BCN.jpg" alt="">
+		<img loading="lazy" src="/images/index/2025-02-27-MDR.jpg" alt="">
+		<img loading="lazy" src="/images/index/2025-03-07-BRS.jpg" alt="">
 		<nav>
 			<h2>Works</h2>
 			<ul>
