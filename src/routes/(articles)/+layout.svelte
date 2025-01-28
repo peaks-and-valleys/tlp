@@ -7,12 +7,12 @@
 
 <header>
 	<nav>
-		<p><a href="/">←Back to index page</a></p>
+		<p><a href="/">← Back to index page</a></p>
 	</nav>
 </header>
 
 {@render children()}
 
 <footer>
-	<p><a href="/">←Back to index page</a></p>
+	<p><a href="/">← Back to index page</a></p>
 </footer>

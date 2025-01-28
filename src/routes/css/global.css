@@ -81,8 +81,11 @@ a {
     }
 
     &[href*="://"]:not([href^="https://tohlpeaks.party"])::after {
-        content: "[↗]";
+        content: "↗";
         display: inline-block;
+        font-size: 0.7rem;
+        margin: 0 0.15rem;
+        text-decoration: none;
     }
 }
 
