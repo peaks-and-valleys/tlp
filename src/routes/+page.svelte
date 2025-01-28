@@ -11,30 +11,20 @@
 		<strong>I will tour in Spain and UK.</strong>
 		<ul>
 			<li>
-				<time datetime="2025-02-22">22/2/2025</time> - Barcelona, Spain
+				<time datetime="2025-02-22">22/2/2025</time> - Sala Taro / Barcelona, Spain:
+				<a href="https://www.instagram.com/p/DD4_gpCIzPS/" target="_blank">Info on Instagram</a>
 			</li>
 			<li>
-				<time datetime="2025-02-27">27/2/2025</time> - Madrid, Spain
+				<time datetime="2025-02-27">27/2/2025</time> - Sala Siroco / Madrid, Spain
 			</li>
 			<li>
-				<time datetime="2025-03-07">7/3/2025</time> - Bristol, UK
+				<time datetime="2025-03-07">7/3/2025</time> - The Red Lion / Bristol, UK:
+				<a
+					href="https://www.headfirstbristol.co.uk/whats-on/red-lion-bs5/fri-7-mar-big-chip-nrg-presents-tohlpeaks-eulalie-122154"
+					target="_blank">Info</a
+				>
 			</li>
 		</ul>
-		<img
-			loading="lazy"
-			src="/images/index/2025-02-22-BCN.jpg"
-			alt="The event flyer that is planned on 22nd February 2025 in Barcelona, Spain."
-		/>
-		<img
-			loading="lazy"
-			src="/images/index/2025-02-27-MDR.jpg"
-			alt="The event flyer that is planned on 27th February 2025 in Madrid, Spain."
-		/>
-		<img
-			loading="lazy"
-			src="/images/index/2025-03-07-BRS.jpg"
-			alt="The event flyer that is planned on 7th March 2025 in Bristol, UK."
-		/>
 		<nav>
 			<h2>Works</h2>
 			<ul>
