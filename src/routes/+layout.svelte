@@ -7,9 +7,11 @@
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
 
-<div class="top">
-	{@render children()}
-</div>
+<nav>
+	<p><a href="/">Index page</a></p>
+</nav>
+
+{@render children()}
 
 <footer>
 	<p>
