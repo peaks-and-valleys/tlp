@@ -12,10 +12,11 @@
 		<ul>
 			<li>
 				<time datetime="2025-02-22">22/2/2025</time> - Sala Taro / Barcelona, Spain:
-				<a href="https://www.instagram.com/p/DD4_gpCIzPS/" target="_blank">Info on Instagram</a>
+				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/" target="_blank">Info on Instagram</a>
 			</li>
 			<li>
-				<time datetime="2025-02-27">27/2/2025</time> - Sala Siroco / Madrid, Spain
+				<time datetime="2025-02-27">27/2/2025</time> - Sala Siroco / Madrid, Spain: 
+				<a href="https://www.instagram.com/voidsent__/p/DFXoSA7gC21/" target="_blank">Info on Instagram</a>
 			</li>
 			<li>
 				<time datetime="2025-03-07">7/3/2025</time> - The Red Lion / Bristol, UK:
