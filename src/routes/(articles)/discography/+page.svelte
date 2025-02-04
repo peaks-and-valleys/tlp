@@ -15,56 +15,57 @@
 		<h3>Albums / EPs</h3>
 		<ul>
 			<li>
-				<a href="https://ffm.to/pvnkrxck" target="_blank">Pvnk Rxck</a>
-				(2023-07-01, FATAL WOVND)
+				<a href="https://tohlpeaks.bandcamp.com/album/pvnk-rxck">Pvnk Rxck</a>
+				(<time>2023-07-01</time>, FATAL WOVND)
 			</li>
 			<li>
-				<a href="https://ffm.to/deadandfvcked" target="_blank">DEAD AND FVCKED!</a>
-				(2022-08-07, FATAL WOVND)
+				<a href="https://tohlpeaks.bandcamp.com/album/dead-and-fvcked">DEAD AND FVCKED!</a>
+				(<time>2022-08-07</time>, FATAL WOVND)
 			</li>
 			<li>
-				<a href="https://ffm.to/goingwrong" target="_blank">Going Wrong</a>
-				(2022-01-15, FATAL WOVND)
+				<a href="https://tohlpeaks.bandcamp.com/album/going-wrong">Going Wrong</a>
+				(<time>2022-01-15</time>, FATAL WOVND)
 			</li>
 			<li>
-				<a href="https://ffm.to/notallthesame" target="_blank">Not All The Same!</a>
-				(2021-01-10, Day of the Droids)
+				<a href="https://ffm.to/notallthesame">Not All The Same!</a>
+				(<time>2021-01-10</time>, Day of the Droids)
 			</li>
 			<li>
-				<a href="https://ffm.to/peakystyle" target="_blank">Peakystyle</a>
-				(2020-02-08, Sadistik Noize Asylum)
-			</li>
-			<li>
-				<a
-					href="https://viralconspiracyrecords.bandcamp.com/album/tohlpeaks-all-fools-shall-bleed"
-					target="_blank">All Fools Shall Bleed</a
-				>
-				(2016-10-15, Viral Conspiracy Records)
+				<a href="https://ffm.to/peakystyle">Peakystyle</a>
+				(<time>2020-02-08</time>, Sadistik Noize Asylum)
 			</li>
 		</ul>
 		<h3>Singles</h3>
 		<ul>
 			<li>
-				<a href="https://ffm.to/n0ten0ugh" target="_blank">n0t en0ugh</a>
-				(2022-10-31, FATAL WOVND)
+				<a href="https://tohlpeaks.bandcamp.com/album/dead-to-you">dead to you</a>
+				(<time>2024-12-18</time>, FATAL WOVND)
 			</li>
 			<li>
-				<a href="https://terminalexplosion.bandcamp.com/track/inside-my-head" target="_blank"
-					>Inside My Head</a
-				>
-				(2019-05-30, Terminal Explosion)
+				<a href="https://tohlpeaks.bandcamp.com/album/n0t-en0ugh">n0t en0ugh</a>
+				(<time>2022-10-31</time>, FATAL WOVND)
 			</li>
 			<li>
-				<a href="https://antistatic.bandcamp.com/album/tohlpeaks-peaky-hate-machine" target="_blank"
+				<a href="https://terminalexplosion.bandcamp.com/track/inside-my-head">Inside My Head</a>
+				(<time>2019-05-30</time>, Terminal Explosion)
+			</li>
+			<li>
+				<a href="https://antistatic.bandcamp.com/album/tohlpeaks-peaky-hate-machine"
 					>Peaky Hate Machine</a
 				>
-				(2018-11-26, Antistatic)
+				(<time>2018-11-26</time>, Antistatic)
 			</li>
 			<li>
-				<a href="https://sadistiknoizeasylum.bandcamp.com/album/devils-in-my-blood" target="_blank"
+				<a href="https://sadistiknoizeasylum.bandcamp.com/album/devils-in-my-blood"
 					>Devils In My Blood</a
 				>
-				(2017-11-13, Sadistik Noize Asylum)
+				(<time>2017-11-13</time>, Sadistik Noize Asylum)
+			</li>
+			<li>
+				<a href="https://viralconspiracyrecords.bandcamp.com/album/tohlpeaks-all-fools-shall-bleed"
+					>All Fools Shall Bleed</a
+				>
+				(<time>2016-10-15</time>, Viral Conspiracy Records)
 			</li>
 		</ul>
 		<h2>Appearances / Collaborations</h2>
