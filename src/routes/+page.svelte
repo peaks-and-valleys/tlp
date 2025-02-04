@@ -8,15 +8,20 @@
 		<h1>FATAL WOVND</h1>
 		<em>An egocentric platform, run by <strong>TohLPeaks</strong></em>
 		<h2>Announcement</h2>
+		<h3>nonsense superstar tour 2k25</h3>
 		<strong>I will tour in Spain and UK.</strong>
 		<ul>
 			<li>
 				<time datetime="2025-02-22">22/2/2025</time> - Sala Taro / Barcelona, Spain:
-				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/" target="_blank">Info on Instagram</a>
+				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/" target="_blank"
+					>Info on Instagram</a
+				>
 			</li>
 			<li>
-				<time datetime="2025-02-27">27/2/2025</time> - Sala Siroco / Madrid, Spain: 
-				<a href="https://www.instagram.com/voidsent__/p/DFXoSA7gC21/" target="_blank">Info on Instagram</a>
+				<time datetime="2025-02-27">27/2/2025</time> - Sala Siroco / Madrid, Spain:
+				<a href="https://www.instagram.com/voidsent__/p/DFXoSA7gC21/" target="_blank"
+					>Info on Instagram</a
+				>
 			</li>
 			<li>
 				<time datetime="2025-03-07">7/3/2025</time> - The Red Lion / Bristol, UK:
@@ -26,6 +31,10 @@
 				>
 			</li>
 		</ul>
+		<img
+			src="/images/index/nonsense-superstar-tour-2k25.jpg"
+			alt="tohlpeaks nonsense superstar tour 2k25 tour flyer"
+		/>
 		<nav>
 			<h2>Works</h2>
 			<ul>
