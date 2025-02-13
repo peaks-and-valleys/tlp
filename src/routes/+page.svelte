@@ -13,21 +13,20 @@
 		<ul>
 			<li>
 				<time datetime="2025-02-22">22/2/2025</time> - Sala Taro / Barcelona, Spain:
-				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/" target="_blank"
-					>Info on Instagram</a
-				>
+				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/">Info on Instagram</a>
 			</li>
 			<li>
 				<time datetime="2025-02-27">27/2/2025</time> - Sala Siroco / Madrid, Spain:
-				<a href="https://www.instagram.com/voidsent__/p/DFXoSA7gC21/" target="_blank"
-					>Info on Instagram</a
+				<a
+					href="https://siroco.es/eventos/day-of-the-droids-ketapasando-y-voidsent-w-eulalie-live-tohlpeaks-live-autopsy-protocol-akani-live-miut/"
+					>Info</a
 				>
 			</li>
 			<li>
 				<time datetime="2025-03-07">7/3/2025</time> - The Red Lion / Bristol, UK:
 				<a
 					href="https://www.headfirstbristol.co.uk/whats-on/red-lion-bs5/fri-7-mar-big-chip-nrg-presents-tohlpeaks-eulalie-122154"
-					target="_blank">Info</a
+					>Info</a
 				>
 			</li>
 		</ul>
