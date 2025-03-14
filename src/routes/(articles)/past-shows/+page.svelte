@@ -42,6 +42,26 @@
 		<h3>2025</h3>
 		<ul>
 			<li>
+				<a
+					href="https://www.headfirstbristol.co.uk/whats-on/red-lion-bs5/fri-7-mar-big-chip-nrg-presents-tohlpeaks-eulalie-122154"
+					target="_blank">BIG CHIP NRG</a
+				>
+				(<time>2025-03-07</time>, The Red Lion, Bristol)
+			</li>
+			<li>
+				<a
+					href="https://siroco.es/eventos/day-of-the-droids-ketapasando-y-voidsent-w-eulalie-live-tohlpeaks-live-autopsy-protocol-akani-live-miut/"
+					target="_blank">Day of the droids, Ketapasando y Voidsent</a
+				>
+				(<time>2025-02-27</time>, Siroco, Madrid)
+			</li>
+			<li>
+				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/" target="_blank"
+					>Day of the Droids</a
+				>
+				(<time>2025-02-22</time>, Sala Taro, Barcelona)
+			</li>
+			<li>
 				<a href="https://x.com/ruehaduki/status/1880249440126337279" target="_blank">system_crash</a
 				>
 				(<time>2025-01-24</time>, Bhanc, Osaka)
