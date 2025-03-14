@@ -52,7 +52,7 @@ body {
     font-family: 'Bricolage Grotesque', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
         'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
     font-weight: 400;
-    font-variation-settings: "opsz" 24, "wdth" 100, "wght" 400;
+    font-variation-settings: "wdth" 100, "wght" 400;
     margin: 0 0.625em;
 }
 
@@ -64,7 +64,7 @@ h5,
 h6,
 strong {
     font-weight: 700;
-    font-variation-settings: "opsz" 24, "wdth" 100, "wght" 700;
+    font-variation-settings: "wdth" 100, "wght" 700;
 }
 
 address {
