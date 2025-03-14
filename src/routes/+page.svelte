@@ -10,6 +10,8 @@
 		<h2>Announcement</h2>
 		<h3>The tour is over</h3>
 		<p>Thank you very much everyone.</p>
+		<h3>Next show</h3>
+		<p><time datetime="2025-04-02">2025/4/2</time> @ 尼崎 tora: <a href="https://live-tora.com/archives/10207">Info</a></p>
 		<nav>
 			<h2>Works</h2>
 			<ul>
