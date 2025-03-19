@@ -11,7 +11,10 @@
 		<h3>The tour is over</h3>
 		<p>Thank you very much everyone.</p>
 		<h3>Next show</h3>
-		<p><time datetime="2025-04-02">2025/4/2</time> @ 尼崎 tora: <a href="https://live-tora.com/archives/10207">Info</a></p>
+		<p>
+			<time datetime="2025-04-02">2025/4/2</time> @ 尼崎 tora:
+			<a href="https://live-tora.com/archives/10207">Info</a>
+		</p>
 		<nav>
 			<h2>Works</h2>
 			<ul>
@@ -39,6 +42,9 @@
 				<ul>
 					<li>
 						<a href="https://www.instagram.com/tohlpeaks/" rel="me">Instagram</a>
+					</li>
+					<li>
+						<a href="https://bsky.app/profile/tohlpeaks.bsky.social" rel="me">Bluesky</a>
 					</li>
 					<li>
 						<a href="https://x.com/tohlpeaks" rel="me">X</a>

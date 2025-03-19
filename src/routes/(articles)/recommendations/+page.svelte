@@ -37,6 +37,9 @@
 			<li>
 				<a href="https://sound.jp/fujimi/">Fujimi Industry Records</a>
 			</li>
+			<li>
+				<a href="http://okuyukashiki.com">奥床式</a>
+			</li>
 		</ul>
 		<h3>Venues</h3>
 		<ul>
