@@ -7,9 +7,9 @@
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
 
-<nav>
+<header>
 	<p><a href="/">Index page</a></p>
-</nav>
+</header>
 
 {@render children()}
 
