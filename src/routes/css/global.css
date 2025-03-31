@@ -1,9 +1,27 @@
 @font-face {
-	font-family: 'Bricolage Grotesque';
-	src: url(/fonts/BricolageGrotesque[opsz,wdth,wght].woff2);
+	font-family: 'Prodigy Sans';
+	src: url(/fonts/ProdigySans-Regular.woff2);
 	font-style: normal;
-	font-weight: 200 800;
-	size-adjust: 110%;
+	font-weight: 400;
+	size-adjust: 105%;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Prodigy Sans';
+	src: url(/fonts/ProdigySans-Italic.woff2);
+	font-style: italic;
+	font-weight: 400;
+	size-adjust: 105%;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Prodigy Sans';
+	src: url(/fonts/ProdigySans-Bold.woff2);
+	font-style: normal;
+	font-weight: 700;
+	size-adjust: 105%;
 	font-display: swap;
 }
 
@@ -54,12 +72,8 @@ body {
 		no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),
 		var(--primary-background-color);
 	font-family:
-		'Bricolage Grotesque', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+		'Prodigy Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
 		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
-	font-weight: 400;
-	font-variation-settings:
-		'wdth' 100,
-		'wght' 400;
 	margin: 0 0.625em;
 }
 
@@ -71,9 +85,6 @@ h5,
 h6,
 strong {
 	font-weight: 700;
-	font-variation-settings:
-		'wdth' 100,
-		'wght' 700;
 }
 
 address {
