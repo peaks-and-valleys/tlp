@@ -38,6 +38,10 @@
 		<h3>Singles</h3>
 		<ul>
 			<li>
+				<a href="/discography/2025-singles">2025 singles</a>
+				(<time>2025</time>, FATAL WOVND)
+			</li>
+			<li>
 				<a href="https://tohlpeaks.bandcamp.com/album/dead-to-you">dead to you</a>
 				(<time>2024-12-18</time>, FATAL WOVND)
 			</li>
