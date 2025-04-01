@@ -38,6 +38,12 @@
 				<a href="https://sound.jp/fujimi/">Fujimi Industry Records</a>
 			</li>
 			<li>
+				<a href="https://ketapasando.com/">ketapasando</a>
+			</li>
+			<li>
+				<a href="https://www.pvre.life/">Pure Life</a>
+			</li>
+			<li>
 				<a href="http://okuyukashiki.com">奥床式</a>
 			</li>
 		</ul>
