@@ -71,10 +71,6 @@
 	}
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 body {
 	color: var(--primary-color);
 	background:
