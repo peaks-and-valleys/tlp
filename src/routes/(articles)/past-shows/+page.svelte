@@ -42,32 +42,33 @@
 		<h3>2025</h3>
 		<ul>
 			<li>
+				<a href="https://live-tora.com/archives/10207"> 寅廻祀・第二幕 </a>
+				(<time>2025-04-02</time>, tora, Hyogo)
+			</li>
+			<li>
 				<a
 					href="https://www.headfirstbristol.co.uk/whats-on/red-lion-bs5/fri-7-mar-big-chip-nrg-presents-tohlpeaks-eulalie-122154"
-					target="_blank">BIG CHIP NRG</a
+					>BIG CHIP NRG</a
 				>
 				(<time>2025-03-07</time>, The Red Lion, Bristol)
 			</li>
 			<li>
 				<a
 					href="https://siroco.es/eventos/day-of-the-droids-ketapasando-y-voidsent-w-eulalie-live-tohlpeaks-live-autopsy-protocol-akani-live-miut/"
-					target="_blank">Day of the droids, Ketapasando y Voidsent</a
+					>Day of the droids, Ketapasando y Voidsent</a
 				>
 				(<time>2025-02-27</time>, Siroco, Madrid)
 			</li>
 			<li>
-				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/" target="_blank"
-					>Day of the Droids</a
-				>
+				<a href="https://www.instagram.com/dayofthedroids/reel/DFEWpDACYyr/">Day of the Droids</a>
 				(<time>2025-02-22</time>, Sala Taro, Barcelona)
 			</li>
 			<li>
-				<a href="https://x.com/ruehaduki/status/1880249440126337279" target="_blank">system_crash</a
-				>
+				<a href="https://x.com/ruehaduki/status/1880249440126337279">system_crash</a>
 				(<time>2025-01-24</time>, Bhanc, Osaka)
 			</li>
 			<li>
-				<a href="https://www.instagram.com/li/DDrVkO_S79x/" target="_blank"
+				<a href="https://www.instagram.com/li/DDrVkO_S79x/"
 					>ZVocal31: Death Insurance Japan Tour Kobe</a
 				>
 				(<time>2025-01-13</time>, RINKAITEN, Hyogo)
@@ -76,53 +77,46 @@
 		<h3>2024</h3>
 		<ul>
 			<li>
-				<a href="https://x.com/cannorin3/status/1853406847950348532" target="_blank">system_crash</a
-				>
-				(2024-11-22, Bhanc, Osaka)
+				<a href="https://x.com/cannorin3/status/1853406847950348532">system_crash</a>
+				(<time>2024-11-22</time>, Bhanc, Osaka)
 			</li>
 			<li>
-				<a href="https://x.com/madowa9/status/1836737035702567126" target="_blank"
-					>Foreground vol.5</a
-				>
-				(2024-11-16, Triangle, Osaka)
+				<a href="https://x.com/madowa9/status/1836737035702567126">Foreground vol.5</a>
+				(<time>2024-11-16</time>, Triangle, Osaka)
 			</li>
 			<li>
-				<a href="https://live-tora.com/archives/9326" target="_blank">額からワインブラッド</a>
-				(2024-09-08, tora, Hyogo)
+				<a href="https://live-tora.com/archives/9326">額からワインブラッド</a>
+				(<time>2024-09-08</time>, tora, Hyogo)
 			</li>
 			<li>
-				<a href="https://ra.co/events/1946633" target="_blank">HEAVENS vol.3</a>
-				(2024-05-25, Twitch)
+				<a href="https://ra.co/events/1946633">HEAVENS vol.3</a>
+				(<time>2024-05-25</time>, Twitch)
 			</li>
 			<li>
-				<a href="https://ra.co/events/1900057" target="_blank">Day of the Droids</a>
-				(2024-04-28, ZU BAR, Tokyo)
+				<a href="https://ra.co/events/1900057">Day of the Droids</a>
+				(<time>2024-04-28</time>, ZU BAR, Tokyo)
 			</li>
 			<li>
-				<a href="https://twitter.com/kurosu_core/status/1770659894150214122" target="_blank"
-					>system_crash</a
-				>
-				(2024-03-22, Bhanc, Osaka)
+				<a href="https://twitter.com/kurosu_core/status/1770659894150214122">system_crash</a>
+				(<time>2024-03-22</time>, Bhanc, Osaka)
 			</li>
 			<li>
-				<a href="https://ra.co/events/1883229" target="_blank"
-					>doki doki all night - cure for tortureclub</a
-				>
-				(2024-03-16, Lovehaus, Seoul)
+				<a href="https://ra.co/events/1883229">doki doki all night - cure for tortureclub</a>
+				(<time>2024-03-16</time>, Lovehaus, Seoul)
 			</li>
 			<li>
-				<a href="https://ra.co/events/1882303" target="_blank">Internet!onal vol.2</a>
-				(2024-03-16, ACS, Seoul)
+				<a href="https://ra.co/events/1882303">Internet!onal vol.2</a>
+				(<time>2024-03-16</time>, ACS, Seoul)
 			</li>
 			<li>
-				<a href="https://twitter.com/OSINIOSITEHAIRU/status/1763882192709755263" target="_blank"
+				<a href="https://twitter.com/OSINIOSITEHAIRU/status/1763882192709755263"
 					>Before Sunrise vol.83</a
 				>
-				(2024-03-11, RINKAITEN, Hyogo)
+				(<time>2024-03-11</time>, RINKAITEN, Hyogo)
 			</li>
 			<li>
-				<a href="https://www.conpass.jp/10227.html" target="_blank">世紀末 vol.73</a>
-				(2024-02-02, CONPASS, Osaka)
+				<a href="https://www.conpass.jp/10227.html">世紀末 vol.73</a>
+				(<time>2024-02-02</time>, CONPASS, Osaka)
 			</li>
 		</ul>
 		<h3>2023</h3>
