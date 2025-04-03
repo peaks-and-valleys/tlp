@@ -6,10 +6,10 @@
         type="fractalNoise"
         baseFrequency="0.05"
         numOctaves="3"
-        result="turbulence" 
+        result="noise" 
       />
       <feDisplacementMap
-        in2="turbulence"
+        in2="noise"
         in="SourceGraphic"
         scale="6"
       />
@@ -19,10 +19,23 @@
         type="turbulence"
         baseFrequency="0.08"
         numOctaves="2"
-        result="turbulence" 
+        result="noise" 
       />
       <feDisplacementMap
-        in2="turbulence"
+        in2="noise"
+        in="SourceGraphic"
+        scale="4"
+      />
+    </filter>
+    <filter id="displacement-03">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.12"
+        numOctaves="3"
+        result="noise" 
+      />
+      <feDisplacementMap
+        in2="noise"
         in="SourceGraphic"
         scale="4"
       />
@@ -31,14 +44,18 @@
       .tlp-grind {
         fill: #bdbdbd;
         stroke-width: 0px;
-        animation: glitch .8s ease-in-out infinite;
-      }
-      @keyframes glitch {
+        animation:
+          displacement 0.5s ease alternate infinite;
+        }
+      @keyframes displacement {
+        0% {
+          filter: url(#displacement-01);
+        }
         50% {
-          filter: url(#displacement-02)
+          filter: url(#displacement-03);
         }
         100% {
-          filter: url(#displacement-01);
+          filter: url(#displacement-02);
         }
       }
     </style>
