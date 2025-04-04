@@ -3,8 +3,22 @@
 	import type { LayoutData } from './$types';
 	import './css/sanitize.css';
 	import './css/global.css';
+	import './css/transition.css'
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
+
+	import { onNavigate } from '$app/navigation';
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <header>
