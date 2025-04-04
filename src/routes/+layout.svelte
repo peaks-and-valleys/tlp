@@ -3,7 +3,7 @@
 	import type { LayoutData } from './$types';
 	import './css/sanitize.css';
 	import './css/global.css';
-	import './css/transition.css'
+	import './css/transition.css';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 
@@ -25,7 +25,9 @@
 	<p><a href="/">Index page</a></p>
 </header>
 
-{@render children()}
+<main>
+	{@render children()}
+</main>
 
 <footer>
 	<p>
