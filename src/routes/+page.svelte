@@ -4,8 +4,8 @@
 </svelte:head>
 
 <article>
-	<h1>FATAL WOVND</h1>
-	<em>An egocentric platform, run by <strong>TohLPeaks</strong></em>
+	<h1 translate="no">FATAL WOVND</h1>
+	<em>An egocentric platform, run by <strong translate="no">TohLPeaks</strong></em>
 	<h2>Announcement</h2>
 	<h3>New singles out</h3>
 	<p>Check out <a href="/discography/2025-singles">this page</a></p>
@@ -19,32 +19,36 @@
 		<h3>Music / Video</h3>
 		<ul>
 			<li>
-				<a href="https://tohlpeaks.bandcamp.com/" rel="me">bandcamp</a>
+				<a href="https://tohlpeaks.bandcamp.com/" rel="me" translate="no">bandcamp</a>
 			</li>
 			<li>
-				<a href="https://soundcloud.com/tohlpeaks" rel="me">SoundCloud</a>
+				<a href="https://soundcloud.com/tohlpeaks" rel="me" translate="no">SoundCloud</a>
 			</li>
 			<li>
-				<a href="https://www.youtube.com/@tohlpeaks" rel="me">YouTube</a>
+				<a href="https://www.youtube.com/@tohlpeaks" rel="me" translate="no">YouTube</a>
 			</li>
 			<li>
-				<a href="https://ffm.bio/tohlpeaks" rel="me">Other digital platforms</a>
+				<a href="https://ffm.bio/tohlpeaks" rel="me">Other digital platforms (feature.fm)</a>
 			</li>
 		</ul>
 		<address>
 			<h3>Social / Contact</h3>
 			<ul>
 				<li>
-					<a href="https://www.instagram.com/tohlpeaks/" rel="me">Instagram</a>
+					<a href="https://www.instagram.com/tohlpeaks/" rel="me" translate="no">Instagram</a>
 				</li>
 				<li>
-					<a href="https://bsky.app/profile/tohlpeaks.bsky.social" rel="me">Bluesky</a>
+					<a href="https://bsky.app/profile/tohlpeaks.bsky.social" rel="me" translate="no"
+						>Bluesky</a
+					>
 				</li>
 				<li>
 					<a href="https://x.com/tohlpeaks" rel="me">X</a>
 				</li>
 				<li>
-					<a href="https://discordapp.com/users/283132253465477120" rel="me">Discord</a>
+					<a href="https://discordapp.com/users/283132253465477120" rel="me" translate="no"
+						>Discord (profile)</a
+					>
 				</li>
 				<li>mail: tohlpeaks(at)proton(dot)me</li>
 			</ul>
