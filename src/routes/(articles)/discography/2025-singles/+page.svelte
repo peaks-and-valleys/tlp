@@ -5,7 +5,7 @@
 </script>
 
 <article>
-	<p><a href="/discography">Back to discography page</a></p>
+	<h1>2025 singles</h1>
 	<h2>Obsessed [2k25]</h2>
 	<iframe
 		style="border: 0; width: 100%; height: 120px;"

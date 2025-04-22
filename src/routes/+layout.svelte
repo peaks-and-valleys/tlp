@@ -3,6 +3,8 @@
 	import type { LayoutData } from './$types';
 	import './styles/app.scss';
 
+	import Breadcrumbs from '$lib/Breadcrumbs.svelte';
+
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 
 	import { onNavigate } from '$app/navigation';
@@ -20,7 +22,7 @@
 </script>
 
 <header>
-	<p><a href="/">Index page</a></p>
+	<Breadcrumbs />
 </header>
 
 <main>
