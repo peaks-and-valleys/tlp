@@ -1,9 +1,7 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
-	import './css/sanitize.css';
-	import './css/global.css';
-	import './css/transition.css';
+	import './styles/app.scss';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 

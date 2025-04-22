@@ -1,29 +1,29 @@
 @keyframes fade-in {
 	from {
 		opacity: 0;
-		filter: blur(0.05rem);
+		filter: blur(0.01rem);
 	}
 }
 
 @keyframes fade-out {
 	to {
 		opacity: 0;
-		filter: blur(0.05rem);
+		filter: blur(0.01rem);
 	}
 }
 
 ::view-transition-old(main) {
-	animation: fade-out 0.5s ease-out;
+	animation: 0.6s ease-out both fade-out ;
 }
 
 ::view-transition-new(main) {
-	animation: fade-in 0.5s ease-in;
+	animation: 0.6s ease-in 0.2s both fade-in ;
 }
 
 @media (prefers-reduced-motion) {
 	::view-transition-group(*),
 	::view-transition-old(*),
 	::view-transition-new(*) {
-		animation: none;
+		animation: none !important;
 	}
 }
