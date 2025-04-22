@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'Work Sans';
+	src: url(/fonts/WorkSans-Regular.woff2);
+	font-style: normal;
+	font-weight: 400;
+	size-adjust: 108%;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url(/fonts/WorkSans-Italic.woff2);
+	font-style: italic;
+	font-weight: 400;
+	size-adjust: 108%;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url(/fonts/WorkSans-Bold.woff2);
+	font-style: normal;
+	font-weight: 700;
+	size-adjust: 108%;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url(/fonts/WorkSans-BoldItalic.woff2);
+	font-style: italic;
+	font-weight: 700;
+	size-adjust: 108%;
+	font-display: swap;
+}
+
+body {
+	font-size: clamp(16px, round(up, 3vw, 2px), 24px);
+	font-weight: 400;
+	color: var(--c-primary);
+	background:
+		no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),
+		var(--c-bg-primary);
+	font-family:
+		'Work Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+	margin: 0 0.625em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+	font-weight: 700;
+}
+
+address {
+	font-style: normal;
+}
+
+a {
+	color: var(--c-accent-blue);
+
+	@media (hover: hover) {
+		&:hover {
+			color: var(--c-accent-red);
+		}
+	}
+
+	&[href*="://"]:not([href^="https://tohlpeaks.party"])::after
+	{
+		content: '↗';
+		display: inline-block;
+		vertical-align: super;
+		font-size: 0.625rem;
+		margin: 0 0.1rem;
+		text-decoration: none;
+	}
+}
+
+img {
+	display: block;
+}
