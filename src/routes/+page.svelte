@@ -1,6 +1,13 @@
+<script>
+	import { page } from '$app/state';
+</script>
+
 <svelte:head>
 	<title>FATAL WOVND, run by TohLPeaks</title>
 	<meta name="description" content="An egocentric platform" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="FATAL WOVND, run by TohLPeaks" />
+	<meta property="og:url" content="https://tohlpeaks.party" />
 </svelte:head>
 
 <article>

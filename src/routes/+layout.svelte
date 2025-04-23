@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
+	import { page } from '$app/state';
 	import './styles/app.scss';
 
 	import Breadcrumbs from '$lib/Breadcrumbs.svelte';
@@ -20,6 +21,11 @@
 		});
 	});
 </script>
+
+<svelte:head>
+	<meta property="og:site_name" content="FATAL WOVND, run by TohLPeaks" />
+	<meta property="og:image" content="https://tohlpeaks.party/images/ogp.jpg" />
+</svelte:head>
 
 <header>
 	<Breadcrumbs />
