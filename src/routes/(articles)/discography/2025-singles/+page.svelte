@@ -1,8 +1,12 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import HeadProperties from '$lib/components/Head-Properties.svelte';
 
 	let { data }: { data: PageData } = $props();
 </script>
+
+<HeadProperties pageTitle="2025 singles" description="List of singles that were released in 2025"
+></HeadProperties>
 
 <article>
 	<h1>2025 singles</h1>

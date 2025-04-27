@@ -1,12 +1,11 @@
 <script lang="ts">
 	import type { PageData } from '../../(articles)/past-shows/$types';
+	import HeadProperties from '$lib/components/Head-Properties.svelte';
 
 	let { data }: { data: PageData } = $props();
 </script>
 
-<svelte:head>
-	<title>Past shows - FATAL WOVND</title>
-</svelte:head>
+<HeadProperties pageTitle="Past shows" description="Past shows list"></HeadProperties>
 
 <article>
 	<h1>Past shows</h1>

@@ -1,12 +1,11 @@
 <script lang="ts">
 	import type { PageData } from '../../(articles)/discography/$types';
+	import HeadProperties from '$lib/components/Head-Properties.svelte';
 
 	let { data }: { data: PageData } = $props();
 </script>
 
-<svelte:head>
-	<title>Discography - FATAL WOVND</title>
-</svelte:head>
+<HeadProperties pageTitle="Discography" description="Discography list"></HeadProperties>
 
 <article>
 	<h1>Discography</h1>

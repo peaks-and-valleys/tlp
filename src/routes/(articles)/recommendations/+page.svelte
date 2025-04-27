@@ -1,12 +1,11 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import HeadProperties from '$lib/components/Head-Properties.svelte';
 
 	let { data }: { data: PageData } = $props();
 </script>
 
-<svelte:head>
-	<title>Recommendations - FATAL WOVND</title>
-</svelte:head>
+<HeadProperties pageTitle="Recommendations" description="Recommendation list"></HeadProperties>
 
 <article>
 	<h1>Recommendations</h1>
@@ -31,7 +30,9 @@
 	<h3>Labels / Collectives</h3>
 	<ul>
 		<li>
-			<a href="https://dayofthedroids.wixsite.com/dayofthedroids" translate="no">Day of the droids</a>
+			<a href="https://dayofthedroids.wixsite.com/dayofthedroids" translate="no"
+				>Day of the droids</a
+			>
 		</li>
 		<li>
 			<a href="https://sound.jp/fujimi/" translate="no">Fujimi Industry Records</a>
