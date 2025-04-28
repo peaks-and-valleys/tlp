@@ -42,7 +42,7 @@
     </filter>
     <style>
       .tlp-grind {
-        fill: #bdbdbd;
+        fill: #212121;
         stroke-width: 0px;
         will-change: filter;
         @media (prefers-reduced-motion: no-preference) {
