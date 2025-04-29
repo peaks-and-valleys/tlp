@@ -10,13 +10,6 @@
       numOctaves="2"
     />
     <feColorMatrix type="hueRotate" values="0">
-      <animate
-        attributeName="values"
-        from="0"
-        to="360"
-        dur="500ms" 
-        repeatCount="indefinite"
-      />
     </feColorMatrix>
     <feColorMatrix 
       type="matrix" 
