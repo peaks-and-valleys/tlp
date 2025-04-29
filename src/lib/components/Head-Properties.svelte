@@ -1,15 +1,20 @@
 <script lang="ts">
 	import { page } from '$app/state';
 
+	let {
+		pageTitle = '',
+		description = 'An egocentric platform, run by TohLPeaks',
+		contentLang = 'en-US',
+		pageType = 'website'
+	}: Props = $props();
+
 	const baseTitle: string = 'FATAL WOVND, run by TohLPeaks';
-	export let pageTitle: string = '';
-	let wholeTitle = baseTitle;
+	let wholeTitle = $state(baseTitle);
 
 	if (pageTitle != '') {
 		wholeTitle = pageTitle + ' - ' + baseTitle;
 	}
 
-	export let description: string = 'An egocentric platform, run by TohLPeaks';
 
 	const baseUrl: string = 'https://tohlpeaks.party';
 	let pagePath = page.url.pathname;
@@ -20,8 +25,12 @@
 
 	let wholeUrl: string = baseUrl + pagePath;
 
-	export let contentLang: string = 'en-US';
-	export let pageType: string = 'website';
+	interface Props {
+		pageTitle?: string;
+		description?: string;
+		contentLang?: string;
+		pageType?: string;
+	}
 </script>
 
 <svelte:head>
