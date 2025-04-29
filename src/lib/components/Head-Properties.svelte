@@ -20,6 +20,7 @@
 
 	let wholeUrl: string = baseUrl + pagePath;
 
+	export let contentLang: string = 'en-US';
 	export let pageType: string = 'website';
 </script>
 
@@ -31,6 +32,6 @@
 	<meta property="og:url" content={wholeUrl} />
 	<meta property="og:image" content="{baseUrl}/images/ogp.jpg" />
 	<meta property="og:site_name" content={baseTitle} />
-	<meta property="og:locale" content="en-US" />
+	<meta property="og:locale" content={contentLang} />
 	<meta property="og:type" content={pageType} />
 </svelte:head>

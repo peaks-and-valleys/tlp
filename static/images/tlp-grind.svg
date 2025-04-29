@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="tlp-grind" data-name="tlp-handwritten-grind" xmlns="http://www.w3.org/2000/svg" width="186.8983534mm" height="100.6291111mm" viewBox="0 0 529.790616 285.2478782">
+<svg id="tlp-grind" data-name="tlp-grind" xmlns="http://www.w3.org/2000/svg" width="186.8983534mm" height="100.6291111mm" viewBox="0 0 529.790616 285.2478782">
   <defs>
-    <filter id="displacement-01">
+    <filter id="displacement">
       <feTurbulence
         type="fractalNoise"
         baseFrequency="0.05"
         numOctaves="3"
         result="noise" 
-      />
+      >
+        <animate
+          attributeName="baseFrequency"
+          values="0.02;0.08;0.02"
+          dur="600ms"
+          calcMode="discrete"
+          repeatCount="indefinite"
+        />
+      </feTurbulence>
       <feDisplacementMap
         in2="noise"
         in="SourceGraphic"
         scale="6"
-      />
-    </filter>
-        <filter id="displacement-02">
-      <feTurbulence
-        type="turbulence"
-        baseFrequency="0.08"
-        numOctaves="2"
-        result="noise" 
-      />
-      <feDisplacementMap
-        in2="noise"
-        in="SourceGraphic"
-        scale="4"
-      />
-    </filter>
-    <filter id="displacement-03">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.12"
-        numOctaves="3"
-        result="noise" 
-      />
-      <feDisplacementMap
-        in2="noise"
-        in="SourceGraphic"
-        scale="4"
-      />
+      >
+        <animate
+          attributeName="scale"
+          values="2;8;2"
+          dur="600ms"
+          calcMode="linear"
+          repeatCount="indefinite"
+        />
+      </feDisplacementMap>
     </filter>
     <style>
       .tlp-grind {
@@ -46,19 +36,7 @@
         stroke-width: 0px;
         will-change: filter;
         @media (prefers-reduced-motion: no-preference) {
-          animation:
-            displacement 0.5s linear infinite;
-        }
-      }
-      @keyframes displacement {
-        0% {
-          filter: url(#displacement-01);
-        }
-        50% {
-          filter: url(#displacement-03);
-        }
-        100% {
-          filter: url(#displacement-02);
+          filter: url(#displacement);
         }
       }
     </style>
