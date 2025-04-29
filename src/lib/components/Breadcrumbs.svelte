@@ -56,7 +56,7 @@
 <nav aria-label="Breadcrumbs" class="l-breadcrumbs">
 	<ol>
 		{#each breadcrumbs as crumb, index}
-			<li class="breadcrumb-item">
+			<li translate="no">
 				{#if index < breadcrumbs.length - 1}
 					<a href="{base}{crumb.path}">
 						<span>{crumb.name}</span>
