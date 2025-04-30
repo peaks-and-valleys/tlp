@@ -13,7 +13,7 @@
 	<h2>Announcement</h2>
 	<h3>New singles out</h3>
 	<p>Check out <a href="/discography/2025-singles">this page</a></p>
-	<h2>Works</h2>
+	<h2>Portfolio</h2>
 	<ul>
 		<li><a href="/discography">Discography</a></li>
 		<li><a href="/past-shows">Past shows</a></li>

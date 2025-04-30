@@ -39,30 +39,21 @@ html {
 }
 
 body {
-	font-size: clamp(16px, round(up, 3vw, 2px), 24px);
+	font-size: clamp(15px, round(up, 2vw, 2px), 22px);
 	font-weight: 400;
 	color: var(--c-primary);
 	line-height: 1.8;
 	letter-spacing: 0.01rem;
 	background:
 		no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),
+		repeat fixed 0% 0% / auto url(/images/noise.svg),
 		var(--c-bg-primary);
-	background-blend-mode: difference;
+	background-blend-mode: difference, hard-light;
 	font-family:
 		'Work Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
 		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
 	margin: 0 0.625em;
-	max-width: 1080px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	body {
-		background:
-			no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),
-			repeat fixed 0% 0% / auto url(/images/noise.svg),
-			var(--c-bg-primary);
-		background-blend-mode: difference, hard-light;
-	}
+	max-width: 1140px;
 }
 
 h1,
