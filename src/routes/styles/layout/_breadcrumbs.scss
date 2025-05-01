@@ -1,0 +1,10 @@
+.l-breadcrumbs {
+	ol {
+		color: var(--c-secondary);
+		font-size: 0.9rem;
+		line-height: 1;
+		padding-inline-start: 0;
+		display: flex;
+		column-gap: 0.3rem; // Temporary fix
+	}
+}

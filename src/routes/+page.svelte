@@ -58,7 +58,7 @@
 			<li>mail: tohlpeaks(at)proton(dot)me</li>
 		</ul>
 	</address>
-	<h2>Misc</h2>
+	<h3>Misc</h3>
 	<ul>
 		<li>
 			<a href="https://log.tohlpeaks.party/" rel="external me">Blog (written in Japanese)</a>

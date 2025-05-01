@@ -34,15 +34,10 @@
 	font-display: swap;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 body {
 	font-size: clamp(15px, round(up, 2vw, 2px), 22px);
 	font-weight: 400;
 	color: var(--c-primary);
-	line-height: 1.8;
 	letter-spacing: 0.01rem;
 	background:
 		no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),

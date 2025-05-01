@@ -54,7 +54,7 @@
 </script>
 
 <nav aria-label="Breadcrumbs" class="l-breadcrumbs">
-	<ol>
+	<ol role="list">
 		{#each breadcrumbs as crumb, index}
 			<li translate="no">
 				{#if index < breadcrumbs.length - 1}
