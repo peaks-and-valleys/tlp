@@ -39,6 +39,7 @@ body {
 	font-weight: 400;
 	color: var(--c-primary);
 	letter-spacing: 0.01rem;
+	text-underline-offset: calc((1lh - 1cap) / 2 / 3);
 	background:
 		no-repeat fixed top 0 right 0.625em / 55% url(/images/tlp-grind.svg),
 		repeat fixed 0% 0% / auto url(/images/noise.svg),
@@ -59,6 +60,7 @@ h5,
 h6,
 strong {
 	font-weight: 700;
+	letter-spacing: 0;
 }
 
 address {
@@ -66,8 +68,7 @@ address {
 }
 
 a {
-	color: var(--c-accent-blue);
-	text-underline-offset: calc((1lh - 1cap) / 2 / 3);
+	color: var(--c-secondary);
 
 	@media (hover: hover) {
 		&:hover {

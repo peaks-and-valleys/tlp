@@ -13,7 +13,7 @@
 		I published this page without permissions. If you want to add or remove your website on this
 		page, hit me up (contact info on index page).
 	</p>
-	<em>Notice: I will never link to SNS pages. Build your own websites or blogs.</em>
+	<p><strong>Notice: I will never link to SNS pages. Build your own websites or blogs.</strong></p>
 	<h2>Individuals</h2>
 	<ul>
 		<li>
