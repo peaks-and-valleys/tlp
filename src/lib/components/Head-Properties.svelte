@@ -15,7 +15,6 @@
 		wholeTitle = pageTitle + ' - ' + baseTitle;
 	}
 
-
 	const baseUrl: string = 'https://tohlpeaks.party';
 	let pagePath = page.url.pathname;
 
