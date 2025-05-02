@@ -1,0 +1,51 @@
+<script>
+	import HeadProperties from '$lib/components/Head-Properties.svelte';
+</script>
+
+<HeadProperties pageTitle="Recommendations" description="Recommendation link list"></HeadProperties>
+
+<article>
+
+# Recommendations
+
+I published this page without permissions. If you want to add or remove your website on this
+page, hit me up (contact info on index page).
+
+**Notice: I will never link to SNS pages. Build your own websites or blogs.**
+
+## Individuals
+
+- [cannorin](https://www.cannorin.net/)
+- [death insurance](https://deathinsurance.online/)
+- [Eulalie](https://eulalie.fun/)
+
+## Organizations
+
+### Labels / Collectives
+
+- [Day of the droids](https://dayofthedroids.wixsite.com/dayofthedroids)
+- [Fujimi Industry Records](https://sound.jp/fujimi/)
+- [Pure Life](https://www.pvre.life/)
+- [奥床式](http://okuyukashiki.com)
+
+### Venues
+
+- [environment 0g](https://nuthings.wordpress.com/)
+- [Namba BEARS](https://namba-bears.main.jp)
+
+### Internet radios
+
+- [datafruits.fm](https://datafruits.fm/)
+- [Somnyan In-ter-face](https://somnyan.stream/)
+
+### Blogs / Media
+
+- [GHz](https://ghz.tokyo/)
+- [indiegrab](https://indiegrab.jp/)
+
+### Record shops
+
+- [円盤](https://enban.cart.fc2.com/)
+- [naminohana records](https://naminohana-records.com/)
+
+</article>

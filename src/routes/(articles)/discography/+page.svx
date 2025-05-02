@@ -1,0 +1,89 @@
+<script lang="ts">
+	import type { PageData } from './$types';
+	import HeadProperties from '$lib/components/Head-Properties.svelte';
+
+	let { data }: { data: PageData } = $props();
+</script>
+
+<HeadProperties pageTitle="Discography" description="Discography list"></HeadProperties>
+
+<article>
+
+# Discography
+
+## Solo Works
+
+### Albums / EPs
+
+*   [Pvnk Rxck](https://tohlpeaks.bandcamp.com/album/pvnk-rxck) (2023-07-01, FATAL WOVND)
+*   [DEAD AND FVCKED!](https://tohlpeaks.bandcamp.com/album/dead-and-fvcked) (2022-08-07, FATAL WOVND)
+*   [Going Wrong](https://tohlpeaks.bandcamp.com/album/going-wrong) (2022-01-15, FATAL WOVND)
+*   [Not All The Same!](https://ffm.to/notallthesame) (2021-01-10, Day of the Droids)
+*   [Peakystyle](https://ffm.to/peakystyle) (2020-02-08, Sadistik Noize Asylum)
+
+### Singles
+
+*   [2025 singles](/discography/2025-singles) (2025, FATAL WOVND)
+*   [dead to you](https://tohlpeaks.bandcamp.com/album/dead-to-you) (2024-12-18, FATAL WOVND)
+*   [n0t en0ugh](https://tohlpeaks.bandcamp.com/album/n0t-en0ugh) (2022-10-31, FATAL WOVND)
+*   [Inside My Head](https://terminalexplosion.bandcamp.com/track/inside-my-head) (2019-05-30, Terminal Explosion)
+*   [Peaky Hate Machine](https://antistatic.bandcamp.com/album/tohlpeaks-peaky-hate-machine) (2018-11-26, Antistatic)
+*   [Devils In My Blood](https://sadistiknoizeasylum.bandcamp.com/album/devils-in-my-blood) (2017-11-13, Sadistik Noize Asylum)
+*   [All Fools Shall Bleed](https://viralconspiracyrecords.bandcamp.com/album/tohlpeaks-all-fools-shall-bleed) (2016-10-15, Viral Conspiracy Records)
+
+## Appearances / Collaborations
+
+### 2024
+
+*   [IMMORTAL HARDCORE!!!! VOL.7 -Bloody Deathmatch-](https://sound.jp/fujimi/fir167.html) (V.A. Compilation, 2024-04-28, Fujimi Industry Records)
+
+### 2023
+
+*   [$UICIDE​$​ELECT Vol​.​2](https://zisatsu.bandcamp.com/album/uicide-elect-vol-2) (V.A. Compilation, 2023-08-04, $uiciderecord$)
+*   [$UICIDE​$​ELECT Vol​.​1](https://zisatsu.bandcamp.com/album/uicide-elect-vol-1) (V.A. Compilation, 2023-01-27, $uiciderecord$)
+
+### 2022
+
+*   [Genocide Afterparty](https://lossokarecords.bandcamp.com/album/genocide-afterparty) (V.A. Compilation, 2022-06-16, Lossoka Records)
+*   [IMMORTAL HARDCORE!!!! VOL.6 -Black Out-](https://sound.jp/fujimi/fir125.html) (V.A. Compilation, 2022-04-24, Fujimi Industry Records)
+*   [Depressive Breakcore vol.4](https://zisatsu.bandcamp.com/album/depressive-breakcore-vol-4) (V.A. Compilation, 2022-04-02, $uiciderecord$)
+
+### 2021
+
+*   [彼女の映画 ~Hers Movie~](https://zisatsu.bandcamp.com/album/hers-movie) (V.A. Compilation, 2021-08-06, $uiciderecord$)
+*   [Homicide Vol.3](https://sound.jp/fujimi/fir110.html) (V.A. Compilation, 2021-08-05, Fujimi Industry Records)
+*   [ばり好いコンピ3](https://okuyukashiki.bandcamp.com/album/3) (V.A. Compilation, 2021-04-25, 架空インターネットラジオ「ばり好いと〜よ！」)
+
+### 2020
+
+*   [彼女の写真 -Her picture-](https://zisatsu.bandcamp.com/album/her-picture) (V.A. Compilation, 2020-08-10, $uiciderecord$)
+*   [Homicide Vol.2](http://sound.jp/fujimi/fir088.html) (V.A. Compilation, 2020-06-19, Fujimi Industry Records)
+*   [ばり好いコンピ](https://okuyukashiki.bandcamp.com/) (Collaboration, 2020-03-01, 架空インターネットラジオ「ばり好いと〜よ！」)
+
+### 2019
+
+*   [Sadistik Noize Addiction Vol.2 -Violence of Hell-](https://sna003.tumblr.com/) (V.A. Compilation, 2019-10-27, Sadistik Noize Asylum)
+*   [Coakira - Sickle](http://sound.jp/fujimi/fir078.html) (Remix, 2019-10-27, Fujimi Industry Records)
+*   [IMMORTAL HARDCORE!!!! VOL.5 -Voice Of Terror-](http://sound.jp/fujimi/fir070.html) (V.A. Compilation, 2019-05-08, Fujimi Industry Records)
+*   [miso-nicomi collection vol.2 THE EDM](https://miso016.tumblr.com/) (V.A. Compilation, 2019-04-28, miso-nicomi records)
+*   [Circles Of Hell VOL.4](https://speedcoreworldwideaudionetlabel.bandcamp.com/album/circles-of-hell-vol-4) (V.A. Compilation, 2019-01-25, Speedcore Worldwide Audio Netlabel)
+
+### 2018
+
+*   [Darkstep Implantant Compilation vol. 3](https://darkstepimplantant.bandcamp.com/album/darkstep-implantant-compilation-vol-3) (V.A. Compilation, 2018-12-25, Darkstep Implantant)
+*   [Homicide Vol.1](http://sound.jp/fujimi/fir060.html) (V.A. Compilation, 2018-12-14, Fujimi Industry Records)
+*   [虚空戦士 - まんだらけ BEATS EP](http://006.lolicore.jp/) (Remix, 2018-08-01, lolicore.jp)
+*   [IMMORTAL HARDCORE!!!! VOL.4 -Ghost In The Hell-](http://sound.jp/fujimi/fir045.html) (V.A. Compilation, 2018-04-29, Fujimi Industry Records)
+
+### 2017
+
+*   [SPEEDCORE WORLDWIDE SAMPLER VOL.4 ᵈᵒʷᶰᶠᵃˡˡ ᵒᶠ ᵗʰᵉ ᵐᵃᶤᶰˢᵗʳᵉᵃᵐ](https://speedcoreworldwideaudionetlabel.bandcamp.com/album/speedcore-worldwide-sampler-vol-4) (V.A. Compilation, 2017-09-14, Speedcore Worldwide Audio Netlabel)
+*   [THE BIG FAMILY OF MURDERCORE (II-Murder)](https://industrialofsound.wixsite.com/dmtrecords/albums) (V.A. Compilation, 2017-05-15, Danger Murder Terror)
+*   [IMMORTAL HARDCORE!!!! VOL.3 -Samurai Destroyer-](http://sound.jp/fujimi/fir029.html) (V.A. Compilation, 2017-05-10, Fujimi Industry Records)
+
+### 2016
+
+*   [Sadistik Noize Addiction Vol.1 - Fearless & Reckless-](https://sna001.tumblr.com/) (V.A. Compilation 2016-10-30, Sadistik Noize Asylum)
+*   [IMMORTAL HARDCORE!!!! VOL.2 -EXTRAZONE-](http://sound.jp/fujimi/fir019.html) (V.A. Compilation, 2016-09-07, Fujimi Industry Records)
+
+</article>

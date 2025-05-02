@@ -76,7 +76,7 @@ a {
 		}
 	}
 
-	&[href*="://"]:not([href^="https://tohlpeaks.party"])::after
+	&[rel~="external"]::after
 	{
 		content: '↗';
 		display: inline-block;
