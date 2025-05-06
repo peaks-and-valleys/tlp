@@ -1,8 +1,12 @@
 .l-breadcrumbs {
+	writing-mode: vertical-rl;
+	position: fixed;
+	right: 0.25rem;
 	ol {
 		color: var(--c-secondary);
-		font-size: 0.9rem;
-		line-height: 1;
+		font-size: round(up, 0.8em, 1px);
+		line-height: 1.5;
+		margin-block: 0;
 		padding-inline-start: 0;
 		display: flex;
 		column-gap: 0.3rem; // Temporary fix

@@ -1,6 +1,8 @@
 :root {
 	// c: color, bg: background
 	--c-primary: hsl(230, 10%, 20%);
-	--c-bg-primary: hsl(230, 10%, 90%);
 	--c-secondary: hsl(230, 10%, 30%);
+	--c-bg-primary: hsl(230, 10%, 90%);
+
+	--half-leading: calc((1lh - 1em) / 2);
 }
