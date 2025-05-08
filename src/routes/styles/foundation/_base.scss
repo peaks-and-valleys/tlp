@@ -35,11 +35,13 @@
 }
 
 body {
-	font-size: clamp(15px, round(up, 2vw, 2px), 22px);
+	font-size: clamp(15px, round(2vw, 1px), 21px);
 	font-weight: 400;
 	color: var(--c-primary);
 	letter-spacing: 0.04rem;
 	text-underline-offset: calc(var(--half-leading) / 2);
+	overflow-wrap: anywhere;
+	line-break: strict;
 	background:
 		no-repeat fixed top 0 right 0.5em / 55% url(/images/tlp-grind.svg),
 		repeat fixed 0% 0% / auto url(/images/noise.svg),
