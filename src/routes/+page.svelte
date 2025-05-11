@@ -13,64 +13,97 @@
 	<h2>Announcement</h2>
 	<h3>New singles out</h3>
 	<p>Check out <a href="/discography/2025-singles">this page</a></p>
-	<h2>Portfolio</h2>
-	<ul>
-		<li><a href="/discography">Discography</a></li>
-		<li><a href="/past-shows">Past shows</a></li>
-	</ul>
+	<h2 id="portfolio">Portfolio</h2>
+	<nav aria-labelledby="portfolio">
+		<ul>
+			<li><a href="/discography">Discography</a></li>
+			<li><a href="/past-shows">Past shows</a></li>
+		</ul>
+	</nav>
 	<h2>Links</h2>
-	<h3>Music / Video</h3>
-	<ul>
-		<li>
-			<a href="https://tohlpeaks.bandcamp.com/" rel="external me noopener noreferrer" translate="no">bandcamp</a>
-		</li>
-		<li>
-			<a href="https://soundcloud.com/tohlpeaks" rel="external me noopener noreferrer" translate="no">SoundCloud</a>
-		</li>
-		<li>
-			<a href="https://www.youtube.com/@tohlpeaks" rel="external me noopener noreferrer" translate="no">YouTube</a>
-		</li>
-		<li>
-			<a href="https://ffm.bio/tohlpeaks" rel=" external me noopener noreferrer">Other digital platforms (feature.fm)</a
-			>
-		</li>
-	</ul>
-	<address>
-		<h3>Social / Contact</h3>
+	<h3 id="music-and-video">Music / Video</h3>
+	<nav aria-labelledby="music-and-video-links">
 		<ul>
 			<li>
-				<a href="https://www.instagram.com/tohlpeaks/" rel="external me noopener noreferrer" translate="no">Instagram</a
+				<a
+					href="https://tohlpeaks.bandcamp.com/"
+					rel="external me noopener noreferrer"
+					translate="no">bandcamp</a
 				>
 			</li>
 			<li>
-				<a href="https://bsky.app/profile/tohlpeaks.bsky.social" rel="external me noopener noreferrer" translate="no"
-					>Bluesky</a
+				<a
+					href="https://soundcloud.com/tohlpeaks"
+					rel="external me noopener noreferrer"
+					translate="no">SoundCloud</a
 				>
 			</li>
 			<li>
-				<a href="https://x.com/tohlpeaks" rel="external me noopener noreferrer">X</a>
-			</li>
-			<li>
-				<a href="https://discordapp.com/users/283132253465477120" rel="external me noopener noreferrer" translate="no"
-					>Discord (profile)</a
+				<a
+					href="https://www.youtube.com/@tohlpeaks"
+					rel="external me noopener noreferrer"
+					translate="no">YouTube</a
 				>
 			</li>
-			<li>mail: tohlpeaks(at)proton(dot)me</li>
+			<li>
+				<a href="https://ffm.bio/tohlpeaks" rel=" external me noopener noreferrer"
+					>Other digital platforms (feature.fm)</a
+				>
+			</li>
 		</ul>
-	</address>
-	<h3>Misc</h3>
-	<ul>
-		<li>
-			<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Blog (written in Japanese)</a>
-		</li>
-		<li>
-			<a href="https://discord.gg/MnKBeR3eNm" rel="external noopener noreferrer">Discord server</a>
-		</li>
-		<li>
-			<a href="https://www.paypal.com/paypalme/tohlpeaks" rel="external noopener noreferrer">Donate via PayPal</a>
-		</li>
-		<li>
-			<a href="/recommendations">Recommendations</a>
-		</li>
-	</ul>
+	</nav>
+	<h3 id="social-and-contact">Social / Contact</h3>
+	<nav aria-labelledby="social-and-contact">
+		<address>
+			<ul>
+				<li>
+					<a
+						href="https://www.instagram.com/tohlpeaks/"
+						rel="external me noopener noreferrer"
+						translate="no">Instagram</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://bsky.app/profile/tohlpeaks.bsky.social"
+						rel="external me noopener noreferrer"
+						translate="no">Bluesky</a
+					>
+				</li>
+				<li>
+					<a href="https://x.com/tohlpeaks" rel="external me noopener noreferrer">X</a>
+				</li>
+				<li>
+					<a
+						href="https://discordapp.com/users/283132253465477120"
+						rel="external me noopener noreferrer"
+						translate="no">Discord (profile)</a
+					>
+				</li>
+				<li>mail: tohlpeaks(at)proton(dot)me</li>
+			</ul>
+		</address>
+	</nav>
+	<h3 id="misc-contents">Misc</h3>
+	<nav aria-labelledby="misc-contents">
+		<ul>
+			<li>
+				<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer"
+					>Blog (written in Japanese)</a
+				>
+			</li>
+			<li>
+				<a href="https://discord.gg/MnKBeR3eNm" rel="external noopener noreferrer">Discord server</a
+				>
+			</li>
+			<li>
+				<a href="https://www.paypal.com/paypalme/tohlpeaks" rel="external noopener noreferrer"
+					>Donate via PayPal</a
+				>
+			</li>
+			<li>
+				<a href="/recommendations">Recommendations</a>
+			</li>
+		</ul>
+	</nav>
 </article>
