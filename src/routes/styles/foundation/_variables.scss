@@ -1,8 +1,13 @@
 :root {
+	--bluegrey-20: hsl(230, 10%, 20%);
+	--bluegrey-30: hsl(230, 10%, 30%);
+	--bluegrey-40: hsl(230, 10%, 40%);
+	--bluegrey-90: hsl(230, 10%, 90%);
+
 	// c: color, bg: background
-	--c-primary: hsl(230, 10%, 20%);
-	--c-secondary: hsl(230, 10%, 30%);
-	--c-bg-primary: hsl(230, 10%, 90%);
+	--c-primary: var(--bluegrey-20);
+	--c-secondary: var(--bluegrey-30);
+	--c-bg-primary: var(--bluegrey-90);
 
 	--half-leading: calc((1lh - 1em) / 2);
 }

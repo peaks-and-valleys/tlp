@@ -38,7 +38,8 @@ body {
 	font-size: clamp(15px, round(2vw, 1px), 21px);
 	font-weight: 400;
 	color: var(--c-primary);
-	letter-spacing: 0.04rem;
+	letter-spacing: 0.02rem;
+	font-feature-settings: "palt";
 	text-underline-offset: calc(var(--half-leading) / 2);
 	overflow-wrap: anywhere;
 	line-break: strict;
