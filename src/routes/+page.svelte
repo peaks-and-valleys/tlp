@@ -15,7 +15,7 @@
 	<p>Check out <a href="/discography/2025-singles">this page</a></p>
 	<h2 id="portfolio">Portfolio</h2>
 	<nav aria-labelledby="portfolio">
-		<ul>
+		<ul class="c-flexMenu">
 			<li><a href="/discography">Discography</a></li>
 			<li><a href="/past-shows">Past shows</a></li>
 		</ul>
@@ -23,7 +23,7 @@
 	<h2>Links</h2>
 	<h3 id="music-and-video">Music / Video</h3>
 	<nav aria-labelledby="music-and-video-links">
-		<ul>
+		<ul class="c-flexMenu">
 			<li>
 				<a
 					href="https://tohlpeaks.bandcamp.com/"
@@ -47,46 +47,51 @@
 			</li>
 			<li>
 				<a href="https://ffm.bio/tohlpeaks" rel=" external me noopener noreferrer"
-					>Other digital platforms (feature.fm)</a
+					>Other digital platforms</a
 				>
 			</li>
 		</ul>
 	</nav>
-	<h3 id="social-and-contact">Social / Contact</h3>
-	<nav aria-labelledby="social-and-contact">
+	<h3 id="social">Social</h3>
+	<nav aria-labelledby="social">
+		<ul class="c-flexMenu">
+			<li>
+				<a
+					href="https://www.instagram.com/tohlpeaks/"
+					rel="external me noopener noreferrer"
+					translate="no">Instagram</a
+				>
+			</li>
+			<li>
+				<a
+					href="https://bsky.app/profile/tohlpeaks.bsky.social"
+					rel="external me noopener noreferrer"
+					translate="no">Bluesky</a
+				>
+			</li>
+			<li>
+				<a href="https://x.com/tohlpeaks" rel="external me noopener noreferrer">X</a>
+			</li>
+		</ul>
+	</nav>
+	<h3 id="contact">Contact</h3>
+	<nav aria-labelledby="contact">
 		<address>
-			<ul>
-				<li>
-					<a
-						href="https://www.instagram.com/tohlpeaks/"
-						rel="external me noopener noreferrer"
-						translate="no">Instagram</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://bsky.app/profile/tohlpeaks.bsky.social"
-						rel="external me noopener noreferrer"
-						translate="no">Bluesky</a
-					>
-				</li>
-				<li>
-					<a href="https://x.com/tohlpeaks" rel="external me noopener noreferrer">X</a>
-				</li>
+			<ul class="c-flexMenu">
 				<li>
 					<a
 						href="https://discordapp.com/users/283132253465477120"
 						rel="external me noopener noreferrer"
-						translate="no">Discord (profile)</a
+						translate="no">Discord</a
 					>
 				</li>
-				<li>mail: tohlpeaks(at)proton(dot)me</li>
+				<li>tohlpeaks(at)proton(dot)me</li>
 			</ul>
 		</address>
 	</nav>
 	<h3 id="misc-contents">Misc</h3>
 	<nav aria-labelledby="misc-contents">
-		<ul>
+		<ul class="c-flexMenu">
 			<li>
 				<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer"
 					>Blog (written in Japanese)</a
@@ -107,3 +112,15 @@
 		</ul>
 	</nav>
 </article>
+
+<style lang="scss">
+	.c-flexMenu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		row-gap: calc(0.625rem - var(--half-leading));
+		column-gap: 1.25rem;
+		list-style: none;
+		padding-inline-start: 0;
+	}
+</style>
