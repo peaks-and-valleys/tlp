@@ -10,4 +10,9 @@
 	--c-bg-primary: var(--bluegrey-90);
 
 	--half-leading: calc((1lh - 1em) / 2);
+
+	// ff: font family
+	--ff-sans-serif:
+		'Archivo', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
 }

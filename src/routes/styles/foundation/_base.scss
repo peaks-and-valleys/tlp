@@ -39,7 +39,7 @@ body {
 	font-weight: 400;
 	color: var(--c-primary);
 	letter-spacing: 0.02rem;
-	font-feature-settings: "palt";
+	font-feature-settings: 'palt';
 	text-underline-offset: calc(var(--half-leading) / 2);
 	overflow-wrap: anywhere;
 	line-break: strict;
@@ -48,9 +48,7 @@ body {
 		repeat fixed 0% 0% / auto url(/images/noise.svg),
 		var(--c-bg-primary);
 	background-blend-mode: overlay, hard-light;
-	font-family:
-		'Archivo', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
-		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+	font-family: var(--ff-sans-serif);
 	margin-right: 1.6em;
 	margin-block: 0.625em;
 	max-width: 1140px;
@@ -71,9 +69,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-family:
-		'Archivo SemiExpanded', 'Archivo', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN',
-		'Hiragino Sans', 'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+	font-family: 'Archivo SemiExpanded', var(--ff-sans-serif);
 }
 
 h1 {
