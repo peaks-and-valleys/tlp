@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Archivo';
-	src: url(/fonts/Archivo-Regular.woff2);
+	font-family: 'Work Sans';
+	src: url(/fonts/WorkSans-Regular.woff2);
 	font-style: normal;
 	font-weight: 400;
 	size-adjust: 108%;
@@ -8,8 +8,8 @@
 }
 
 @font-face {
-	font-family: 'Archivo';
-	src: url(/fonts/Archivo-Italic.woff2);
+	font-family: 'Work Sans';
+	src: url(/fonts/WorkSans-Italic.woff2);
 	font-style: italic;
 	font-weight: 400;
 	size-adjust: 108%;
@@ -17,8 +17,8 @@
 }
 
 @font-face {
-	font-family: 'Archivo';
-	src: url(/fonts/Archivo-Bold.woff2);
+	font-family: 'Work Sans';
+	src: url(/fonts/WorkSans-Bold.woff2);
 	font-style: normal;
 	font-weight: 700;
 	size-adjust: 108%;
@@ -35,11 +35,10 @@
 }
 
 body {
-	font-size: clamp(15px, round(2vw, 1px), 21px);
+	font-size: clamp(15px, round(2vw, 1px), 20px);
 	font-weight: 400;
 	color: var(--c-primary);
-	letter-spacing: 0.02rem;
-	font-feature-settings: 'palt';
+	font-feature-settings: 'palt', 'ss02';
 	text-underline-offset: calc(var(--half-leading) / 2);
 	overflow-wrap: anywhere;
 	line-break: strict;
@@ -70,6 +69,7 @@ h2,
 h3,
 h4 {
 	font-family: 'Archivo SemiExpanded', var(--ff-sans-serif);
+	letter-spacing: -0.01em;
 }
 
 h1 {
