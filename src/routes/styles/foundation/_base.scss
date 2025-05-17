@@ -38,7 +38,7 @@ body {
 	font-size: clamp(15px, round(2vw, 1px), 20px);
 	font-weight: 400;
 	color: var(--c-primary);
-	font-feature-settings: 'palt', 'ss02';
+	font-feature-settings: 'palt', 'case';
 	text-underline-offset: calc(var(--half-leading) / 2);
 	overflow-wrap: anywhere;
 	line-break: strict;
@@ -48,7 +48,7 @@ body {
 		var(--c-bg-primary);
 	background-blend-mode: overlay, hard-light;
 	font-family: var(--ff-sans-serif);
-	margin-right: 1.6em;
+	margin-inline-end: 1.6em;
 	margin-block: 0.625em;
 	max-width: 1140px;
 }

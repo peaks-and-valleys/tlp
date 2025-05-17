@@ -47,7 +47,7 @@
 			</li>
 			<li>
 				<a href="https://ffm.bio/tohlpeaks" rel=" external me noopener noreferrer"
-					>Other digital platforms</a
+					>Other DSPs</a
 				>
 			</li>
 		</ul>
