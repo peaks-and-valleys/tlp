@@ -12,22 +12,57 @@
 
 # 2025 singles
 
+Downloading them from **bandcamp**, you will get the stem tracks of each song.
+
 ## as i said before
+
+<img src="/images/discography/2025-singles/aisb.jpg" alt="" loading="lazy">
+
+### Tracklist
+
+1. as i said before
+2. suicidal seductress roaring intensely
+
+### Where to listen / download
 
 - [bandcamp](https://tohlpeaks.bandcamp.com/album/as-i-said-before)
 - [SoundCloud](https://soundcloud.com/tohlpeaks/sets/as-i-said-before)
 - [YouTube](https://youtu.be/ilyMMdHWWfI)
 - [Spotify](https://open.spotify.com/intl-ja/album/3b2KM0FwXLLHDLhFlbWoUY?si=IiX8hk1MQFCPjVELRULlEQ)
 
-## Obsessed [2k25]
+## Obsessed \[2k25\]
+
+<img src="/images/discography/2025-singles/obsessed.jpg" alt="" loading="lazy">
+
+### Where to listen / download
 
 - [bandcamp](https://tohlpeaks.bandcamp.com/album/obsessed-2k25)
 - [SoundCloud](https://on.soundcloud.com/AgTu8TIaqICjHr8XrD)
 
 ## drowning in narcissism
 
+<img src="/images/discography/2025-singles/din.jpg" alt="" loading="lazy">
+
+### Where to listen / download
+
 - [bandcamp](https://tohlpeaks.bandcamp.com/album/drowning-in-narcissism)
 - [SoundCloud](https://on.soundcloud.com/F4spKeH8WtNI6R8ZCo)
 - [YouTube](https://youtu.be/JYOfz-gF1mc)
 
+## dead to you
+
+<img src="/images/discography/2025-singles/dty.jpg" alt="" loading="lazy">
+
+### Where to listen / download
+
+- [bandcamp](https://tohlpeaks.bandcamp.com/album/dead-to-you)
+- [SoundCloud](https://soundcloud.com/tohlpeaks/dead-to-you)
+- [YouTube](https://youtu.be/ud4V4NL38To)
+
 </article>
+
+<style lang="scss">
+	img {
+		width: min(400px, 100%);
+	}
+</style>
