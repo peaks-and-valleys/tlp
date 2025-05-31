@@ -18,7 +18,20 @@
 </main>
 
 <footer>
-	<button>
-		<a href="#top" style="text-decoration: none;">↑</a>
-	</button>
+	<nav aria-label="Back to the top of this page">
+		<a href="#top" class="backToTopNav">↑</a>
+	</nav>
 </footer>
+
+<style lang="scss">
+	.backToTopNav {
+		background-color: var(--bluegrey-40);
+		color: var(--bluegrey-90);
+		border-radius: 2px;
+		text-decoration: none;
+
+		position: fixed;
+		bottom: 0.25rem;
+		right: 0.25rem;
+	}
+</style>
