@@ -18,7 +18,7 @@
 </main>
 
 <footer>
-	<p>
-		<a href="#top">↑ Back to the top</a>
-	</p>
+	<button>
+		<a href="#top" style="text-decoration: none;">↑</a>
+	</button>
 </footer>
