@@ -5,7 +5,7 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<HeadProperties pageTitle="2025 singles" description="List of singles that were released in 2025"
+<HeadProperties pageTitle="2025 singles" description="List of singles that has been released in 2025"
 ></HeadProperties>
 
 <article>

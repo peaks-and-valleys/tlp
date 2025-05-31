@@ -3,7 +3,7 @@
 
 	let {
 		pageTitle = '',
-		description = 'An egocentric platform, run by TohLPeaks',
+		description = 'An egocentric platform',
 		contentLang = 'en-US',
 		pageType = 'website'
 	}: Props = $props();
