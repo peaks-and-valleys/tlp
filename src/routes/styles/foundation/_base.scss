@@ -39,7 +39,7 @@ body {
 	font-weight: 400;
 	color: var(--c-primary);
 	font-feature-settings: 'palt', 'case';
-	text-underline-offset: calc(var(--half-leading) / 2);
+	text-underline-offset: calc(var(--half-leading) / 3);
 	overflow-wrap: anywhere;
 	line-break: strict;
 	background:

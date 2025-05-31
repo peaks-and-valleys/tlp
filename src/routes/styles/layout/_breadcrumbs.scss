@@ -2,6 +2,7 @@
 	writing-mode: vertical-rl;
 	position: fixed;
 	right: 0.25rem;
+	overflow-wrap: normal;
 	ol {
 		color: var(--bluegrey-40);
 		font-size: round(up, 0.8em, 1px);
@@ -9,6 +10,11 @@
 		margin-block: 0;
 		padding-inline-start: 0;
 		display: flex;
-		column-gap: 0.3rem; // Temporary fix
+		column-gap: 0.2rem; // Temporary fix
+
+		li {
+			display: flex;
+			column-gap: 0.1rem;
+		}
 	}
 }
