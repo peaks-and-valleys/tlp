@@ -40,6 +40,7 @@ body {
 	color: var(--c-primary);
 	font-feature-settings: 'palt', 'case';
 	text-underline-offset: calc(var(--half-leading) / 3);
+	text-shadow: 0 0 1px var(--bluegrey-40);
 	overflow-wrap: anywhere;
 	line-break: strict;
 	background:
@@ -69,7 +70,7 @@ h2,
 h3,
 h4 {
 	font-family: 'Archivo SemiExpanded', var(--ff-sans-serif);
-	letter-spacing: -0.01em;
+	letter-spacing: -0.005em;
 }
 
 h1 {
