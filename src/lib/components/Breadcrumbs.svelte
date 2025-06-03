@@ -71,3 +71,26 @@
 		{/each}
 	</ol>
 </nav>
+
+<style lang="scss">
+	.l-breadcrumbs {
+		writing-mode: vertical-rl;
+		position: fixed;
+		right: 0.25rem;
+		overflow-wrap: normal;
+		ol {
+			color: var(--bluegrey-40);
+			font-size: round(up, 0.8em, 1px);
+			line-height: 1.25;
+			margin-block: 0;
+			padding-inline-start: 0;
+			display: flex;
+			column-gap: 0.1rem; // Temporary fix
+
+			li {
+				display: flex;
+				column-gap: 0.1rem;
+			}
+		}
+	}
+</style>

@@ -27,11 +27,12 @@
 	.backToTopNav {
 		background-color: var(--bluegrey-40);
 		color: var(--bluegrey-90);
+		font-size: 1.25rem;
 		border-radius: 2px;
 		text-decoration: none;
 
 		position: fixed;
-		bottom: 0.25rem;
+		bottom: 0.4rem;
 		right: 0.25rem;
 	}
 </style>
