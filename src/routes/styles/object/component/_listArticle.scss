@@ -1,0 +1,11 @@
+.c-listArticle {
+	ul {
+		padding-inline-start: 0;
+		list-style: none;
+
+		li {
+			border-inline-start: solid 0.25rem var(--bluegrey-40);
+			padding-inline-start: 0.625rem;
+		}
+	}
+}

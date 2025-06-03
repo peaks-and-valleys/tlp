@@ -4,7 +4,7 @@
 
 <HeadProperties pageTitle="Recommendations" description="Recommendation link list"></HeadProperties>
 
-<article>
+<article class="c-listArticle">
 
 # Recommendations
 
