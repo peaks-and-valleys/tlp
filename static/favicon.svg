@@ -3,12 +3,12 @@
   <defs>
     <style>
       .uuid-26b32edb-81ee-4222-9e1b-34a9fcfe6183 {
-        fill: #212121;
+        fill: hsl(230, 10%, 20%);
         stroke-width: 0px;
       }
       @media (prefers-color-scheme: dark) {
         .uuid-26b32edb-81ee-4222-9e1b-34a9fcfe6183{
-          fill: #EEEEEE;
+          fill: hsl(230, 10%, 90%);
           stroke-width: 0px;
         }
       }
