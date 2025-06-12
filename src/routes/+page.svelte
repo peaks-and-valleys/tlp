@@ -101,7 +101,7 @@
 			>
 		</li>
 		<li>
-			<a href="/recommendations">Recommendations</a>
+			<a href="/links">Links</a>
 		</li>
 	</ul>
 </nav>
