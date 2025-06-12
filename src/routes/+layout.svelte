@@ -2,11 +2,23 @@
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
 	import { page } from '$app/state';
+	import { onNavigate } from '$app/navigation';
 	import './styles/app.scss';
 
 	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <header>
