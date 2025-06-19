@@ -1,6 +1,5 @@
 <script>
-	import { page } from '$app/state';
-	import HeadProperties from '$lib/components/Head-Properties.svelte';
+	import HeadProperties from '$lib/components/HeadProperties.svelte';
 </script>
 
 <HeadProperties></HeadProperties>
@@ -9,17 +8,20 @@
 	<h1 translate="no">FATAL WOVND</h1>
 	<p>An egocentric platform, run by <strong translate="no">TohLPeaks</strong></p>
 </hgroup>
-<h2>Announcement</h2>
-<h3>New singles out</h3>
-<p>Check out <a href="/discography/2025-singles">this page</a></p>
-<h2 id="portfolio">Portfolio</h2>
-<nav aria-labelledby="portfolio">
+<h2 id="pages">Pages</h2>
+<nav aria-labelledby="pages">
 	<ul class="c-flexMenu">
 		<li><a href="/discography">Discography</a></li>
 		<li><a href="/past-shows">Past shows</a></li>
+		<li>
+			<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Blog</a>
+		</li>
+		<li>
+			<a href="/links">Links</a>
+		</li>
 	</ul>
 </nav>
-<h2>Links</h2>
+<h2>External Links</h2>
 <h3 id="music-and-video">Music / Video</h3>
 <nav aria-labelledby="music-and-video-links">
 	<ul class="c-flexMenu">
@@ -52,16 +54,16 @@
 	<ul class="c-flexMenu">
 		<li>
 			<a
-				href="https://www.instagram.com/tohlpeaks/"
+				href="https://bsky.app/profile/tohlpeaks.bsky.social"
 				rel="external me noopener noreferrer"
-				translate="no">Instagram</a
+				translate="no">Bluesky</a
 			>
 		</li>
 		<li>
 			<a
-				href="https://bsky.app/profile/tohlpeaks.bsky.social"
+				href="https://www.instagram.com/tohlpeaks/"
 				rel="external me noopener noreferrer"
-				translate="no">Bluesky</a
+				translate="no">Instagram</a
 			>
 		</li>
 		<li>
@@ -83,27 +85,6 @@
 			<li>tohlpeaks(at)proton(dot)me</li>
 		</ul>
 	</address>
-</nav>
-<h3 id="misc-contents">Misc</h3>
-<nav aria-labelledby="misc-contents">
-	<ul class="c-flexMenu">
-		<li>
-			<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer"
-				>Blog (written in Japanese)</a
-			>
-		</li>
-		<li>
-			<a href="https://discord.gg/MnKBeR3eNm" rel="external noopener noreferrer">Discord server</a>
-		</li>
-		<li>
-			<a href="https://www.paypal.com/paypalme/tohlpeaks" rel="external noopener noreferrer"
-				>Donate via PayPal</a
-			>
-		</li>
-		<li>
-			<a href="/links">Links</a>
-		</li>
-	</ul>
 </nav>
 
 <style lang="scss">
