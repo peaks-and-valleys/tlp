@@ -1,5 +1,5 @@
 <script>
-	import HeadProperties from '$lib/components/Head-Properties.svelte';
+	import HeadProperties from '$lib/components/HeadProperties.svelte';
 </script>
 
 <HeadProperties pageTitle="Recommendations" description="Recommendation link list"></HeadProperties>
