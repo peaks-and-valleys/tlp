@@ -81,15 +81,15 @@
 		line-height: 1.2;
 		ol {
 			color: var(--bluegrey-40);
-			font-size: round(up, 0.8em, 1px);
+			font-size: round(up, 0.8rem, 1px);
 			margin-block: 0;
 			padding-inline-start: 0;
 			display: flex;
-			column-gap: 0.1rem; // Temporary fix
+			column-gap: 0.1em; // Temporary fix
 
 			li {
 				display: flex;
-				column-gap: 0.1rem;
+				column-gap: 0.1em;
 			}
 		}
 	}
