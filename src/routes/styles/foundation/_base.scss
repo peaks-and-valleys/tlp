@@ -40,17 +40,12 @@ body {
 	color: var(--c-primary);
 	font-feature-settings: 'palt', 'case';
 	text-underline-offset: calc(var(--half-leading) / 3);
-	text-shadow: 0 0 1px var(--bluegrey-40);
 	overflow-wrap: anywhere;
 	line-break: strict;
-	background:
-		no-repeat fixed top 0 right 0.5em / 55% url(/images/tlp-grind.svg),
-		repeat fixed 0% 0% / auto url(/images/noise.svg),
-		var(--c-bg-primary);
-	background-blend-mode: overlay, hard-light;
+	background: var(--c-bg-primary);
 	font-family: var(--ff-sans-serif);
 	margin-inline-end: 1.6rem;
-	max-width: 1200px;
+	max-width: 75ch;
 }
 
 h1,
@@ -97,10 +92,6 @@ a {
 		margin-inline-start: 0.1em;
 		text-decoration: none;
 	}
-}
-
-img {
-	display: block;
 }
 
 @media (prefers-reduced-motion) {
