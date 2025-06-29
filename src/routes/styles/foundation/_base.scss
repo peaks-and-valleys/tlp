@@ -35,7 +35,7 @@
 }
 
 body {
-	font-size: clamp(16px, round(2vw, 1px), 20px);
+	font-size: clamp(16px, round(2vw, 1px), 18px);
 	font-weight: 400;
 	color: var(--c-primary);
 	font-feature-settings: 'palt', 'case';
@@ -50,7 +50,6 @@ body {
 	background-blend-mode: overlay, hard-light;
 	font-family: var(--ff-sans-serif);
 	margin-inline-end: 1.6rem;
-	margin-block: 0.625rem;
 	max-width: 1200px;
 }
 
@@ -62,7 +61,6 @@ h5,
 h6,
 strong {
 	font-weight: 700;
-	letter-spacing: 0;
 }
 
 h1,
