@@ -7,7 +7,7 @@
 
 <HeadProperties pageTitle="Discography" description="Discography list"></HeadProperties>
 
-<article class="c-listArticle">
+<article>
 
 # Discography
 

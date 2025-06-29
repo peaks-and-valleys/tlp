@@ -7,7 +7,7 @@
 
 <HeadProperties pageTitle="Past shows" description="Past shows list"></HeadProperties>
 
-<article class="c-listArticle">
+<article>
 
 # Past shows
 
