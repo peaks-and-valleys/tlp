@@ -53,7 +53,7 @@
 	let breadcrumbs = $derived(generateBreadcrumbs(page.url.pathname));
 </script>
 
-<nav aria-label="Breadcrumbs" class="l-breadcrumbs">
+<nav aria-label="Breadcrumbs">
 	<ol role="list">
 		{#each breadcrumbs as crumb, index}
 			<li translate="no">
@@ -73,15 +73,15 @@
 </nav>
 
 <style lang="scss">
-	.l-breadcrumbs {
+	nav {
 		writing-mode: vertical-rl;
 		position: fixed;
 		right: 0.25rem;
 		overflow-wrap: normal;
+		line-height: 1.2;
 		ol {
 			color: var(--bluegrey-40);
 			font-size: round(up, 0.8em, 1px);
-			line-height: 1.25;
 			margin-block: 0;
 			padding-inline-start: 0;
 			display: flex;
