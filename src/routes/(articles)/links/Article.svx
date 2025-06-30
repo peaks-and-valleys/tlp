@@ -1,11 +1,3 @@
-<script>
-	import HeadProperties from '$lib/components/HeadProperties.svelte';
-</script>
-
-<HeadProperties pageTitle="Recommendations" description="Recommendation link list"></HeadProperties>
-
-<article>
-
 # Links
 
 I published this page without permissions. If you want to add or remove your website on this
@@ -37,15 +29,3 @@ page, hit me up (contact info on index page).
 
 - [datafruits.fm](https://datafruits.fm/)
 - [Somnyan In-ter-face](https://somnyan.stream/)
-
-### Blogs / Media
-
-- [GHz](https://ghz.tokyo/)
-- [indiegrab](https://indiegrab.jp/)
-
-### Record shops
-
-- [円盤](https://enban.cart.fc2.com/)
-- [naminohana records](https://naminohana-records.com/)
-
-</article>
