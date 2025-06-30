@@ -1,14 +1,3 @@
-<script lang="ts">
-	import type { PageData } from './$types';
-	import HeadProperties from '$lib/components/HeadProperties.svelte';
-
-	let { data }: { data: PageData } = $props();
-</script>
-
-<HeadProperties pageTitle="Past shows" description="Past shows list"></HeadProperties>
-
-<article>
-
 # Past shows
 
 ## Hosted by me
@@ -132,5 +121,3 @@ I can perform both IRL and URL.
 *   [CAQARECAC -カクアレカシ- ft. Monster X](https://www.facebook.com/events/1941959749386436/) (2017-11-10, Singh's Kitchen, Osaka)
 *   [さんかく１周年記念祭 ft. 廻転楕円体×ばぶちゃんWリリースツアーin大阪](https://www.facebook.com/events/297874280682203/) (2017-09-17, Triangle, Osaka)
 *   [破壊硬戦 19発目](http://twipla.jp/events/261632) (2017-07-09, cafe domina, Nagoya)
-
-</article>

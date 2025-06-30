@@ -1,14 +1,3 @@
-<script lang="ts">
-	import type { PageData } from './$types';
-	import HeadProperties from '$lib/components/HeadProperties.svelte';
-
-	let { data }: { data: PageData } = $props();
-</script>
-
-<HeadProperties pageTitle="Discography" description="Discography list"></HeadProperties>
-
-<article>
-
 # Discography
 
 ## Solo Works
@@ -84,5 +73,3 @@
 
 *   [Sadistik Noize Addiction Vol.1 - Fearless & Reckless-](https://sna001.tumblr.com/) (V.A. Compilation 2016-10-30, Sadistik Noize Asylum)
 *   [IMMORTAL HARDCORE!!!! VOL.2 -EXTRAZONE-](http://sound.jp/fujimi/fir019.html) (V.A. Compilation, 2016-09-07, Fujimi Industry Records)
-
-</article>
