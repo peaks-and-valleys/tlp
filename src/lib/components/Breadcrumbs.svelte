@@ -53,7 +53,7 @@
 	let breadcrumbs = $derived(generateBreadcrumbs(page.url.pathname));
 </script>
 
-<nav aria-label="Breadcrumbs">
+<nav aria-label="Breadcrumbs" style={breadcrumbs.length > 1 ? '' : 'display: none;'}>
 	<ol role="list">
 		{#each breadcrumbs as crumb, index}
 			<li translate="no">
