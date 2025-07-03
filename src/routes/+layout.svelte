@@ -18,4 +18,21 @@
 	});
 </script>
 
-{@render children()}
+<div class="wrapper">
+	<div class="container">
+		{@render children()}
+	</div>
+</div>
+
+<style lang="scss">
+	.wrapper {
+		padding-inline: 8px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		min-height: 100vh;
+	}
+	.container {
+		max-width: 70ch;
+	}
+</style>
