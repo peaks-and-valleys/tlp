@@ -8,6 +8,21 @@
 
 <Breadcrumbs />
 
-<main>
-	{@render children()}
-</main>
+<div class="wrapper">
+	<main class="container">
+		{@render children()}
+	</main>
+</div>
+
+<style lang="scss">
+	.wrapper {
+		padding-inline: 8px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		min-height: 100vh;
+	}
+	.container {
+		max-width: 70ch;
+	}
+</style>
