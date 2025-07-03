@@ -77,7 +77,7 @@
 		writing-mode: sideways-rl;
 		position: fixed;
 		inset-block-start: 4px;
-		inset-inline-start: 4px;
+		inset-inline-start: 8px;
 		overflow-wrap: normal;
 		line-height: 1.2;
 		ol {
