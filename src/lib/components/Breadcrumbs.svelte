@@ -81,7 +81,7 @@
 		line-height: 1.2;
 		ol {
 			color: var(--bluegrey-40);
-			font-size: round(up, 0.8rem, 1px);
+			font-size: 0.75rem;
 			margin-block: 0;
 			padding-inline-start: 0;
 			display: flex;
