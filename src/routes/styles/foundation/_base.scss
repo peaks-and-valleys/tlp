@@ -44,9 +44,7 @@ body {
 	line-break: strict;
 	background: var(--c-bg-primary);
 	font-family: var(--ff-sans-serif);
-	@media screen and (max-width: 639.8px) {
-		font-size: 16px;
-	}
+	font-size: 16px;
 	@media screen and (min-width: 640px) {
 		font-size: 18px;
 	}
