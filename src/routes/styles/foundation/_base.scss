@@ -35,7 +35,7 @@
 }
 
 body {
-	font-size: clamp(16px, round(2vw, 1px), 18px);
+	margin: 0;
 	font-weight: 400;
 	color: var(--c-primary);
 	font-feature-settings: 'palt', 'case';
@@ -44,8 +44,10 @@ body {
 	line-break: strict;
 	background: var(--c-bg-primary);
 	font-family: var(--ff-sans-serif);
-	margin-inline-end: 1.6rem;
-	max-width: 75ch;
+	font-size: 16px;
+	@media screen and (min-width: 640px) {
+		font-size: 18px;
+	}
 }
 
 h1,
