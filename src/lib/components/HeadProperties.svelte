@@ -8,7 +8,7 @@
 		pageType = 'website'
 	}: Props = $props();
 
-	const baseTitle: string = 'FATAL WOVND, run by TohLPeaks';
+	const baseTitle: string = 'FATAL WOVND, by TohLPeaks';
 	let wholeTitle = $state(baseTitle);
 
 	if (pageTitle != '') {
