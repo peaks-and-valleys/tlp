@@ -83,6 +83,11 @@ a {
 	@media (hover: hover) {
 		&:hover {
 			text-decoration: none;
+			background-color: var(--bluegrey-40);
+			color: var(--bluegrey-90);
+			transition:
+				color 0.2s ease-in-out,
+				background-color 0.2s ease-in-out;
 		}
 	}
 
