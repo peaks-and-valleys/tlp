@@ -16,13 +16,14 @@
 
 <style lang="scss">
 	.wrapper {
-		padding: 8px;
+		margin-block: 8px;
+		margin-inline: 12px;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
 		min-height: 100vh;
 	}
 	.container {
-		max-width: 70ch;
+		max-width: 80ch;
 	}
 </style>
