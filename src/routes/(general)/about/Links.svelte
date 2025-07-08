@@ -20,7 +20,7 @@
 		> : I hope I can make more videos in the future.
 	</li>
 	<li>
-		<a href="https://ffm.bio/tohlpeaks" rel=" external me noopener noreferrer">Other DSPs</a> : You can
+		<a href="https://ffm.bio/tohlpeaks" rel="external me noopener noreferrer">Other DSPs</a> : You can
 		pay more for worse quality audio.
 	</li>
 </ul>
