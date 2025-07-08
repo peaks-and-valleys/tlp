@@ -16,8 +16,8 @@
 
 <style lang="scss">
 	.wrapper {
-		margin-block: 8px;
-		margin-inline: 12px;
+		padding-block: 8px;
+		padding-inline: 12px;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
