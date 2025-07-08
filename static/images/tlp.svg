@@ -3,7 +3,7 @@
   <defs>
     <style>
       .tlp-grind {
-        fill: #424242;
+        fill:hsl(230, 10%, 30%);
         stroke-width: 0px;
       }
     </style>
