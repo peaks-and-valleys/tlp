@@ -76,7 +76,7 @@
 	nav {
 		overflow-wrap: normal;
 		ol {
-			color: var(--bluegrey-40);
+			color: var(--bluegrey-30);
 			font-size: 0.75rem;
 			margin-block: 0;
 			padding-inline-start: 0;
