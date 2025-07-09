@@ -29,7 +29,7 @@
 		max-inline-size: 80ch;
 		display: flex;
 		flex-direction: column;
-		
+
 		main {
 			flex: 1;
 		}
