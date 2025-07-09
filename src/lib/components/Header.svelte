@@ -11,18 +11,26 @@
 	</div>
 	<nav aria-label="Main navigation">
 		<ul class="menu">
-			<li><a href="/about" aria-current={page.url.pathname === '/about'}>About</a></li>
 			<li>
-				<a href="/discography" aria-current={page.url.pathname === '/discography'}>Discography</a>
+				<a href="/about" aria-current={page.url.pathname === '/about' ? 'page' : undefined}>About</a
+				>
 			</li>
 			<li>
-				<a href="/shows" aria-current={page.url.pathname === '/shows'}>Shows</a>
+				<a
+					href="/discography"
+					aria-current={page.url.pathname === '/discography' ? 'page' : undefined}>Discography</a
+				>
+			</li>
+			<li>
+				<a href="/shows" aria-current={page.url.pathname === '/shows' ? 'page' : undefined}>Shows</a
+				>
 			</li>
 			<li>
 				<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Blog</a>
 			</li>
 			<li>
-				<a href="/links" aria-current={page.url.pathname === '/links'}>Links</a>
+				<a href="/links" aria-current={page.url.pathname === '/links' ? 'page' : undefined}>Links</a
+				>
 			</li>
 		</ul>
 	</nav>
@@ -71,7 +79,7 @@
 				}
 			}
 
-			&[aria-current='true'] {
+			&[aria-current='page'] {
 				background-color: var(--bluegrey-40);
 				color: var(--bluegrey-90);
 			}
