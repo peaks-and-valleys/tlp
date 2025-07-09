@@ -40,15 +40,12 @@
 <style lang="scss">
 	.symbol {
 		display: flex;
-		width: 6rem;
 		justify-content: center;
 		a {
 			display: block;
-			width: 100%;
-			height: 100%;
 			img {
-				width: 100%;
-				height: 100%;
+				width: 6rem;
+				height: auto;
 				object-fit: contain;
 			}
 		}
@@ -57,10 +54,10 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: 12px;
 		list-style: none;
 		padding-inline-start: 0;
 		margin-block-end: 0;
+		justify-content: space-between;
 
 		a {
 			color: var(--bluegrey-20);
