@@ -8,3 +8,21 @@
 	<h1 translate="no">FATAL WOVND</h1>
 	<p>An egocentric platform, by <strong translate="no">TohLPeaks</strong></p>
 </hgroup>
+
+<div class="logo">
+	<img src="/images/tlp.svg" alt="TohLPeaks" />
+</div>
+
+<style lang="scss">
+	.logo {
+		display: flex;
+		justify-content: center;
+		margin-block-start: 24px;
+		img {
+			inline-size: 100%;
+			max-inline-size: 240px;
+			block-size: auto;
+			object-fit: contain;
+		}
+	}
+</style>
