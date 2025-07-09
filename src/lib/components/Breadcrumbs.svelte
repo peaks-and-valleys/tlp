@@ -74,12 +74,7 @@
 
 <style lang="scss">
 	nav {
-		writing-mode: sideways-rl;
-		position: fixed;
-		inset-block-start: 4px;
-		inset-inline-start: 8px;
 		overflow-wrap: normal;
-		line-height: 1.2;
 		ol {
 			color: var(--bluegrey-40);
 			font-size: 0.75rem;
