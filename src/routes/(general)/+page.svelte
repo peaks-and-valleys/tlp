@@ -19,8 +19,7 @@
 		justify-content: center;
 		margin-block-start: 24px;
 		img {
-			inline-size: 100%;
-			max-inline-size: 240px;
+			inline-size: min(100%, 320px);
 			block-size: auto;
 			object-fit: contain;
 		}
