@@ -3,7 +3,7 @@
 	import Article from './Article.svx';
 </script>
 
-<HeadProperties pageTitle="Past shows" description="Past shows list"></HeadProperties>
+<HeadProperties pageTitle="Shows" description="Show list"></HeadProperties>
 
 <article>
 	<Article />

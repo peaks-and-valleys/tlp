@@ -1,17 +1,18 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
-	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
+	import Header from '$lib/components/Header.svelte';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
 
-<Breadcrumbs />
-
 <div class="wrapper">
-	<main class="container">
-		{@render children()}
-	</main>
+	<div class="container">
+		<Header />
+		<main>
+			{@render children()}
+		</main>
+	</div>
 </div>
 
 <style lang="scss">
@@ -24,6 +25,13 @@
 		min-height: 100vh;
 	}
 	.container {
-		max-width: 80ch;
+		inline-size: 100%;
+		max-inline-size: 80ch;
+		display: flex;
+		flex-direction: column;
+
+		main {
+			flex: 1;
+		}
 	}
 </style>
