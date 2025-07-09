@@ -16,7 +16,7 @@
 				<a href="/discography" aria-current={page.url.pathname === '/discography'}>Discography</a>
 			</li>
 			<li>
-				<a href="/past-shows" aria-current={page.url.pathname === '/past-shows'}>Past shows</a>
+				<a href="/shows" aria-current={page.url.pathname === '/shows'}>Shows</a>
 			</li>
 			<li>
 				<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Blog</a>
@@ -65,8 +65,8 @@
 					color: var(--bluegrey-90);
 					@media (prefers-reduced-motion: no-preference) {
 						transition:
-							color 0.2s ease-in-out,
-							background-color 0.2s ease-in-out;
+							color 200ms ease-in-out,
+							background-color 200ms ease-in-out;
 					}
 				}
 			}
