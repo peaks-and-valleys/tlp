@@ -20,7 +20,7 @@
 		margin-block-start: 24px;
 		img {
 			inline-size: 100%;
-			max-inline-size: 240px;
+			max-inline-size: 320px;
 			block-size: auto;
 			object-fit: contain;
 		}
