@@ -21,12 +21,12 @@
 		padding-inline: 12px;
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-start;
+		justify-content: center;
 		min-height: 100vh;
 	}
 	.container {
 		inline-size: 100%;
-		max-inline-size: 80ch;
+		max-inline-size: 70ch;
 		display: flex;
 		flex-direction: column;
 
