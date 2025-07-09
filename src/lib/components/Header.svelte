@@ -42,9 +42,8 @@
 		display: flex;
 		justify-content: center;
 		a {
-			display: block;
 			img {
-				width: 6rem;
+				inline-size: 96px;
 				height: auto;
 				object-fit: contain;
 			}
