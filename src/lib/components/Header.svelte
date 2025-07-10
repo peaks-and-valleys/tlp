@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import Breadcrumbs from './Breadcrumbs.svelte';
 </script>
 
 <header>
@@ -34,7 +33,6 @@
 			</li>
 		</ul>
 	</nav>
-	<Breadcrumbs />
 </header>
 
 <style lang="scss">

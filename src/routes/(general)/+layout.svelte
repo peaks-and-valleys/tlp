@@ -2,6 +2,7 @@
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
 	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
@@ -12,6 +13,7 @@
 		<main>
 			{@render children()}
 		</main>
+		<Footer />
 	</div>
 </div>
 
