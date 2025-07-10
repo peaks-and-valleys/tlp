@@ -81,11 +81,11 @@
 			margin-block: 0;
 			padding-inline-start: 0;
 			display: flex;
-			column-gap: 0.1em; // Temporary fix
+			column-gap: 0.25em;
 
 			li {
 				display: flex;
-				column-gap: 0.1em;
+				column-gap: 0.25em;
 			}
 		}
 	}
