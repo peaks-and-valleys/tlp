@@ -39,11 +39,11 @@
 			href="https://www.instagram.com/tohlpeaks/"
 			rel="external me noopener noreferrer"
 			translate="no">Instagram</a
-		> : I sometimes post for promotional purposes.
+		> : I mostly post promotional contents and sometimes shitposts.
 	</li>
 	<li>
 		<a href="https://x.com/tohlpeaks" rel="external me noopener noreferrer">X</a> : I'm not very into
-		it, only for promotional stuff.
+		it, only for promotional purpose now.
 	</li>
 </ul>
 <h3 id="contact">Contact</h3>

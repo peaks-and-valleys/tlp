@@ -10,7 +10,7 @@
       >
         <animate
           attributeName="baseFrequency"
-          values="0.02; 0.08;"
+          values="0.02; 0.06;"
           calcMode="discrete"
           dur="400ms"
           repeatCount="indefinite"
@@ -27,6 +27,7 @@
         fill:hsl(230, 6%, 20%);
         stroke-width: 0px;
         filter: url(#displacement);
+        will-change: filter;
       }
     </style>
   </defs>
