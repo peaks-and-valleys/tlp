@@ -15,7 +15,7 @@
 
 <style lang="scss">
 	footer {
-		margin-block-start: 8px;
+		margin-block-start: var(--spacing-m);
 		border-top: 1px solid var(--bluegrey-40);
 
 		p {

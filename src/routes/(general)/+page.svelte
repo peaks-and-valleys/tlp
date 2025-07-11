@@ -17,7 +17,7 @@
 	.logo {
 		display: flex;
 		justify-content: center;
-		margin-block-start: 24px;
+		margin-block-start: var(--spacing-l);
 		img {
 			inline-size: min(100%, 320px);
 			block-size: auto;
