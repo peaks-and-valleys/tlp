@@ -81,11 +81,11 @@
 			margin-block: 0;
 			padding-inline-start: 0;
 			display: flex;
-			column-gap: 0.25em;
+			column-gap: var(--spacing-xxs);
 
 			li {
 				display: flex;
-				column-gap: 0.25em;
+				column-gap: var(--spacing-xxs);
 			}
 		}
 	}
