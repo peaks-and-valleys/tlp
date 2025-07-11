@@ -1,4 +1,4 @@
-<!-- svg は Tabler Icons から引っ張ってきた -->
+<!-- SVG icons are sourced from Tabler Icons -->
 <section class="wrapper">
 	<ul class="content">
 		<li>
@@ -72,7 +72,7 @@
 		</li>
 		<li>
 			<a
-				href="https://open.spotify.com/artist/2LeJ6ZHEK9gOMI4vMgYnSc?si=4K4f-J4eTNe3iiSJyJ_iDg"
+				href="https://open.spotify.com/artist/2LeJ6ZHEK9gOMI4vMgYnSc"
 				rel="external noopener noreferrer"
 				aria-label="Spotify"
 			>
