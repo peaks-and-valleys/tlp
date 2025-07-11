@@ -42,7 +42,7 @@
 		a {
 			img {
 				inline-size: 96px;
-				height: auto;
+				block-size: auto;
 				object-fit: contain;
 			}
 		}
@@ -52,6 +52,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		list-style: none;
+		gap: var(--spacing-xs);
 		padding-inline-start: 0;
 		margin-block-end: 0;
 		justify-content: space-between;

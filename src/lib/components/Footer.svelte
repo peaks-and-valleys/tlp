@@ -1,8 +1,10 @@
 <script lang="ts">
 	import Breadcrumbs from './Breadcrumbs.svelte';
+	import LinkIcons from './LinkIcons.svelte';
 </script>
 
 <footer>
+	<LinkIcons />
 	<Breadcrumbs />
 	<p>
 		All contents on this website are licensed under <a
@@ -15,11 +17,13 @@
 
 <style lang="scss">
 	footer {
-		margin-block-start: var(--spacing-m);
-		border-top: 1px solid var(--bluegrey-40);
+		padding-block: var(--spacing-s);
+		border-block-start: 1px solid var(--bluegrey-40);
+		border-block-end: 1px solid var(--bluegrey-40);
+		border-radius: 16px;
 
 		p {
-			margin: 0;
+			margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
 			font-size: 0.75rem;
 			color: var(--bluegrey-30);
 		}
