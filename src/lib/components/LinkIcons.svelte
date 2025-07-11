@@ -178,13 +178,15 @@
 				stroke-width: 1.5;
 			}
 
-			&:hover {
-				color: var(--bluegrey-90);
-				background-color: var(--bluegrey-30);
-				@media (prefers-reduced-motion: no-preference) {
-					transition:
-						color 200ms ease-in-out,
-						background-color 200ms ease-in-out;
+			@media (any-hover) {
+				&:hover {
+					color: var(--bluegrey-90);
+					background-color: var(--bluegrey-30);
+					@media (prefers-reduced-motion: no-preference) {
+						transition:
+							color 200ms ease-in-out,
+							background-color 200ms ease-in-out;
+					}
 				}
 			}
 		}

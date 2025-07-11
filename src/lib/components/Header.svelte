@@ -62,7 +62,7 @@
 			font-size: 0.875rem;
 			text-decoration: none;
 
-			@media (hover: hover) {
+			@media (any-hover) {
 				&:hover {
 					background-color: var(--bluegrey-40);
 					color: var(--bluegrey-90);

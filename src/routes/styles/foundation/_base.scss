@@ -80,7 +80,7 @@ address {
 a {
 	color: var(--c-secondary);
 
-	@media (hover) {
+	@media (any-hover) {
 		&:hover {
 			text-decoration: none;
 		}
