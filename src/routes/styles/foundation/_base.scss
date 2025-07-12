@@ -83,7 +83,7 @@ a {
 	@media (any-hover) {
 		&:hover {
 			color: var(--blue-30);
-			text-decoration: wavy underline;
+			text-decoration: underline wavy;
 			text-decoration-color: var(--blue-30);
 		}
 	}
