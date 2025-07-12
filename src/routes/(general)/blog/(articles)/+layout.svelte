@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { LayoutData } from './$types.js';
+	import type { LayoutData } from './$types';
 	import HeadProperties from '$lib/components/HeadProperties.svelte';
 
 	interface Props {
@@ -17,7 +17,7 @@
 	};
 </script>
 
-<HeadProperties {metadata} />
+<HeadProperties metadata={metadata} />
 
 <article lang="ja">
 	<hgroup>

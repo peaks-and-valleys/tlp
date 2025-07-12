@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { PageData } from './$types.js';
+	import type { PageData } from './$types';
     import HeadProperties from '$lib/components/HeadProperties.svelte';
 
 	interface Props {
@@ -49,7 +49,7 @@
 	}
 
     aside {
-        margin-top: calc(var(--spacing-m) - var(--half-leading));
+        margin-top: calc(var(--spacing-l) - var(--half-leading));
         font-size: 0.75rem;
     }
 </style>
