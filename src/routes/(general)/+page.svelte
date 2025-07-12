@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import HeadProperties from '$lib/components/HeadProperties.svelte';
 
 	const metadata = {
