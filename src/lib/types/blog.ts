@@ -4,6 +4,7 @@ export interface BlogPost {
 	description: string;
 	date: string;
 	content?: string;
+	draft?: boolean;
 }
 
 export interface BlogPostModule {
@@ -12,5 +13,6 @@ export interface BlogPostModule {
 		title: string;
 		description: string;
 		date: string;
+		draft?: boolean;
 	};
 }
