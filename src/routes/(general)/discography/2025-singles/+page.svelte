@@ -3,13 +3,13 @@
 	import Article from './Article.svx';
 
 	const metadata = {
-		pageTitle: 'Shows',
-		description: 'Show list',
+		pageTitle: '2025 singles',
+		description: 'List of singles that has been released in 2025'
 	};
+
 </script>
 
-<HeadProperties metadata={metadata} />
-
+<HeadProperties {metadata} />
 <article>
 	<Article />
 </article>
