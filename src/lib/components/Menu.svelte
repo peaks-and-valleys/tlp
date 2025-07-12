@@ -1,9 +1,29 @@
 <script lang="ts">
 	import { page } from '$app/state';
+
+	import { onMount } from 'svelte';
+
+	let isOpen = false;
+	let innerWidth = 0;
+
+	// 画面幅に応じて開閉状態を設定
+	$: {
+		if (innerWidth >= 640) {
+			isOpen = true;
+		} else {
+			isOpen = false;
+		}
+	}
+
+	onMount(() => {
+		innerWidth = window.innerWidth;
+	});
 </script>
 
+<svelte:window bind:innerWidth />
+
 <nav aria-label="Main navigation">
-	<details>
+	<details bind:open={isOpen}>
 		<summary>Menu</summary>
 		<ul class="menu">
 			<li>
@@ -35,20 +55,42 @@
 	details {
 		summary {
 			margin-block-start: calc(var(--spacing-m) - var(--half-leading));
-			display: block;
 			text-align: center;
 			color: var(--bluegrey-20);
 			font-size: 0.875rem;
+			border-block: 1px solid var(--bluegrey-40);
+			border-radius: 4px;
+			list-style: none;
 
 			&::-webkit-details-marker {
 				display: none;
+			}
+
+			&::before,
+			&::after {
+				content: '+';
+				display: inline-block;
+				margin-inline: 0.5rem;
+			}
+
+			@media screen and (min-width: 640px) {
+				display: none;
+			}
+		}
+        
+		&[open] {
+			summary {
+				&::before,
+				&::after {
+					content: '-';
+				}
 			}
 		}
 	}
 
 	.menu {
 		padding-inline-start: 0;
-		margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
+		margin-block-start: calc(var(--spacing-s) - var(--half-leading));
 		margin-block-end: 0;
 
 		display: flex;
