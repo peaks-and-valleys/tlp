@@ -1,0 +1,17 @@
+---
+title: "discover monthly"
+description: "月報を人知れず作っていました"
+date: 2025-04-01T22:26:33+09:00
+---
+
+と銘打って、YouTube プレイリストを作る習慣を続けている。
+一時期怪しかったが、ギリギリ習慣化できていると思う。
+
+その月に見つけた音楽やらなんやらをプレイリストにぶっこんで公開している、というだけの話。
+自分が一ヶ月前に何をしていたかの記憶がないことがままあるので、色々な形で記録を残そうとしていて、その一環でやっている。
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=61RHcxLWBwwC3BoN&amp;list=PLp6b2j72OdtlbWNHSV-OJz0MBGQI15Dgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=ZZGt2cFf5-Fo17F0&amp;list=PLp6b2j72OdtlV4TvE_ujVFBlwqDu4pnLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=eJ_Zu9Sshwg4ALsp&amp;list=PLp6b2j72OdtmtnuuqgF3_ipFzy4MZv8Hb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

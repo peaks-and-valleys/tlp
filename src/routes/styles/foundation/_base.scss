@@ -42,7 +42,7 @@ body {
 	margin: 0;
 	font-weight: 400;
 	color: var(--c-primary);
-	font-feature-settings: 'palt', 'case';
+	font-feature-settings: 'case';
 	text-underline-offset: calc(var(--half-leading) / 3);
 	overflow-wrap: anywhere;
 	line-break: strict;
