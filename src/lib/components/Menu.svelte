@@ -1,23 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/state';
 
-	import { onMount } from 'svelte';
-
-	let isOpen = false;
-	let innerWidth = 0;
-
-	// 画面幅に応じて開閉状態を設定
-	$: {
-		if (innerWidth >= 640) {
-			isOpen = true;
-		} else {
-			isOpen = false;
-		}
-	}
-
-	onMount(() => {
-		innerWidth = window.innerWidth;
-	});
+	let innerWidth = $state(0);
+    let isOpen = $derived(innerWidth >= 640);
 </script>
 
 <svelte:window bind:innerWidth />
@@ -77,7 +62,7 @@
 				display: none;
 			}
 		}
-        
+
 		&[open] {
 			summary {
 				&::before,
