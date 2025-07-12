@@ -10,7 +10,7 @@
 	<li>
 		<a href="https://soundcloud.com/tohlpeaks" rel="external me noopener noreferrer" translate="no"
 			>SoundCloud</a
-		> : A little bit buggy and unstable, but still a better platform.
+		> : A little bit buggy and unstable, but still not the worst platform.
 	</li>
 	<li>
 		<a
@@ -21,7 +21,7 @@
 	</li>
 	<li>
 		<a href="https://ffm.bio/tohlpeaks" rel="external me noopener noreferrer">Other DSPs</a> : You can
-		pay more for worse quality audio.
+		pay for worse quality audio.
 	</li>
 </ul>
 
@@ -32,7 +32,7 @@
 			href="https://bsky.app/profile/tohlpeaks.bsky.social"
 			rel="external me noopener noreferrer"
 			translate="no">Bluesky</a
-		> : De-facto asylum for refugees from X.
+		> : De-facto asylum for refugees from X (fka Twitter).
 	</li>
 	<li>
 		<a
