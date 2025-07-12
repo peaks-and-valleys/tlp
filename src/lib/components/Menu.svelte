@@ -26,7 +26,9 @@
 				>
 			</li>
 			<li>
-				<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Blog</a>
+				<a href="/blog" aria-current={page.url.pathname.startsWith('/blog') ? 'page' : undefined}
+					>Blog</a
+				>
 			</li>
 			<li>
 				<a href="/links" aria-current={page.url.pathname === '/links' ? 'page' : undefined}>Links</a
