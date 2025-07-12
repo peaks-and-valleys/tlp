@@ -1,45 +1,27 @@
 <script lang="ts">
-	import { page } from '$app/state';
+	import { generateMetadata, type Metadata } from '$lib/types/metadata';
 
-	let {
-		pageTitle = '',
-		description = 'An egocentric platform',
-		contentLang = 'en-US',
-		pageType = 'website'
-	}: Props = $props();
+	let { metadata = {} }: { metadata?: Metadata } = $props();
 
-	const baseTitle: string = 'FATAL WOVND, by TohLPeaks';
-	let wholeTitle = $state(baseTitle);
-
-	if (pageTitle != '') {
-		wholeTitle = pageTitle + ' - ' + baseTitle;
-	}
-
-	const baseUrl: string = 'https://tohlpeaks.party';
-	let pagePath = page.url.pathname;
-
-	// Remove grouping "/()" path
-	pagePath = pagePath.replace(/\([^()]*\)/g, '');
-	pagePath = pagePath.replace(/\/\//g, '/');
-
-	let wholeUrl: string = baseUrl + pagePath;
-
-	interface Props {
-		pageTitle?: string;
-		description?: string;
-		contentLang?: string;
-		pageType?: string;
-	}
+	const { fullTitle, description, canonicalUrl, contentLang, pageType } =
+		generateMetadata(metadata);
 </script>
 
 <svelte:head>
-	<title>{wholeTitle}</title>
+	<title>{fullTitle}</title>
 	<meta name="description" content={description} />
+	<link rel="canonical" href={canonicalUrl} />
+
+	<meta property="og:title" content={fullTitle} />
 	<meta property="og:description" content={description} />
-	<meta property="og:title" content={wholeTitle} />
-	<meta property="og:url" content={wholeUrl} />
-	<meta property="og:image" content="{baseUrl}/images/ogp.jpg" />
-	<meta property="og:site_name" content={baseTitle} />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:site_name" content="FATAL WOVND, by TohLPeaks" />
 	<meta property="og:locale" content={contentLang} />
 	<meta property="og:type" content={pageType} />
+	<meta property="og:image" content="https://tohlpeaks.party/images/ogp.jpg" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={fullTitle} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content="https://tohlpeaks.party/images/ogp.jpg" />
 </svelte:head>

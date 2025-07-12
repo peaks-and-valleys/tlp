@@ -1,9 +1,14 @@
 <script lang="ts">
 	import HeadProperties from '$lib/components/HeadProperties.svelte';
 	import Links from './Links.svelte';
+
+	const metadata = {
+		pageTitle: 'About',
+		description: 'About TohLPeaks'
+	};
 </script>
 
-<HeadProperties pageTitle="About" description="About TohLPeaks"></HeadProperties>
+<HeadProperties metadata={metadata} />
 
 <article>
 	<h1>About</h1>

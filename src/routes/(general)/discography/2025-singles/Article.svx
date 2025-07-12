@@ -1,15 +1,3 @@
-<script lang="ts">
-	import type { PageData } from './$types';
-	import HeadProperties from '$lib/components/HeadProperties.svelte';
-
-	let { data }: { data: PageData } = $props();
-</script>
-
-<HeadProperties pageTitle="2025 singles" description="List of singles that has been released in 2025"
-></HeadProperties>
-
-<article>
-
 # 2025 singles
 
 Downloading them from **bandcamp**, you will get the stem tracks of each song.
@@ -54,8 +42,6 @@ Downloading them from **bandcamp**, you will get the stem tracks of each song.
 - [bandcamp](https://tohlpeaks.bandcamp.com/album/dead-to-you)
 - [SoundCloud](https://soundcloud.com/tohlpeaks/dead-to-you)
 - [YouTube](https://youtu.be/ud4V4NL38To)
-
-</article>
 
 <style lang="scss">
 	img {

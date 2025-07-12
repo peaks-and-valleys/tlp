@@ -1,8 +1,12 @@
 <script>
 	import HeadProperties from '$lib/components/HeadProperties.svelte';
+
+	const metadata = {
+		description: 'An egocentric platform'
+	};
 </script>
 
-<HeadProperties></HeadProperties>
+<HeadProperties metadata={metadata} />
 
 <hgroup>
 	<h1 translate="no">FATAL WOVND</h1>
