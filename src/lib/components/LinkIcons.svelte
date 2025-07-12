@@ -181,7 +181,7 @@
 			@media (any-hover) {
 				&:hover {
 					color: var(--bluegrey-90);
-					background-color: var(--bluegrey-30);
+					background-color: var(--blue-30);
 					@media (prefers-reduced-motion: no-preference) {
 						transition:
 							color 200ms ease-in-out,

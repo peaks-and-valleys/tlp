@@ -82,7 +82,9 @@ a {
 
 	@media (any-hover) {
 		&:hover {
-			text-decoration: none;
+			color: var(--blue-30);
+			text-decoration: underline wavy;
+			text-decoration-color: var(--blue-30);
 		}
 	}
 
@@ -94,6 +96,10 @@ a {
 		margin-inline-start: 0.1em;
 		text-decoration: none;
 	}
+}
+
+blockquote {
+	background-color: var(--bluegrey-80);
 }
 
 @media (prefers-reduced-motion) {

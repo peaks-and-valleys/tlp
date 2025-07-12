@@ -77,7 +77,7 @@
 	}
 
 	.menu {
-		margin-block-start: var(--spacing-s);
+		margin-block-start: var(--spacing-m);
 		margin-block-end: 0;
 		padding-inline-start: 0;
 		padding-block: calc(var(--spacing-xs) - var(--half-leading));
@@ -99,7 +99,7 @@
 
 			@media (any-hover) {
 				&:hover {
-					background-color: var(--bluegrey-40);
+					background-color: var(--blue-30);
 					color: var(--bluegrey-90);
 					@media (prefers-reduced-motion: no-preference) {
 						transition:
@@ -110,7 +110,7 @@
 			}
 
 			&[aria-current='page'] {
-				background-color: var(--bluegrey-40);
+				background-color: var(--blue-30);
 				color: var(--bluegrey-90);
 			}
 		}
