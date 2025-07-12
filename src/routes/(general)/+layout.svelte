@@ -20,7 +20,7 @@
 <style lang="scss">
 	.wrapper {
 		padding-block: 8px;
-		padding-inline: 8px;
+		padding-inline: 16px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
