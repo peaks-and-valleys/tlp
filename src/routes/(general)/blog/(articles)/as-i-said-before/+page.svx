@@ -1,0 +1,81 @@
+---
+title: "as i said before"
+description: "告知と余談"
+date: "2025-06-04"
+---
+
+<img src="/images/blog/as-i-said-before/as-i-said-before.jpg" alt="">
+
+## トラックリスト
+
+1. as i said before
+1. suicidal seductress roaring intensely
+
+## 聴ける場所
+
+- [bandcamp](https://tohlpeaks.bandcamp.com/album/as-i-said-before)
+- [SoundCloud](https://soundcloud.com/tohlpeaks/sets/as-i-said-before)
+- [YouTube](https://youtu.be/ilyMMdHWWfI)
+- [Spotify](https://open.spotify.com/intl-ja/album/3b2KM0FwXLLHDLhFlbWoUY?si=IiX8hk1MQFCPjVELRULlEQ)
+
+その他大手DSPならだいたいどこでも聴けるはず。
+
+### bandcamp album codes
+
+みなさんが欲しいものはすべて[このドキュメント](https://docs.google.com/spreadsheets/d/1v77H05v0hX_c1sFYVizIkuCRnOeQSokeNF0d2NPKBSw/)にある。
+今回は100個コードを発行した。
+それが最低単位だからだ。
+
+コードを発行して告知してみたところ、Blueskyで[Free Album Codes](https://bsky.app/profile/freealbumcodes.bsky.social)なるアカウントから反応があった。
+乞食のみなさんは一度チェックしてみてはいかがだろうか。
+
+## 楽曲について
+
+ニューメタル的なものを作ろうと思ったところから始めて、実際それなりにそうなったと思う2曲。
+
+2024年の前半にはフル尺のデモがあった。
+完成まで持って行くのにかなり時間がかかってしまった。
+特にボーカルはデモ段階からすべてもう一度録音し直した。
+途中で録音用のマイクを買い直したからだ。
+
+### as i said before
+
+はじめて「Aメロ→Bメロ→サビ」の展開を持つ曲を作った。
+当分作らないと思う。
+
+ギターはほんとうにパワーコードしか使っていなくて、ドロップC#のチューニングのギターを用意すれば指一本で弾ける。
+
+相変わらず自分で書いたメロディがぜんぜん歌えなくて、今回は[Spoton](https://sixthsample.com/spoton/)のお世話になりまくった。
+
+### suicidal seductress roaring intensely
+
+7拍子だしスケールもなんかキモい曲。
+自分でもどういうスケールになっているのか分からない。
+
+この曲もドロップC#ギターで指一本で弾ける。
+私は指を2本以上使うコードが弾けないので、こういうことになる。
+
+今後は日本語歌詞の曲を増やしたいと思っている。
+
+## ステム素材の配布
+
+bandcamp版のみ、ボーナストラックとして各曲のステム素材がついてくる。
+実はdead to you以降のシングルはすべてそうなっている。
+サイト本体のほうに、[直近で出したシングルの情報をまとめたページ](/discography/2025-singles)を作ったので、それも見てくれ。
+
+ライセンスは[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)で、これらの素材を使用する際はクレジット表記をして同じライセンスで再配布してもらうことになる。
+といっても、正直なところ、TohLPeaksの楽曲のリミックスかサンプリングであることを分かりやすく書いてくれれば、あまり細かいことを言うつもりはない。
+
+## おまけ
+
+アートワークの制作過程が、分かるような分からないような動画を添付しておく。
+
+AI生成だったりインターネットに落ちてたりしたテクスチャ素材の組み合わせで作られている。
+ね、簡単でしょう？
+
+タイトル文字に使ったフォントは[Sprat](https://www.collletttivo.it/typefaces/sprat)。
+
+<video controls width="100%" preload="none">
+    <source src="/images/blog/as-i-said-before/aisb-artwork-process.webm" type="video/webm">
+    <source src="/images/blog/as-i-said-before/aisb-artwork-process.mp4" type="video/mp4">
+</video>
