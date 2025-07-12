@@ -43,12 +43,14 @@
 		summary {
 			margin-block-start: var(--spacing-m);
 			padding-block: calc(var(--spacing-xxs) - var(--half-leading));
+			margin-inline: auto;
+			inline-size: min(100%, 120px);
+			background-color: var(--bluegrey-85);
 			text-align: center;
 			color: var(--bluegrey-20);
 			font-size: 0.875rem;
-			border-block: 1px solid var(--bluegrey-40);
-			border-radius: 4px;
 			list-style: none;
+			border-radius: 2px;
 
 			&::-webkit-details-marker {
 				display: none;
