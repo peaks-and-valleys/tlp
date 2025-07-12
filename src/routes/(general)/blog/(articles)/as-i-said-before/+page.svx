@@ -2,6 +2,7 @@
 title: "as i said before"
 description: "告知と余談"
 date: "2025-06-04"
+draft: false
 ---
 
 <img src="/images/blog/as-i-said-before/as-i-said-before.jpg" alt="">
