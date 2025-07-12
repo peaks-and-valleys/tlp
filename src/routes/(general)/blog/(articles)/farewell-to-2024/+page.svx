@@ -44,7 +44,7 @@ date: "2025-01-03"
 相も変わらず日本に来る外国人がめちゃめちゃ多い。
 このことも関係して、2024年はイベントを3回開催した。
 FATAL CLUBと名付けてなんとなくシリーズ化した: 
-[CASE 01](https://ra.co/events/1876303) / [CASE 02](https://ra.co/events/1946633) / [CASE 03](../fatal-club-case-03/)
+[CASE 01](https://ra.co/events/1876303) / [CASE 02](https://ra.co/events/1946633) / [CASE 03](https://ra.co/events/2007523)
 
 今しがたFATAL CLUBでエゴサしたところ、意外と被っていることが判明した。
 ホストだの姫だのという文字列も見えた。
