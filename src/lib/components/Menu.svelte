@@ -2,7 +2,7 @@
 	import { page } from '$app/state';
 
 	let innerWidth = $state(0);
-    let isOpen = $derived(innerWidth >= 640);
+	let isOpen = $derived(innerWidth >= 640);
 </script>
 
 <svelte:window bind:innerWidth />
@@ -39,7 +39,8 @@
 <style lang="scss">
 	details {
 		summary {
-			margin-block-start: calc(var(--spacing-m) - var(--half-leading));
+			margin-block-start: var(--spacing-m);
+			padding-block: calc(var(--spacing-xxs) - var(--half-leading));
 			text-align: center;
 			color: var(--bluegrey-20);
 			font-size: 0.875rem;
@@ -74,9 +75,10 @@
 	}
 
 	.menu {
-		padding-inline-start: 0;
-		margin-block-start: calc(var(--spacing-s) - var(--half-leading));
+		margin-block-start: var(--spacing-s);
 		margin-block-end: 0;
+		padding-inline-start: 0;
+		padding-block: calc(var(--spacing-xs) - var(--half-leading));
 
 		display: flex;
 		flex-direction: row;
@@ -84,6 +86,9 @@
 		list-style: none;
 		gap: var(--spacing-xs);
 		justify-content: space-between;
+
+		border-block: 1px solid var(--bluegrey-40);
+		border-radius: 4px;
 
 		a {
 			color: var(--bluegrey-20);
