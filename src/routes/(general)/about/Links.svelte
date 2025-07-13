@@ -1,4 +1,4 @@
-<h2>Links</h2>
+<h2>Complete list of my links</h2>
 
 <h3 id="music-and-video">Music / Video</h3>
 <ul>
@@ -44,6 +44,10 @@
 	<li>
 		<a href="https://x.com/tohlpeaks" rel="external me noopener noreferrer">X</a> : I'm not very into
 		it, only for promotional purpose now.
+	</li>
+	<li>
+		<a href="https://www.facebook.com/tohlpeaks/" rel="external me noopener noreferrer">Facebook</a
+		>: I've got so many spam mails from here recently. I'm starting to think about closing this.
 	</li>
 </ul>
 <h3 id="contact">Contact</h3>

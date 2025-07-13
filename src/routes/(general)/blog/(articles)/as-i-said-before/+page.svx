@@ -1,6 +1,6 @@
 ---
 title: "as i said before"
-description: "告知と余談"
+description: "俺なりのニューメタルをリリースした、ことについての告知と余談"
 date: "2025-06-04"
 draft: false
 ---
