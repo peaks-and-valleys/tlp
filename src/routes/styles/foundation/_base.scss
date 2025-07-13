@@ -34,11 +34,8 @@
 	font-display: swap;
 }
 
-html {
-	scrollbar-gutter: stable;
-}
-
 body {
+	padding-inline-start: var(--scrollbar-gutter);
 	margin: 0;
 	font-weight: 400;
 	color: var(--c-primary);

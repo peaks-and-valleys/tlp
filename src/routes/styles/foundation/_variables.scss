@@ -12,7 +12,7 @@
 	--c-bg-primary: var(--lightgrey-1);
 	--c-ac-primary: var(--darkblue-1);
 
-	/* Spacing */
+	// Spacing
 	--spacing-xxs: 4px;
 	--spacing-xs: 8px;
 	--spacing-s: 12px;
@@ -20,7 +20,9 @@
 	--spacing-l: 24px;
 	--spacing-xl: 32px;
 
+	// Utility
 	--half-leading: calc((1lh - 1em) / 2);
+	--scrollbar-gutter: calc(100vw - 100%);
 
 	// ff: font family
 	--ff-sans-serif:
