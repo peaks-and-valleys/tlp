@@ -101,7 +101,7 @@
 
 			@media (any-hover) {
 				&:hover {
-					background-color: var(--darkblue-2);
+					background-color: var(--c-ac-primary);
 					color: var(--lightgrey-1);
 					@media (prefers-reduced-motion: no-preference) {
 						transition:
@@ -112,7 +112,7 @@
 			}
 
 			&[aria-current='page'] {
-				background-color: var(--darkblue-2);
+				background-color: var(--c-ac-primary);
 				color: var(--lightgrey-1);
 			}
 		}
