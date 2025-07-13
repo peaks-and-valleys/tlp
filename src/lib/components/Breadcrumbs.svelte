@@ -77,7 +77,7 @@
 		overflow-wrap: normal;
 		margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
 		ol {
-			color: var(--bluegrey-30);
+			color: var(--darkgrey-2);
 			font-size: 0.75rem;
 			margin-block: 0;
 			padding-inline-start: 0;

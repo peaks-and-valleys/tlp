@@ -45,9 +45,9 @@
 			padding-block: calc(var(--spacing-xxs) - var(--half-leading));
 			margin-inline: auto;
 			inline-size: min(100%, 120px);
-			background-color: var(--bluegrey-85);
+			background-color: var(--lightgrey-2);
 			text-align: center;
-			color: var(--bluegrey-20);
+			color: var(--darkgrey-1);
 			font-size: 0.875rem;
 			list-style: none;
 			border-radius: 2px;
@@ -91,18 +91,18 @@
 		gap: var(--spacing-xs);
 		justify-content: space-between;
 
-		border-block: 1px solid var(--bluegrey-40);
+		border-block: 1px solid var(--darkgrey-3);
 		border-radius: 4px;
 
 		a {
-			color: var(--bluegrey-20);
+			color: var(--darkgrey-1);
 			font-size: 0.875rem;
 			text-decoration: none;
 
 			@media (any-hover) {
 				&:hover {
-					background-color: var(--blue-30);
-					color: var(--bluegrey-90);
+					background-color: var(--darkblue-2);
+					color: var(--lightgrey-1);
 					@media (prefers-reduced-motion: no-preference) {
 						transition:
 							color 200ms ease-in-out,
@@ -112,8 +112,8 @@
 			}
 
 			&[aria-current='page'] {
-				background-color: var(--blue-30);
-				color: var(--bluegrey-90);
+				background-color: var(--darkblue-2);
+				color: var(--lightgrey-1);
 			}
 		}
 	}

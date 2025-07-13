@@ -19,13 +19,13 @@
 	footer {
 		margin-block-start: var(--spacing-l);
 		padding-block: var(--spacing-s);
-		border-block: 1px solid var(--bluegrey-40);
+		border-block: 1px solid var(--darkgrey-3);
 		border-radius: 16px;
 
 		p {
 			margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
 			font-size: 0.75rem;
-			color: var(--bluegrey-30);
+			color: var(--darkgrey-2);
 		}
 	}
 </style>
