@@ -44,13 +44,13 @@
 	details {
 		summary {
 			margin-block-start: var(--spacing-m);
-			padding-block: calc(var(--spacing-xs) - var(--half-leading));
+			padding-block: calc(var(--spacing-xxs) - var(--half-leading));
 			margin-inline: auto;
 			inline-size: min(100%, 120px);
 			background-color: var(--lightgrey-2);
 			text-align: center;
 			color: var(--c-primary);
-			font-size: 0.875rem;
+			font-size: 0.75rem;
 			list-style: none;
 			border-radius: 2px;
 
