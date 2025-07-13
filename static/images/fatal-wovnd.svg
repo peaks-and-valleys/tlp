@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="uuid-d52b8a09-3a85-42ca-b786-92d88e459e43" width="1020" height="1020" data-name="レイヤー 2">
+<svg xmlns="http://www.w3.org/2000/svg" id="uuid-d52b8a09-3a85-42ca-b786-92d88e459e43" width="1020" height="1020">
   <defs>
     <style>
       .uuid-d76b8c74-4f9c-4f65-854c-bf9c488fac10{
-        fill: hsl(230, 6%, 20%);
+        fill: oklch(0.3 0.0062 276.84);
         fill-rule:evenodd;
         stroke-width:0
       }
       .uuid-7ce476c6-d59b-4854-8fc6-a013499e1f92{
-        fill: hsl(230, 6%, 20%);
+        fill: oklch(0.3 0.0062 276.84);
         stroke-width:0
       }
     </style>
