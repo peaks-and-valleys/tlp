@@ -5,7 +5,7 @@
 
 <header>
 	<div class="symbol">
-		<a href="/" aria-label="Home">
+		<a href="/" aria-label="Home" aria-current={page.url.pathname === '/' ? 'page' : undefined}>
 			<img src="/images/fatal-wovnd.svg" alt="FATAL WOVND" />
 		</a>
 	</div>

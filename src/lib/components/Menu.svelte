@@ -12,26 +12,28 @@
 		<summary>Menu</summary>
 		<ul class="menu">
 			<li>
-				<a href="/about" aria-current={page.url.pathname === '/about' ? 'page' : undefined}>About</a
+				<a href="/about" aria-current={page.url.pathname === '/about' ? 'true' : undefined}>About</a
 				>
 			</li>
 			<li>
 				<a
 					href="/discography"
-					aria-current={page.url.pathname === '/discography' ? 'page' : undefined}>Discography</a
+					aria-current={page.url.pathname.startsWith('/discography') ? 'true' : undefined}
+					>Discography</a
 				>
 			</li>
 			<li>
-				<a href="/shows" aria-current={page.url.pathname === '/shows' ? 'page' : undefined}>Shows</a
+				<a href="/shows" aria-current={page.url.pathname.startsWith('/shows') ? 'true' : undefined}
+					>Shows</a
 				>
 			</li>
 			<li>
-				<a href="/blog" aria-current={page.url.pathname.startsWith('/blog') ? 'page' : undefined}
+				<a href="/blog" aria-current={page.url.pathname.startsWith('/blog') ? 'true' : undefined}
 					>Blog</a
 				>
 			</li>
 			<li>
-				<a href="/links" aria-current={page.url.pathname === '/links' ? 'page' : undefined}>Links</a
+				<a href="/links" aria-current={page.url.pathname === '/links' ? 'true' : undefined}>Links</a
 				>
 			</li>
 		</ul>
@@ -111,7 +113,7 @@
 				}
 			}
 
-			&[aria-current='page'] {
+			&[aria-current='true'] {
 				background-color: var(--c-ac-primary);
 				color: var(--lightgrey-1);
 			}
