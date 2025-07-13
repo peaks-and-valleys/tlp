@@ -44,7 +44,7 @@
     }
 
 	time {
-		color: var(--darkgrey-2);
+		color: var(--c-secondary);
 		font-size: 0.875rem;
 	}
 

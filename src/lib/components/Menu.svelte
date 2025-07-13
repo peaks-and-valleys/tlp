@@ -47,7 +47,7 @@
 			inline-size: min(100%, 120px);
 			background-color: var(--lightgrey-2);
 			text-align: center;
-			color: var(--darkgrey-1);
+			color: var(--c-primary);
 			font-size: 0.875rem;
 			list-style: none;
 			border-radius: 2px;
@@ -95,7 +95,7 @@
 		border-radius: 4px;
 
 		a {
-			color: var(--darkgrey-1);
+			color: var(--c-primary);
 			font-size: 0.875rem;
 			text-decoration: none;
 
