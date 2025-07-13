@@ -162,7 +162,7 @@
 		line-height: 0;
 
 		a {
-			color: var(--bluegrey-30);
+			color: var(--darkgrey-2);
 			text-decoration: none;
 			display: inline-block;
 			inline-size: 32px;
@@ -180,8 +180,8 @@
 
 			@media (any-hover) {
 				&:hover {
-					color: var(--bluegrey-90);
-					background-color: var(--blue-30);
+					color: var(--lightgrey-1);
+					background-color: var(--c-ac-primary);
 					@media (prefers-reduced-motion: no-preference) {
 						transition:
 							color 200ms ease-in-out,

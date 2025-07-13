@@ -93,9 +93,9 @@
 
 		@media (any-hover) {
 			&:hover {
-				color: var(--blue-30);
+				color: var(--c-ac-primary);
 				text-decoration: underline wavy;
-				text-decoration-color: var(--blue-30);
+				text-decoration-color: var(--c-ac-primary);
 			}
 		}
 	}

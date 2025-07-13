@@ -24,7 +24,7 @@
     </filter>
     <style>
       .tlp-grind {
-        fill:hsl(230, 6%, 20%);
+        fill:oklch(0.3 0.0062 276.84);
         stroke-width: 0px;
         filter: url(#displacement);
         will-change: filter;

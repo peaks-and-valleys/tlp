@@ -44,7 +44,7 @@
     }
 
 	time {
-		color: var(--bluegrey-30);
+		color: var(--c-secondary);
 		font-size: 0.875rem;
 	}
 

@@ -1,17 +1,16 @@
 :root {
-	--bluegrey-20: hsl(230 6% 20%);
-	--bluegrey-30: hsl(230 6% 30%);
-	--bluegrey-40: hsl(230 6% 40%);
-	--bluegrey-85: hsl(230 6% 85%);
-	--bluegrey-90: hsl(230 6% 90%);
-	--blue-20: hsl(230 75% 20%);
-	--blue-30: hsl(230 75% 30%);
-	--blue-40: hsl(230 75% 40%);
+	--darkgrey-1: oklch(0.3 0.0062 276.84);
+	--darkgrey-2: oklch(0.38 0.0062 276.84);
+	--darkgrey-3: oklch(0.49 0.0062 276.84);
+	--lightgrey-1: oklch(0.93 0.0062 276.83);
+	--lightgrey-2: oklch(0.9 0.0062 276.83);
+	--darkblue-1: oklch(0.32 0.14 276.83);
 
-	// c: color, bg: background
-	--c-primary: var(--bluegrey-20);
-	--c-secondary: var(--bluegrey-30);
-	--c-bg-primary: var(--bluegrey-90);
+	// c: color, bg: background, ac: accent
+	--c-primary: var(--darkgrey-1);
+	--c-secondary: var(--darkgrey-2);
+	--c-bg-primary: var(--lightgrey-1);
+	--c-ac-primary: var(--darkblue-1);
 
 	/* Spacing */
 	--spacing-xxs: 4px;
