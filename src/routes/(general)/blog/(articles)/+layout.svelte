@@ -17,13 +17,13 @@
 	};
 </script>
 
-<HeadProperties metadata={metadata} />
+<HeadProperties {metadata} />
 
 <article lang="ja">
 	<hgroup>
 		<h1>{data.title}</h1>
 		<p>
-			<time datetime={data.date}>{new Date(data.date || '').toLocaleDateString()}</time> | {data.description}
+			<time datetime={data.date}>{new Date(data.date || '').toLocaleDateString()}</time>
 		</p>
 	</hgroup>
 

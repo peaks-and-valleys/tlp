@@ -89,7 +89,7 @@
 		border: none;
 		text-decoration: underline;
 		padding: 0;
-        line-height: 1.8;
+		line-height: 1.8;
 
 		@media (any-hover) {
 			&:hover {

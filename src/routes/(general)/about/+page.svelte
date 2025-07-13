@@ -8,7 +8,7 @@
 	};
 </script>
 
-<HeadProperties metadata={metadata} />
+<HeadProperties {metadata} />
 
 <article>
 	<h1>About</h1>

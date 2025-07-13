@@ -4,11 +4,11 @@
 
 	const metadata = {
 		pageTitle: 'Links',
-		description: 'Recommended website link list',
+		description: 'Recommended website link list'
 	};
 </script>
 
-<HeadProperties metadata={metadata} />
+<HeadProperties {metadata} />
 
 <article>
 	<Article />

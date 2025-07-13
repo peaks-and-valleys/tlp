@@ -4,11 +4,11 @@
 
 	const metadata = {
 		pageTitle: 'Shows',
-		description: 'Show list',
+		description: 'Show list'
 	};
 </script>
 
-<HeadProperties metadata={metadata} />
+<HeadProperties {metadata} />
 
 <article>
 	<Article />
