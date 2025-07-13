@@ -3,13 +3,13 @@
 	import Article from './Article.svx';
 
 	const metadata = {
-		pageTitle: 'Shows',
-		description: 'Show list'
+		pageTitle: 'FATAL CLUB [CASE 03]',
+		description: 'FATAL CLUB [CASE 03] at environment 0g, on 12th October 2024.'
 	};
 </script>
 
 <HeadProperties {metadata} />
 
-<article>
+<article lang="ja">
 	<Article />
 </article>

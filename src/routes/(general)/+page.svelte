@@ -6,7 +6,7 @@
 	};
 </script>
 
-<HeadProperties metadata={metadata} />
+<HeadProperties {metadata} />
 
 <hgroup>
 	<h1 translate="no">FATAL WOVND</h1>
