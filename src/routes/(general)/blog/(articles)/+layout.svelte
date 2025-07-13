@@ -35,7 +35,7 @@
 		p {
 			margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
 			font-size: 0.875rem;
-			color: var(--bluegrey-30);
+			color: var(--darkgrey-2);
 		}
 	}
 </style>
