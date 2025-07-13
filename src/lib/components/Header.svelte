@@ -13,6 +13,9 @@
 </header>
 
 <style lang="scss">
+	header {
+		view-transition-name: header;
+	}
 	.symbol {
 		display: flex;
 		justify-content: center;
