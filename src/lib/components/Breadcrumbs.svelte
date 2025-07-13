@@ -75,7 +75,7 @@
 <style lang="scss">
 	nav {
 		overflow-wrap: normal;
-		margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
+		margin-block-start: calc(var(--spacing-s) - var(--half-leading));
 		ol {
 			color: var(--darkgrey-2);
 			font-size: 0.75rem;
