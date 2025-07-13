@@ -4,7 +4,7 @@
 </script>
 
 <header>
-	<div class="symbol">
+	<div class="home-symbol">
 		<a href="/" aria-label="Home" aria-current={page.url.pathname === '/' ? 'page' : undefined}>
 			<img src="/images/fatal-wovnd.svg" alt="FATAL WOVND" />
 		</a>
@@ -16,15 +16,12 @@
 	header {
 		view-transition-name: header;
 	}
-	.symbol {
+	.home-symbol {
 		display: flex;
 		justify-content: center;
 		a {
-			img {
-				inline-size: 96px;
-				block-size: auto;
-				object-fit: contain;
-			}
+			inline-size: clamp(64px, 25%, 128px);
+			block-size: auto;
 		}
 	}
 </style>
