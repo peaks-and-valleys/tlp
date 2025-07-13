@@ -44,7 +44,7 @@
 	details {
 		summary {
 			margin-block-start: var(--spacing-m);
-			padding-block: calc(var(--spacing-xxs) - var(--half-leading));
+			padding-block: calc(var(--spacing-xs) - var(--half-leading));
 			margin-inline: auto;
 			inline-size: min(100%, 120px);
 			background-color: var(--lightgrey-2);
@@ -84,7 +84,7 @@
 		margin-block-start: var(--spacing-m);
 		margin-block-end: 0;
 		padding-inline-start: 0;
-		padding-block: calc(var(--spacing-xs) - var(--half-leading));
+		padding-block: calc(var(--spacing-s) - var(--half-leading));
 
 		display: flex;
 		flex-direction: row;

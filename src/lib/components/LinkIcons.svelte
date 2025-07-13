@@ -1,6 +1,6 @@
 <!-- SVG icons are sourced from Tabler Icons -->
-<section class="wrapper">
-	<ul class="content">
+<div class="wrapper">
+	<ul class="content" aria-label="External links to Tohlpeaks' music and social media">
 		<li>
 			<a
 				href="https://tohlpeaks.bandcamp.com/"
@@ -142,7 +142,7 @@
 			</a>
 		</li>
 	</ul>
-</section>
+</div>
 
 <style lang="scss">
 	.wrapper {
@@ -165,8 +165,8 @@
 			color: var(--darkgrey-2);
 			text-decoration: none;
 			display: inline-block;
-			inline-size: 32px;
-			block-size: 32px;
+			inline-size: 28px;
+			block-size: 28px;
 
 			&[rel~='external']::after {
 				content: '';
