@@ -30,7 +30,7 @@ jobs:
       - name: Validation
         id: validation
         continue-on-error: true
-        run: npm run lint
+        run: npm run lint > output.log 2>&1
 
       - name: Summary
         if: always()
@@ -40,6 +40,5 @@ jobs:
           else
             echo "❌ Prettier and ESLint validation failed."
             echo "---- Output ----"
-            echo "${{ steps.validation.outputs.stdout }}"
-            echo "${{ steps.validation.outputs.stderr }}"
+            cat output.log
           fi
