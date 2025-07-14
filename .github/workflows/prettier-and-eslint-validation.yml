@@ -41,4 +41,5 @@ jobs:
             echo "❌ Prettier and ESLint validation failed."
             echo "---- Output ----"
             cat output.log
+            exit 1
           fi
