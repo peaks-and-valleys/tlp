@@ -9,7 +9,7 @@ export async function load() {
 
 	for (const [path, module] of Object.entries(modules)) {
 		// ./(articles)/slug-name/+page.svx -> slug-name
-		const pathMatch = path.match(/\.\/\(articles\)\/([^\/]+)\/\+page\.svx$/);
+		const pathMatch = path.match(/\.\/\(articles\)\/([^/]+)\/\+page\.svx$/);
 		if (pathMatch) {
 			const slug = pathMatch[1];
 
