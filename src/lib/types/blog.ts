@@ -1,3 +1,5 @@
+import type { Component } from 'svelte';
+
 export interface BlogPost {
 	slug: string;
 	title: string;
@@ -8,7 +10,7 @@ export interface BlogPost {
 }
 
 export interface BlogPostModule {
-	default: any;
+	default: Component;
 	metadata: {
 		title: string;
 		description: string;
