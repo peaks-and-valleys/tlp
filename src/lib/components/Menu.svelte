@@ -83,7 +83,7 @@
 	.menu {
 		margin-block-start: var(--spacing-m);
 		margin-block-end: 0;
-		padding-inline-start: 0;
+		padding-inline: var(--spacing-xs);
 		padding-block: calc(var(--spacing-s) - var(--half-leading));
 
 		display: flex;
