@@ -23,7 +23,7 @@
 	<hgroup>
 		<h1>{data.title}</h1>
 		<p>
-			<time datetime={data.date}>{new Date(data.date || '').toLocaleDateString()}</time>
+			<time datetime={data.date}>{new Date(data.date || '').toLocaleDateString('ja-JP')}</time>
 		</p>
 	</hgroup>
 

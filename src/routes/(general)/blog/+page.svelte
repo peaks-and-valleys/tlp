@@ -28,7 +28,7 @@
 				<a href="/blog/{post.slug}">
 					{post.title}
 				</a>
-				<time datetime={post.date}>{new Date(post.date).toLocaleDateString()}</time>
+				<time datetime={post.date}>{new Date(post.date).toLocaleDateString('ja-JP')}</time>
 			</article>
 		</li>
 	{/each}
