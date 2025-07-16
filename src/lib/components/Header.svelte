@@ -20,8 +20,12 @@
 		display: flex;
 		justify-content: center;
 		a {
-			inline-size: clamp(64px, 25%, 128px);
+			inline-size: clamp(64px, 25%, 96px);
 			block-size: auto;
+
+			@media screen and (min-width: 1024px) {
+				inline-size: 96px;
+			}
 		}
 	}
 </style>

@@ -9,11 +9,15 @@
 
 <div class="wrapper">
 	<div class="container">
-		<Header />
-		<main>
-			{@render children()}
-		</main>
-		<Footer />
+		<div class="menu-container">
+			<Header />
+		</div>
+		<div class="main-container">
+			<main>
+				{@render children()}
+			</main>
+			<Footer />
+		</div>
 	</div>
 </div>
 
@@ -26,11 +30,33 @@
 		justify-content: center;
 		min-height: 100vh;
 	}
+
 	.container {
+		@media screen and (max-width: 1023.8px) {
+			display: flex;
+			flex-direction: column;
+			max-inline-size: 768px;
+		}
+		@media screen and (min-width: 1024px) {
+			display: flex;
+			flex-direction: row;
+			gap: var(--spacing-m);
+
+			.menu-container {
+				inline-size: 192px;
+			}
+		}
+	}
+
+	.main-container {
+		flex: 1;
 		inline-size: 100%;
-		max-inline-size: 70ch;
 		display: flex;
 		flex-direction: column;
+
+		@media screen and (min-width: 1024px) {
+			inline-size: 768px;
+		}
 
 		main {
 			flex: 1;
