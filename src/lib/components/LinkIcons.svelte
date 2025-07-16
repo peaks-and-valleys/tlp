@@ -146,7 +146,6 @@
 
 <style lang="scss">
 	.wrapper {
-		view-transition-name: link-icons;
 		display: flex;
 		justify-content: center;
 	}

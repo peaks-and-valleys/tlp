@@ -4,20 +4,23 @@
 </script>
 
 <footer>
-	<LinkIcons />
 	<Breadcrumbs />
-	<p>
-		All contents on this website are licensed under <a
-			href="https://creativecommons.org/licenses/by-sa/4.0/"
-			rel="external noopener noreferrer"
-			translate="no">CC BY-SA 4.0</a
-		> (unless explicitly mentioned).
-	</p>
+	<div class="content">
+		<LinkIcons />
+		<p>
+			All contents on this website are licensed under <a
+				href="https://creativecommons.org/licenses/by-sa/4.0/"
+				rel="external noopener noreferrer"
+				translate="no">CC BY-SA 4.0</a
+			> (unless explicitly mentioned).
+		</p>
+	</div>
 </footer>
 
 <style lang="scss">
-	footer {
-		margin-block-start: var(--spacing-l);
+	.content {
+		view-transition-name: footer-content;
+		margin-block-start: var(--spacing-s);
 		padding: var(--spacing-s);
 		border-block: 1px solid var(--darkgrey-3);
 		border-radius: 16px;
