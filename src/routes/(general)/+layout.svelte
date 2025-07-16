@@ -35,7 +35,7 @@
 		@media screen and (max-width: 1023.8px) {
 			display: flex;
 			flex-direction: column;
-			max-inline-size: 768px;
+			max-inline-size: 800px;
 		}
 		@media screen and (min-width: 1024px) {
 			display: flex;
@@ -43,7 +43,7 @@
 			gap: var(--spacing-m);
 
 			.menu-container {
-				inline-size: 192px;
+				inline-size: 160px;
 			}
 		}
 	}
@@ -55,7 +55,7 @@
 		flex-direction: column;
 
 		@media screen and (min-width: 1024px) {
-			inline-size: 768px;
+			inline-size: 800px;
 		}
 
 		main {
