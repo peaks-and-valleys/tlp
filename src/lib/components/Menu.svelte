@@ -93,7 +93,7 @@
 		column-gap: var(--spacing-xs);
 		row-gap: calc(var(--spacing-xs) - var(--half-leading));
 		justify-content: space-between;
-		
+
 		@media screen and (min-width: 1024px) {
 			flex-direction: column;
 			align-items: center;
