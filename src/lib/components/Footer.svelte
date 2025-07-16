@@ -23,7 +23,7 @@
 		border-radius: 16px;
 
 		p {
-			margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
+			margin-block-start: calc(var(--spacing-s) - var(--half-leading));
 			font-size: 0.75rem;
 			color: var(--c-secondary);
 		}
