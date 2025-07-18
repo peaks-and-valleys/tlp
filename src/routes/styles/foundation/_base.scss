@@ -43,7 +43,10 @@ body {
 	text-underline-offset: calc(var(--half-leading) / 3);
 	overflow-wrap: anywhere;
 	line-break: strict;
-	background: var(--c-bg-primary);
+	background:
+		repeat fixed 0% 0% / auto url(/images/noise.svg),
+		var(--c-bg-primary);
+	background-blend-mode: overlay;
 	font-family: var(--ff-sans-serif);
 	font-size: 16px;
 }
