@@ -26,6 +26,21 @@
 			@media screen and (min-width: 1024px) {
 				inline-size: 96px;
 			}
+
+			@media (any-hover) {
+				&:hover {
+					animation: rotate 5000ms linear infinite;
+
+					@keyframes rotate {
+						0% {
+							transform: rotate(0);
+						}
+						100% {
+							transform: rotate(-1turn);
+						}
+					}
+				}
+			}
 		}
 	}
 </style>
