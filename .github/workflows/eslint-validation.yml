@@ -1,4 +1,4 @@
-name: Prettier and ESLint Validation
+name: ESLint Validation
 
 on:
   pull_request:
@@ -10,8 +10,8 @@ permissions:
   contents: read
 
 jobs:
-  prettier-eslint-validation:
-    name: Prettier and ESLint Validation
+  eslint-validation:
+    name: ESLint Validation
     runs-on: ubuntu-latest
 
     steps:
