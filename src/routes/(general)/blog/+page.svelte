@@ -22,12 +22,14 @@
 	{#if data.posts.length === 0}
 		<li>No posts available.</li>
 	{/if}
-	{#each data.posts as post}
+	{#each data.posts as post (post.slug)}
 		<li class="post">
-			<article>
-				<a href="/blog/{post.slug}">
-					{post.title}
-				</a>
+			<article lang="ja">
+				<span role="heading" aria-level="2">
+					<a href="/blog/{post.slug}">
+						{post.title}
+					</a>
+				</span>
 				<time datetime={post.date}>{new Date(post.date).toLocaleDateString('ja-JP')}</time>
 			</article>
 		</li>
