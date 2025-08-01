@@ -22,7 +22,7 @@
 	{#if data.posts.length === 0}
 		<li>No posts available.</li>
 	{/if}
-	{#each data.posts as post}
+	{#each data.posts as post (post.slug)}
 		<li class="post">
 			<article lang="ja">
 				<span role="heading" aria-level="2">

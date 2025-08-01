@@ -55,7 +55,7 @@
 
 <nav aria-label="Breadcrumbs" style={breadcrumbs.length > 1 ? '' : 'display: none;'}>
 	<ol role="list">
-		{#each breadcrumbs as crumb, index}
+		{#each breadcrumbs as crumb, index (crumb.path)}
 			<li translate="no">
 				{#if index < breadcrumbs.length - 1}
 					<a href="{base}{crumb.path}">
