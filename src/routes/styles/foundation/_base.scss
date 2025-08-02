@@ -94,6 +94,7 @@ h4 {
 	margin-block-start: calc(var(--spacing-l) - var(--half-leading));
 	font-family: 'Archivo SemiExpanded', var(--ff-sans-serif);
 	letter-spacing: -0.005em;
+	text-wrap: pretty;
 }
 
 h1 {
