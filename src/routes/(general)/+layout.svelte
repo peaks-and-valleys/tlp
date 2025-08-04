@@ -28,7 +28,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		min-height: 100vh;
+		min-height: 100dvh;
 	}
 
 	.container {

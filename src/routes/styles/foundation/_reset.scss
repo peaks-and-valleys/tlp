@@ -34,12 +34,6 @@ ol[role='list'] {
 	list-style: none;
 }
 
-/* Set core body defaults */
-body {
-	min-height: 100vh;
-	line-height: 1.8;
-}
-
 /* Set shorter line heights on headings and interactive elements */
 h1,
 h2,
@@ -48,7 +42,7 @@ h4,
 button,
 input,
 label {
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 /* Make images easier to work with */
