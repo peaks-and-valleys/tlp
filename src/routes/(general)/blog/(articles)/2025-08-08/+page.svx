@@ -1,0 +1,36 @@
+---
+title: "2025-08-08"
+description: "日記 2025-08-08"
+date: "2025-08-08"
+draft: false
+---
+
+## 記録を付ける
+
+折角ブログ機能を付けたことだし、いろいろと記録を付けて公開することにする。
+タイトルを考えるのが面倒だから日付にするし、SNSとかで告知もしない。
+
+## デザイン作成
+
+<img src="/images/blog/2025-08-08/tlp_grind_variation.webp" alt="">
+<img src="/images/blog/2025-08-08/tlp_grind_variation_chrome.webp" alt="">
+<img src="/images/blog/2025-08-08/fatal-wovnd_distressed.webp" alt="">
+
+既存のロゴに手を加えたものをいくつか作った。新しいTシャツでも作ろうかと思ったから。
+
+1番目のものをプリントしたTシャツの試作を発注して、届くのを待っている。
+
+## WIPから見せる作品リリース
+
+[前の記事](/blog/remaining-reflection)を書いたときに考えていた、WIPからオープンにする作品リリースのやり方について、実現可能な方法を思いついた。
+思いついてみたら大して難しい話ではなかった。bandcampで簡単にできる。
+
+実行するのはもう少し先になると思う。
+
+<style>
+    img {
+        inline-size: min(100%, 480px);
+        content-visibility: auto;
+        contain-intrinsic-size: 400px;
+    }
+</style>
