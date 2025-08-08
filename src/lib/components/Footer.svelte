@@ -18,10 +18,13 @@
 </footer>
 
 <style lang="scss">
+	footer {
+		margin-block-start: var(--spacing-m);
+		view-transition-name: footer;
+	}
 	.content {
-		view-transition-name: footer-content;
-		margin-block-start: var(--spacing-s);
 		padding: var(--spacing-s);
+		margin-block-start: var(--spacing-s);
 		border-block: 1px solid var(--darkgrey-3);
 		border-radius: 16px;
 
