@@ -12,9 +12,9 @@ draft: false
 
 ## デザイン作成
 
-<img src="/images/blog/2025-08-08/tlp_grind_variation.webp" alt="">
-<img src="/images/blog/2025-08-08/tlp_grind_variation_chrome.webp" alt="">
-<img src="/images/blog/2025-08-08/fatal-wovnd_distressed.webp" alt="">
+<img src="/images/blog/2025-08-08/tlp_grind_variation.jpg" alt="">
+<img src="/images/blog/2025-08-08/tlp_grind_variation_chrome.jpg" alt="">
+<img src="/images/blog/2025-08-08/fatal-wovnd_distressed.jpg" alt="">
 
 既存のロゴに手を加えたものをいくつか作った。新しいTシャツでも作ろうかと思ったから。
 
@@ -29,6 +29,7 @@ draft: false
 
 <style>
     img {
+        margin-block-start: 16px;
         inline-size: min(100%, 480px);
         content-visibility: auto;
         contain-intrinsic-size: 400px;
