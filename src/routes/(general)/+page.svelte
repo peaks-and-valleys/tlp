@@ -23,6 +23,8 @@
 		justify-content: center;
 		margin-block-start: var(--spacing-l);
 		img {
+			content-visibility: auto;
+			contain-intrinsic-size: 200px;
 			inline-size: min(100%, 320px);
 			block-size: auto;
 			object-fit: contain;
