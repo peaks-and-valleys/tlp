@@ -44,6 +44,9 @@
 
 			.menu-container {
 				inline-size: 160px;
+				position: sticky;
+				inset-block-start: 8px;
+				align-self: flex-start;
 			}
 		}
 	}
