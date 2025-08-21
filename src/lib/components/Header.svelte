@@ -15,7 +15,12 @@
 <style lang="scss">
 	header {
 		view-transition-name: header;
+		@media screen and (min-width: 1024px) {
+			position: sticky;
+			top: 0;
+		}
 	}
+	
 	.home-symbol {
 		display: flex;
 		justify-content: center;
