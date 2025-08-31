@@ -1,5 +1,5 @@
 ---
-title: "2025-08-13"
+title: "WIPと、Ableton Liveの画面キャプチャに意外と苦戦した話"
 description: "日記 2025-08-13"
 date: "2025-08-13"
 draft: false
@@ -9,18 +9,18 @@ draft: false
 
 以下の2曲は99%くらいできていて、一秒でも早く世に出したいのだが我慢している。
 
-<video controls>
+<video controls width="100%" preload="none">
     <source src="/images/blog/2025-08-13/wip-01.webm" type="video/webm" />
 </video>
 
-<video controls>
+<video controls width="100%" preload="none">
     <source src="/images/blog/2025-08-13/wip-02.webm" type="video/webm" />
 </video>
 
 制作からリリースまではどうしてもラグがあるのだが、どちらも年内にはフルで聴けるようになると思う。
 というか、そうする。
 
-### Ableton Live の音声あり動画キャプチャ
+### Ableton Liveの音声あり動画キャプチャ
 
 実は↑のキャプチャを作るのに1時間くらいかかった。
 ASIOドライバを使用していると、単にキャプチャツールを使っても音声が取れないことが分かった。
