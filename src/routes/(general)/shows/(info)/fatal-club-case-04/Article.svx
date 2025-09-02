@@ -1,0 +1,37 @@
+# FATAL CLUB [CASE 04]
+
+<img src="/images/shows/fatal-club-case-04/fatal-club-case-04.webp" alt="">
+
+## INFO
+
+- DATETIME: <time datetime="2025-10-25">2025/10/25</time> (Sat) 17:30 - 22:00
+- VENUE: <span translate="no">environment 0g</span> ([Access](https://nuthings.wordpress.com/access/)) ([Google Map](https://maps.app.goo.gl/VMmy3SsAJsS3zKUs9))
+- FEE: 3,000 JPY (including 1 drink fee)
+
+## LINEUP
+
+### LIVE / DJ
+
+- <span translate="no">Sage Hardware</span>
+- <span translate="no">Autopsy Protocol</span>
+- <span translate="no">SHaKa-iTCHi</span>
+- <span translate="no">SHITTY HUNTER2</span>
+- <span translate="no">Eulalie</span>
+- <span translate="no">アクセサリ</span>
+- <span translate="no">8oz_TSUKUE™</span>
+- <span translate="no">TohLPeaks</span>
+
+### VISUALS
+
+- <span translate="no">DRUGSTM</span>
+- <span translate="no">Dinkie Pie</span>
+- <span translate="no">ThaDabWizard</span>
+
+<style>
+    img {
+        margin-block-start: 16px;
+        inline-size: min(100%, 600px);
+        content-visibility: auto;
+        contain-intrinsic-size: 320px;
+    }
+</style>
