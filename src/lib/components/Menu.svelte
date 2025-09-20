@@ -83,7 +83,7 @@
 	.menu {
 		margin-block-start: var(--spacing-m);
 		margin-block-end: 0;
-		padding-inline: var(--spacing-xs);
+		padding-inline: var(--spacing-xxs);
 		padding-block: calc(var(--spacing-s) - var(--half-leading));
 
 		display: flex;
@@ -92,7 +92,7 @@
 		list-style: none;
 		column-gap: var(--spacing-xs);
 		row-gap: calc(var(--spacing-xs) - var(--half-leading));
-		justify-content: space-between;
+		justify-content: space-around;
 
 		border-block: 1px solid var(--darkgrey-3);
 		border-radius: 8px;
