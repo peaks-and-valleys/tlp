@@ -20,7 +20,7 @@
 			top: 0;
 		}
 	}
-	
+
 	.home-symbol {
 		display: flex;
 		justify-content: center;
