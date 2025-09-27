@@ -7,12 +7,14 @@
 - DATETIME: <time datetime="2025-10-25">2025/10/25</time> (Sat) 17:30 - 22:00
 - VENUE: <span translate="no">environment 0g</span> ([Access](https://nuthings.wordpress.com/access/)) ([Google Map](https://maps.app.goo.gl/VMmy3SsAJsS3zKUs9))
 - FEE: 3,000 JPY (including 1 drink fee)
+- [YouTube Playlist](https://www.youtube.com/playlist?list=PL7WUY26mCTAsuiLfXSP9bLPn_gaD8PLXd)
 
 ## LINEUP
 
 ### LIVE / DJ
 
 - <span translate="no">Sage Hardware</span>
+- <span translate="no">redHat</span>
 - <span translate="no">Autopsy Protocol</span>
 - <span translate="no">SHaKa-iTCHi</span>
 - <span translate="no">SHITTY HUNTER2</span>
