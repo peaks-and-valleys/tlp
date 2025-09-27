@@ -85,3 +85,11 @@ https://tohlpeaks.party
 
 私は2023年春に自身の企画・光合成でDJを始めました。同年夏に、友人のrundes とB2Bユニット・アクセサリを結成しました。私はブレイクコアやエクスペリメンタルといった電子音楽と管弦楽や聖歌、民俗音楽などのアコースティックな音源を独自の文脈でミックスしているように見えるかもしれませんが、実際は好きなものを好きなようにかけているだけです。
 
+<style>
+    img {
+        margin-block-start: 16px;
+        inline-size: min(100%, 600px);
+        content-visibility: auto;
+        contain-intrinsic-size: 320px;
+    }
+</style>
