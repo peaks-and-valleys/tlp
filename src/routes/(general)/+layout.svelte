@@ -23,11 +23,12 @@
 
 <style lang="scss">
 	.wrapper {
-		padding-block: 8px;
-		padding-inline: 16px;
+		padding-block: var(--spacing-xs);
+		padding-inline: var(--spacing-s);
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		min-height: 100vh;
 		min-height: 100dvh;
 	}
 

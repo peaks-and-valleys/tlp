@@ -13,12 +13,12 @@
 	--c-ac-primary: var(--darkblue-1);
 
 	// Spacing
-	--spacing-xxs: 4px;
-	--spacing-xs: 8px;
-	--spacing-s: 12px;
-	--spacing-m: 16px;
-	--spacing-l: 24px;
-	--spacing-xl: 32px;
+	--spacing-xxs: 8px;
+	--spacing-xs: 12px;
+	--spacing-s: 16px;
+	--spacing-m: 24px;
+	--spacing-l: 32px;
+	--spacing-xl: 40px;
 
 	// Utility
 	--half-leading: calc((1lh - 1em) / 2);
@@ -26,6 +26,6 @@
 
 	// ff: font family
 	--ff-sans-serif:
-		'Work Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
-		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+		'Work Sans', 'Helvetica Neue', 'Arial', 'BIZ UDGothic', 'Hiragino Kaku Gothic ProN',
+		'Hiragino Sans', 'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
 }

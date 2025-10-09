@@ -33,7 +33,7 @@
 <style>
 	hgroup {
 		p {
-			margin-block-start: calc(var(--spacing-xs) - var(--half-leading));
+			margin-block-start: calc(var(--spacing-s) - var(--half-leading));
 			font-size: 0.875rem;
 			color: var(--c-secondary);
 		}
