@@ -42,13 +42,17 @@
 			display: flex;
 			flex-direction: row;
 			gap: var(--spacing-l);
+		}
+	}
 
-			.menu-container {
-				inline-size: 128px;
-				position: sticky;
-				inset-block-start: 8px;
-				align-self: flex-start;
-			}
+	.menu-container {
+		view-transition-name: menu;
+
+		@media screen and (min-width: 1024px) {
+			inline-size: 128px;
+			position: sticky;
+			inset-block-start: var(--spacing-xs);
+			align-self: flex-start;
 		}
 	}
 
