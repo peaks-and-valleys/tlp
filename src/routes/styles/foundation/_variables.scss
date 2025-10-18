@@ -22,6 +22,13 @@
 
 	// Utility
 	--half-leading: calc((1lh - 1em) / 2);
+
+	@supports not (top: 1lh) {
+		:root {
+			--half-leading: 0px;
+		}
+	}
+
 	--scrollbar-gutter: calc(100vw - 100%);
 
 	// ff: font family
