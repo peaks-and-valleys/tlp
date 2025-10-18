@@ -103,21 +103,8 @@
 		}
 
 		a {
-			color: var(--c-primary);
 			font-size: 0.875rem;
 			text-decoration: none;
-
-			@media (any-hover) {
-				&:hover {
-					background-color: var(--c-ac-primary);
-					color: var(--lightgrey-1);
-					@media (prefers-reduced-motion: no-preference) {
-						transition:
-							color 200ms ease-in-out,
-							background-color 200ms ease-in-out;
-					}
-				}
-			}
 
 			&[aria-current='true'] {
 				background-color: var(--c-ac-primary);

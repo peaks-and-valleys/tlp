@@ -185,11 +185,10 @@
 		line-height: 0;
 
 		a {
-			color: var(--darkgrey-2);
 			text-decoration: none;
 			display: inline-block;
-			inline-size: 28px;
-			block-size: 28px;
+			margin: -4px;
+			padding: 4px;
 
 			&[rel~='external']::after {
 				content: '';
@@ -199,18 +198,6 @@
 				width: 100%;
 				height: 100%;
 				stroke-width: 1.5;
-			}
-
-			@media (any-hover) {
-				&:hover {
-					color: var(--lightgrey-1);
-					background-color: var(--c-ac-primary);
-					@media (prefers-reduced-motion: no-preference) {
-						transition:
-							color 200ms ease-in-out,
-							background-color 200ms ease-in-out;
-					}
-				}
 			}
 		}
 	}
