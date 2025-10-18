@@ -28,8 +28,8 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		min-height: 100vh;
-		min-height: 100dvh;
+		min-block-size: 100vh;
+		min-block-size: 100dvh;
 	}
 
 	.container {
@@ -41,14 +41,18 @@
 		@media screen and (min-width: 1024px) {
 			display: flex;
 			flex-direction: row;
-			gap: var(--spacing-m);
+			gap: var(--spacing-l);
+		}
+	}
 
-			.menu-container {
-				inline-size: 160px;
-				position: sticky;
-				inset-block-start: 8px;
-				align-self: flex-start;
-			}
+	.menu-container {
+		view-transition-name: menu;
+
+		@media screen and (min-width: 1024px) {
+			inline-size: 128px;
+			position: sticky;
+			inset-block-start: var(--spacing-xs);
+			align-self: flex-start;
 		}
 	}
 

@@ -99,25 +99,16 @@
 
 		@media screen and (min-width: 1024px) {
 			flex-direction: column;
-			align-items: center;
+			align-items: flex-start;
 		}
 
 		a {
-			color: var(--c-primary);
+			display: inline-block;
+			line-height: 1.333;
 			font-size: 0.875rem;
 			text-decoration: none;
-
-			@media (any-hover) {
-				&:hover {
-					background-color: var(--c-ac-primary);
-					color: var(--lightgrey-1);
-					@media (prefers-reduced-motion: no-preference) {
-						transition:
-							color 200ms ease-in-out,
-							background-color 200ms ease-in-out;
-					}
-				}
-			}
+			margin: -2px;
+			padding: 2px;
 
 			&[aria-current='true'] {
 				background-color: var(--c-ac-primary);
