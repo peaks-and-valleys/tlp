@@ -99,7 +99,7 @@
 
 		@media screen and (min-width: 1024px) {
 			flex-direction: column;
-			align-items: center;
+			align-items: flex-start;
 		}
 
 		a {
