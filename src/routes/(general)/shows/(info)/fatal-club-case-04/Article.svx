@@ -4,36 +4,134 @@
 
 ## INFO
 
-- DATETIME: <time datetime="2025-10-25">2025/10/25</time> (Sat) 17:30 - 22:00
-- VENUE: <span translate="no">environment 0g</span> ([Access](https://nuthings.wordpress.com/access/)) ([Google Map](https://maps.app.goo.gl/VMmy3SsAJsS3zKUs9))
-- FEE: 3,000 JPY (including 1 drink fee)
-- [YouTube Playlist](https://www.youtube.com/playlist?list=PL7WUY26mCTAsuiLfXSP9bLPn_gaD8PLXd)
+*こちらは [SAGE HARDWARE X EULALIE JAPAN TOUR](https://www.instagram.com/p/DNgE7EUREAX/) の一部として行われるイベントです。*
+
+- 日時：<time datetime="2025-10-25">2025/10/25</time> (土) 17:30 - 22:00
+- 会場：<span translate="no">environment 0g</span> ([Access](https://nuthings.wordpress.com/access/)) ([Google Map](https://maps.app.goo.gl/VMmy3SsAJsS3zKUs9))
+- チケット代：3,000円（1ドリンク料金込）
+- 出演者紹介プレイリスト：[YouTube Playlist](https://www.youtube.com/playlist?list=PL7WUY26mCTAsuiLfXSP9bLPn_gaD8PLXd)
 
 ## LINEUP
 
-### LIVE / DJ
+### <span translate="no">[Sage Hardware](https://www.instagram.com/sage.hardware/)</span>
 
-- <span translate="no">Sage Hardware</span>
-- <span translate="no">redHat</span>
-- <span translate="no">Autopsy Protocol</span>
-- <span translate="no">SHaKa-iTCHi</span>
-- <span translate="no">SHITTY HUNTER2</span>
-- <span translate="no">Eulalie</span>
-- <span translate="no">アクセサリ</span>
-- <span translate="no">8oz_TSUKUE™</span>
-- <span translate="no">TohLPeaks</span>
+<img src="/images/shows/fatal-club-case-04/sage-hardware.jpg" alt="">
+
+メリーランド州ボルチモア出身のSage Hardwareは、デジタルハードコア、ブレイクコア、シューゲイザー、
+ヴェイパーウェイヴ、サイバーグラインドといった要素を融合させ、真に独特なサウンドを生み出すアーティストです。
+ジャンルを越えた楽曲と、叫び声のようなブラックメタルボーカルと優しく幽玄なハーモニーを織り交ぜた
+幅広いボーカルレンジで知られています。
+
+<details lang="en-US">
+    <summary>Original Text</summary>
+    Sage Hardware, originating from Baltimore, MD is an artist who merges elements 
+    of digital hardcore, breakcore, shoegaze, vaporwave, and cybergrind, 
+    crafting a truly distinctive sound. He is known for his genre-blurring 
+    compositions and diverse vocal range, oscillating between shrieking black metal 
+    vocals and gentle, ghostly harmonies.
+</details>
+
+### <span translate="no">[redHat](https://www.instagram.com/redxhat/)</span>
+
+<img src="/images/shows/fatal-club-case-04/redhat.jpg" alt="">
+
+Philadelphia Breakcore (Never Died)
+
+### <span translate="no">[Autopsy Protocol](https://www.instagram.com/autopsyprotocol/)</span>
+
+<img src="/images/shows/fatal-club-case-04/autopsy-protocol.jpg" alt="">
+
+バルセロナ生まれ、大阪在住のプロデューサーAutopsy Protocolは1999年にキャリアを開始。ブレイクコア、ノイズ、DIYエレクトロ・グラインドを融合させ、Brain Infection、Otherman Records、Lost Frog、Day of the Droids、Peace Offなどのカルトレーベルからリリースを重ねてきた。さらに、自身が設立したコレクティブ／ネットレーベルDay of the Droidsの中心メンバーとしてシーンを牽引している。
+
+### <span translate="no">[SHaKa-iTCHi](https://www.instagram.com/shakaitchi/)</span>
+
+<img src="/images/shows/fatal-club-case-04/shaka-itchi.jpg" alt="">
+
+2000年代前半より関西を拠点に活動。ジャングルミュージック・パーティー「Amen Traffic」の主催や国内外数々のレーベルへの楽曲提供を通してJunglistとして知られる。
+
+2017年にはイギリスのRave musicの祭典「Bangface」に出演。2020年アメリカ西海岸のRagga Jungleレーベル「Sound So Fierce」より7inch バイナルをリリース。2025年、DJ Mixシリーズ「Code of Jah Vol.12」を発表。
+
+### <span translate="no">SHITTY HUNTER2</span>
+
+[kc](https://www.instagram.com/ke_shitty/) / [たつや](https://www.instagram.com/tjmttty/)
+
+<img src="/images/shows/fatal-club-case-04/shitty-hunter2.jpeg" alt="">
+
+ULTRA FUCKERSのDNAを受け継ぎ、大阪のアンダーグラウンドシーンで活動する浪花のゲットーハウスデュオ。
+
+### <span translate="no">[Eulalie](https://www.instagram.com/eulaliecat/)</span>
+
+<img src="/images/shows/fatal-club-case-04/eulalie.jpg" alt="">
+
+Eulalie(ユーラリ)は京都の電子音楽家。
+
+ボーカルや楽器演奏、ミックス、トラックメイクを自身で行い、柔らかさと内省的世界を融合させたエレクトロミュージックを創り出す。
+
+2022年にセルフリリースしたダブルシングル『Moaning at Reality』と『Craving for Dreams』の楽曲が英BBCをはじめとした様々なメディアで取り上げられる。そのほかにも様々な国のレーベルから楽曲をリリースし、イギリスやヨーロッパ、韓国などでライブツアーを行う。
+
+また、フランスのファッション誌Purple Magazineの企画に参加、インターネットを通じて国内外のアーティストと多数のコラボを重ねるなど、垣根を超えた様々な活動を行う。
+
+アンビエントに影響をうけた残響音像と柔らかなリズム、そして彷徨う思考と実存的な考察に基づいた歌詞を通して、Eulalieは時の流れや対話、体を取り巻く世界に溶け込んでいく感覚を探求する。
+
+### <span translate="no">アクセサリ</span>
+
+[rundes](https://www.instagram.com/_etwas_rundes_/) / [ug_server](https://www.instagram.com/ug_server)
+
+<img src="/images/shows/fatal-club-case-04/accesory.jpg" alt="">
+
+一昨年夏、神戸結成。
+
+無光沢かつicyな当該二人。
+
+主催企画「装」を不定期に開催。
+
+### <span translate="no">[8oz_TSUKUE™](https://www.instagram.com/8oz_desk/)</span>
+
+<img src="/images/shows/fatal-club-case-04/8oz_tsukue.jpg" alt="">
+
+2019年のVaporWave末期と言われた時にVaporwaveに魅了され、<br />
+Vaporwaveの良さをより多くの人に知ってもらうために<br />
+大阪を拠点にDJとコンポーザーを始めた🪴
+
+主なジャンルとして<br />
+Vaporwaveや<br />
+Vaporwaveのサブジャンルを主として<br />
+Future funk,Techno Zen,Frutiger Aero,Break Beats,<br />
+Hard Techno,UKG,Technoなど<br />
+幅広くDJプレイをしている
+
+作曲からPV,撮影なども自ら行っている
+
+最近のVibesはNintendo 3DSで<br />
+メモリーエリアという概念を撮影したり録画してコレクションしている🌿
+
+好きな絵文字は🪴🏡🌿らしく<br />
+本人曰く<br />
+豊平区民TOYOHIRAKUMINのアルバム<br />
+メモリーレーンの団地のイメージに合っている日常感が感じる為であるらしい
+
+皆さんにお会い出来るのを楽しみにしております🐠🌴🌦️
+
+### <span translate="no">[TohLPeaks](https://tohlpeaks.party)</span>
+
+<img src="/images/shows/fatal-club-case-04/tohlpeaks.jpg" alt="">
+
+主催、ついでになんかやります
 
 ### VISUALS
 
-- <span translate="no">DRUGSTM</span>
-- <span translate="no">Dinkie Pie</span>
-- <span translate="no">ThaDabWizard</span>
+[DRUGS™](https://www.instagram.com/drugstm_/)
+/ [Dinkie Pie](https://www.instagram.com/dinkiepie_/)
+/ [ThaDabWizard](https://www.instagram.com/thadabwizard/)
 
 <style>
     img {
         margin-block-start: 16px;
-        inline-size: min(100%, 600px);
+        inline-size: min(100%, 540px);
         content-visibility: auto;
         contain-intrinsic-size: 320px;
+    }
+    details {
+        font-size: 0.75rem;
     }
 </style>

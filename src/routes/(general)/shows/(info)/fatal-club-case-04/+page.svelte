@@ -10,6 +10,6 @@
 
 <HeadProperties {metadata} />
 
-<article>
+<article lang="ja">
 	<Article />
 </article>
