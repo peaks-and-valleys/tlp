@@ -177,7 +177,7 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: var(--spacing-s);
+		gap: var(--spacing-xs);
 		justify-content: space-around;
 		list-style: none;
 		padding: 0;

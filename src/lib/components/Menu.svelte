@@ -47,12 +47,12 @@
 			padding-block: calc(var(--spacing-xxs) - var(--half-leading));
 			margin-inline: auto;
 			inline-size: min(100%, 120px);
-			background-color: var(--lightgrey-2);
 			text-align: center;
 			color: var(--c-primary);
 			font-size: 0.75rem;
 			list-style: none;
-			border-radius: 2px;
+			border: 1px solid var(--darkgrey-3);
+			border-radius: 8px;
 
 			&::-webkit-details-marker {
 				display: none;

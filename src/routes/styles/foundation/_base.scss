@@ -127,9 +127,6 @@ a:not(:has(img)) {
 			text-decoration: none;
 			color: var(--lightgrey-1);
 			background-color: var(--c-ac-primary);
-			@media (prefers-reduced-motion: no-preference) {
-				transition: 200ms ease-in-out;
-			}
 		}
 	}
 
