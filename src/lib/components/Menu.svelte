@@ -95,7 +95,6 @@
 		justify-content: space-around;
 
 		border-block: 1px solid var(--darkgrey-3);
-		border-radius: 8px;
 
 		@media screen and (min-width: 1024px) {
 			flex-direction: column;

@@ -36,12 +36,12 @@
 		@media screen and (max-width: 1023.8px) {
 			display: flex;
 			flex-direction: column;
-			max-inline-size: 800px;
+			max-inline-size: 768px;
 		}
 		@media screen and (min-width: 1024px) {
 			display: flex;
 			flex-direction: row;
-			gap: var(--spacing-l);
+			gap: var(--spacing-m);
 		}
 	}
 
@@ -49,7 +49,7 @@
 		view-transition-name: menu;
 
 		@media screen and (min-width: 1024px) {
-			inline-size: 128px;
+			inline-size: 160px;
 			position: sticky;
 			inset-block-start: var(--spacing-xs);
 			align-self: flex-start;
@@ -63,7 +63,7 @@
 		flex-direction: column;
 
 		@media screen and (min-width: 1024px) {
-			inline-size: 800px;
+			inline-size: 768px;
 		}
 
 		main {

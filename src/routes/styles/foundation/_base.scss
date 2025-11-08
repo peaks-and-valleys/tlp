@@ -54,20 +54,23 @@
 		U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-body {
+html {
+	font-size: clamp(16px, round(down, 2.5vw, 1px), 18px);
 	line-height: 1.8;
-	padding-inline-start: var(--scrollbar-gutter);
-	margin: 0;
-	font-weight: 400;
-	color: var(--c-primary);
-	font-feature-settings: 'case';
 	text-underline-offset: calc(var(--half-leading) / 3);
 	overflow-wrap: anywhere;
 	line-break: strict;
-	background: var(--c-bg-primary);
 	font-family: var(--ff-sans-serif);
-	font-size: 16px;
 	letter-spacing: 0.005em;
+	font-weight: 400;
+}
+
+body {
+	padding-inline-start: var(--scrollbar-gutter);
+	margin: 0;
+	color: var(--c-primary);
+	font-feature-settings: 'case';
+	background: var(--c-bg-primary);
 }
 
 h1,

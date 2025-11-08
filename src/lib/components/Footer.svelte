@@ -26,7 +26,6 @@
 		padding: var(--spacing-s);
 		margin-block-start: var(--spacing-s);
 		border-block: 1px solid var(--darkgrey-3);
-		border-radius: 16px;
 
 		p {
 			margin-block-start: calc(var(--spacing-s) - var(--half-leading));
