@@ -99,6 +99,12 @@
 		@media screen and (min-width: 1024px) {
 			flex-direction: column;
 			align-items: flex-start;
+			li {
+				inline-size: 100%;
+				a {
+					inline-size: 100%;
+				}
+			}
 		}
 
 		a {
