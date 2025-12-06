@@ -40,6 +40,7 @@
 		"vitest": "^4.0.13"
 	},
 	"dependencies": {
+		"@fontsource/archivo": "^5.2.8",
 		"@fontsource/baskervville": "^5.2.9",
 		"@fontsource/work-sans": "^5.2.8",
 		"rehype-external-links": "^3.0.0"
