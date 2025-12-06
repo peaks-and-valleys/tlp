@@ -1,6 +1,10 @@
+<script lang="ts">
+    import Image from "$lib/components/atom/Image.svelte"
+</script>
+
 # FATAL CLUB [CASE 04]
 
-<img src="/images/shows/fatal-club-case-04/fatal-club-case-04.webp" alt="">
+<Image src="/images/shows/fatal-club-case-04/fatal-club-case-04.webp" />
 
 ## INFO
 
@@ -15,7 +19,7 @@
 
 ### <span translate="no">[Sage Hardware](https://www.instagram.com/sage.hardware/)</span>
 
-<img src="/images/shows/fatal-club-case-04/sage-hardware.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/sage-hardware.jpg" />
 
 メリーランド州ボルチモア出身のSage Hardwareは、デジタルハードコア、ブレイクコア、シューゲイザー、
 ヴェイパーウェイヴ、サイバーグラインドといった要素を融合させ、真に独特なサウンドを生み出すアーティストです。
@@ -33,7 +37,7 @@
 
 ### <span translate="no">[redHat](https://www.instagram.com/redxhat/)</span>
 
-<img src="/images/shows/fatal-club-case-04/redhat.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/redhat.jpg" />
 
 redHatは長年にわたりブレイクコアシーンの重鎮として活躍してきた。卓越したセンスとサウンドへの理解力だけでなく、幅広いレイブサウンドを融合させ、ひとつの巨大なブレンディングポットへと昇華させる驚異的な才能も持ち合わせており、同世代のアーティストからは「ブレイクコアのレジェンド」と呼ばれている。
 
@@ -48,13 +52,13 @@ redHatは長年にわたりブレイクコアシーンの重鎮として活躍�
 
 ### <span translate="no">[Autopsy Protocol](https://www.instagram.com/autopsyprotocol/)</span>
 
-<img src="/images/shows/fatal-club-case-04/autopsy-protocol.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/autopsy-protocol.jpg" />
 
 バルセロナ生まれ、大阪在住のプロデューサーAutopsy Protocolは1999年にキャリアを開始。ブレイクコア、ノイズ、DIYエレクトロ・グラインドを融合させ、Brain Infection、Otherman Records、Lost Frog、Day of the Droids、Peace Offなどのカルトレーベルからリリースを重ねてきた。さらに、自身が設立したコレクティブ／ネットレーベルDay of the Droidsの中心メンバーとしてシーンを牽引している。
 
 ### <span translate="no">[SHaKa-iTCHi](https://www.instagram.com/shakaitchi/)</span>
 
-<img src="/images/shows/fatal-club-case-04/shaka-itchi.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/shaka-itchi.jpg" />
 
 2000年代前半より関西を拠点に活動。ジャングルミュージック・パーティー「Amen Traffic」の主催や国内外数々のレーベルへの楽曲提供を通してJunglistとして知られる。
 
@@ -64,13 +68,13 @@ redHatは長年にわたりブレイクコアシーンの重鎮として活躍�
 
 [kc](https://www.instagram.com/ke_shitty/) / [たつや](https://www.instagram.com/tjmttty/)
 
-<img src="/images/shows/fatal-club-case-04/shitty-hunter2.jpeg" alt="">
+<Image src="/images/shows/fatal-club-case-04/shitty-hunter2.jpeg" />
 
 ULTRA FUCKERSのDNAを受け継ぎ、大阪のアンダーグラウンドシーンで活動する浪花のゲットーハウスデュオ。
 
 ### <span translate="no">[Eulalie](https://www.instagram.com/eulaliecat/)</span>
 
-<img src="/images/shows/fatal-club-case-04/eulalie.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/eulalie.jpg" />
 
 Eulalie(ユーラリ)は京都の電子音楽家。
 
@@ -86,7 +90,7 @@ Eulalie(ユーラリ)は京都の電子音楽家。
 
 [rundes](https://www.instagram.com/_etwas_rundes_/) / [ug_server](https://www.instagram.com/ug_server)
 
-<img src="/images/shows/fatal-club-case-04/accesory.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/accesory.jpg" />
 
 一昨年夏、神戸結成。
 
@@ -96,7 +100,7 @@ Eulalie(ユーラリ)は京都の電子音楽家。
 
 ### <span translate="no">[8oz_TSUKUE™](https://www.instagram.com/8oz_desk/)</span>
 
-<img src="/images/shows/fatal-club-case-04/8oz_tsukue.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/8oz_tsukue.jpg" />
 
 2019年のVaporWave末期と言われた時にVaporwaveに魅了され、<br />
 Vaporwaveの良さをより多くの人に知ってもらうために<br />
@@ -123,7 +127,7 @@ Hard Techno,UKG,Technoなど<br />
 
 ### <span translate="no">[TohLPeaks](https://tohlpeaks.party)</span>
 
-<img src="/images/shows/fatal-club-case-04/tohlpeaks.jpg" alt="">
+<Image src="/images/shows/fatal-club-case-04/tohlpeaks.jpg" />
 
 主催、ついでになんかやります
 
@@ -132,15 +136,3 @@ Hard Techno,UKG,Technoなど<br />
 [DRUGS™](https://www.instagram.com/drugstm_/)
 / [Dinkie Pie](https://www.instagram.com/dinkiepie_/)
 / [ThaDabWizard](https://www.instagram.com/thadabwizard/)
-
-<style>
-    img {
-        margin-block-start: 16px;
-        inline-size: min(100%, 540px);
-        content-visibility: auto;
-        contain-intrinsic-size: 320px;
-    }
-    details {
-        font-size: 0.75rem;
-    }
-</style>
