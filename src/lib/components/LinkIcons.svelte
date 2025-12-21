@@ -187,8 +187,8 @@
 		a {
 			text-decoration: none;
 			display: inline-block;
-			margin: -2px;
-			padding: 2px;
+			margin: -4px;
+			padding: 4px;
 
 			&[rel~='external']::after {
 				content: '';

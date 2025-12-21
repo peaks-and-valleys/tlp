@@ -87,6 +87,13 @@
 			li {
 				display: flex;
 				column-gap: var(--spacing-xxs);
+
+				a,
+				span {
+					line-height: 1.333;
+					margin: -4px;
+					padding: 4px;
+				}
 			}
 		}
 	}

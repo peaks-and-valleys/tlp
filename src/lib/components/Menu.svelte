@@ -112,8 +112,8 @@
 			line-height: 1.333;
 			font-size: 0.875rem;
 			text-decoration: none;
-			margin: -2px;
-			padding: 2px;
+			margin: -4px;
+			padding: 4px;
 
 			&[aria-current='true'] {
 				background-color: var(--c-ac-primary);
