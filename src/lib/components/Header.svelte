@@ -6,7 +6,7 @@
 <header>
 	<div class="home-symbol">
 		<a href="/" aria-label="Home" aria-current={page.url.pathname === '/' ? 'page' : undefined}>
-			<img src="/images/fatal-wovnd.svg" alt="FATAL WOVND" />
+			<img src="/images/fatal-wovnd.svg" alt="FATAL WOVND" fetchpriority="high" />
 		</a>
 	</div>
 	<Menu />

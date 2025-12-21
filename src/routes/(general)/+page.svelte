@@ -14,7 +14,7 @@
 </hgroup>
 
 <div class="logo">
-	<img src="/images/tlp.svg" alt="TohLPeaks" />
+	<img src="/images/tlp.svg" alt="TohLPeaks" fetchpriority="high" />
 </div>
 
 <style lang="scss">
