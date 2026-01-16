@@ -13,12 +13,12 @@
 	--c-ac-primary: var(--darkblue-1);
 
 	// Spacing
-	--spacing-xxs: 8px;
-	--spacing-xs: 12px;
-	--spacing-s: 16px;
-	--spacing-m: 24px;
-	--spacing-l: 32px;
-	--spacing-xl: 40px;
+	--spacing-unit: 0.5rem;
+	--spacing-xxs: var(--spacing-unit);
+	--spacing-xs: calc(var(--spacing-unit) * 1.5);
+	--spacing-s: calc(var(--spacing-unit) * 2);
+	--spacing-m: calc(var(--spacing-unit) * 3);
+	--spacing-l: calc(var(--spacing-unit) * 5);
 
 	// Utility
 	--half-leading: calc((1lh - 1em) / 2);

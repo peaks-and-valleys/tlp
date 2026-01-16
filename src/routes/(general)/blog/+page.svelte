@@ -44,7 +44,8 @@
 	.posts {
 		display: flex;
 		flex-direction: column;
-		gap: calc(var(--spacing-m) - var(--half-leading));
+		gap: calc(var(--spacing-s) - var(--half-leading));
+		margin-block-start: calc(var(--spacing-m) - var(--half-leading));
 	}
 
 	time {
