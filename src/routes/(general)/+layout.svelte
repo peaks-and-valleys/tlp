@@ -35,12 +35,12 @@
 		@media screen and (max-width: 1023.8px) {
 			display: flex;
 			flex-direction: column;
-			max-inline-size: 800px;
+			max-inline-size: 768px;
 		}
 		@media screen and (min-width: 1024px) {
 			display: flex;
 			flex-direction: row;
-			gap: 16px;
+			gap: 32px;
 		}
 	}
 
@@ -62,7 +62,7 @@
 		flex-direction: column;
 
 		@media screen and (min-width: 1024px) {
-			inline-size: 800px;
+			inline-size: 768px;
 		}
 
 		main {
