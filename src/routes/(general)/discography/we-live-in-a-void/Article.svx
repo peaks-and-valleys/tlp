@@ -1,0 +1,22 @@
+<script lang="ts">
+    import Image from "$lib/components/atom/Image.svelte"
+</script>
+
+# we live in a void
+
+<Image src="/images/discography/we-live-in-a-void/cover.jpg" />
+
+Released on 23rd January 2026 and includes 4 tracks.
+
+## Where to listen / download
+
+- [bandcamp](https://tohlpeaks.bandcamp.com/album/we-live-in-a-void) (album codes [here](https://drive.proton.me/urls/37KB6W1WF0#WiHtCKAO0ozp))
+- [SoundCloud](https://soundcloud.com/tohlpeaks/sets/we-live-in-a-void)
+- other platforms later
+
+## Tracklist
+
+1. incomprehensible void anthem
+2. miscounted
+3. industrial strength
+4. back to nowhere
