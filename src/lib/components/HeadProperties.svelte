@@ -3,8 +3,9 @@
 
 	let { metadata = {} }: { metadata?: Metadata } = $props();
 
-	const { fullTitle, description, canonicalUrl, contentLang, pageType } =
-		generateMetadata(metadata);
+	const { fullTitle, description, canonicalUrl, contentLang, pageType } = $derived(
+		generateMetadata(metadata)
+	);
 </script>
 
 <svelte:head>
