@@ -99,6 +99,7 @@
 		@media screen and (min-width: 1024px) {
 			flex-direction: column;
 			align-items: flex-start;
+			row-gap: calc(var(--spacing-s) - var(--half-leading));
 			li {
 				inline-size: 100%;
 				a {
@@ -118,6 +119,9 @@
 			&[aria-current='true'] {
 				background-color: var(--c-ac-primary);
 				color: var(--lightgrey-1);
+			}
+			@media screen and (min-width: 640px) {
+				font-size: 1rem;
 			}
 		}
 	}
