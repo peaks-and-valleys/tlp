@@ -14,9 +14,20 @@
 	};
 </script>
 
+<svelte:head>
+	<link
+		rel="alternate"
+		type="application/rss+xml"
+		title="FATAL WOVND [Blog]"
+		href="/blog/rss.xml"
+	/>
+</svelte:head>
+
 <HeadProperties {metadata} />
 
 <h1>Blog</h1>
+
+<a href="/blog/rss.xml" class="rss">RSS Feed</a>
 
 <ul class="posts">
 	{#if data.posts.length === 0}
@@ -41,6 +52,12 @@
 </aside>
 
 <style>
+	.rss {
+		font-size: 0.875rem;
+		display: inline-block;
+		margin-top: calc(var(--spacing-xxs) - var(--half-leading));
+	}
+
 	.posts {
 		display: flex;
 		flex-direction: column;
