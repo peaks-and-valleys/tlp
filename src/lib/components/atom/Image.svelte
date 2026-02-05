@@ -19,7 +19,7 @@
 	}: Props = $props();
 
 	const computedStyle = `
-		--margin-block-start-size: ${marginBlockStartPx ?? '16px'};
+		--margin-block-start-size: ${marginBlockStartPx ?? '1rem'};
         --max-inline-size: ${maxInlineSizePx ?? '600px'};
         --intrinsic-size: ${containIntrinsicSizePx ?? '320px'}
         ${style || ''}

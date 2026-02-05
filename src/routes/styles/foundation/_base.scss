@@ -1,81 +1,42 @@
+/* work-sans-latin-wght-normal */
 @font-face {
-	font-family: 'Work Sans';
+	font-family: 'Work Sans Variable';
 	font-style: normal;
 	font-display: swap;
-	font-weight: 400;
-	size-adjust: 108%;
-	src:
-		url(@fontsource/work-sans/files/work-sans-latin-400-normal.woff2) format('woff2'),
-		url(@fontsource/work-sans/files/work-sans-latin-400-normal.woff) format('woff');
+	font-weight: 100 900;
+	size-adjust: 110%;
+
+	src: url(@fontsource-variable/work-sans/files/work-sans-latin-wght-normal.woff2)
+		format('woff2-variations');
 	unicode-range:
 		U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
 		U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* work-sans-latin-ext-wght-normal */
 @font-face {
-	font-family: 'Work Sans';
+	font-family: 'Work Sans Variable';
 	font-style: normal;
 	font-display: swap;
-	font-weight: 600;
-	size-adjust: 108%;
-	src:
-		url(@fontsource/work-sans/files/work-sans-latin-600-normal.woff2) format('woff2'),
-		url(@fontsource/work-sans/files/work-sans-latin-600-normal.woff) format('woff');
+	font-weight: 100 900;
+	size-adjust: 110%;
+	src: url(@fontsource-variable/work-sans/files/work-sans-latin-ext-wght-normal.woff2)
+		format('woff2-variations');
 	unicode-range:
-		U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
-		U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-	font-family: 'Work Sans';
-	font-style: italic;
-	font-display: swap;
-	font-weight: 400;
-	size-adjust: 108%;
-	src:
-		url(@fontsource/work-sans/files/work-sans-latin-400-italic.woff2) format('woff2'),
-		url(@fontsource/work-sans/files/work-sans-latin-400-italic.woff) format('woff');
-	unicode-range:
-		U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
-		U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-	font-family: 'Work Sans';
-	font-style: italic;
-	font-display: swap;
-	font-weight: 600;
-	size-adjust: 108%;
-	src:
-		url(@fontsource/work-sans/files/work-sans-latin-600-italic.woff2) format('woff2'),
-		url(@fontsource/work-sans/files/work-sans-latin-600-italic.woff) format('woff');
-	unicode-range:
-		U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
-		U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-	font-family: 'Archivo';
-	font-style: normal;
-	font-display: swap;
-	font-weight: 600;
-	size-adjust: 108%;
-	src:
-		url(@fontsource/archivo/files/archivo-latin-600-normal.woff2) format('woff2'),
-		url(@fontsource/archivo/files/archivo-latin-600-normal.woff) format('woff');
-	unicode-range:
-		U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
-		U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329,
+		U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+		U+A720-A7FF;
 }
 
 html {
+	font-size: clamp(14px, round(down, 2.5vw, 2px), 16px); // 画面幅 640px で 16px に切り替え
 	line-height: 1.8;
 	text-underline-offset: calc(var(--half-leading) / 3);
 	overflow-wrap: anywhere;
 	line-break: strict;
 	font-family: var(--ff-sans-serif);
-	letter-spacing: 0.005em;
 	font-weight: 400;
+	font-variation-settings: 'wght' 400;
 }
 
 body {
@@ -94,15 +55,15 @@ h5,
 h6,
 strong {
 	font-weight: 600;
+	font-variation-settings: 'wght' 600;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	font-family: 'Archivo', var(--ff-sans-serif);
 	margin-block-start: calc(var(--spacing-l) - var(--half-leading));
-	letter-spacing: -0.01em;
+	letter-spacing: -0.012em;
 	text-wrap: wrap;
 	text-wrap: pretty;
 }
