@@ -4,13 +4,8 @@
 	--darkgrey-3: oklch(0.49 0.0072 276.84);
 	--lightgrey-1: oklch(0.94 0.0072 276.83);
 	--lightgrey-2: oklch(0.9 0.0072 276.83);
+	--lightgrey-3: oklch(0.82 0.0072 276.83);
 	--darkblue-1: oklch(0.32 0.14 276.83);
-
-	// c: color, bg: background, ac: accent
-	--c-primary: var(--darkgrey-1);
-	--c-secondary: var(--darkgrey-2);
-	--c-bg-primary: var(--lightgrey-1);
-	--c-ac-primary: var(--darkblue-1);
 
 	// Spacing
 	--spacing-unit: 0.5rem;
@@ -35,4 +30,24 @@
 	--ff-sans-serif:
 		'Work Sans Variable', 'Helvetica Neue', 'Arial', 'BIZ UDGothic', 'Hiragino Kaku Gothic ProN',
 		'Hiragino Sans', 'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+}
+
+[data-theme='light'] {
+	--c-primary: var(--darkgrey-1);
+	--c-secondary: var(--darkgrey-2);
+	--c-tertiary: var(--darkgrey-3);
+	--c-bg-primary: var(--lightgrey-1);
+	--c-bg-secondary: var(--lightgrey-2);
+	--c-ac-primary: var(--darkgrey-2);
+	--c-ac-fg-primary: var(--lightgrey-1);
+}
+
+[data-theme='dark'] {
+	--c-primary: var(--lightgrey-1);
+	--c-secondary: var(--lightgrey-2);
+	--c-tertiary: var(--lightgrey-3);
+	--c-bg-primary: var(--darkgrey-1);
+	--c-bg-secondary: var(--darkgrey-2);
+	--c-ac-primary: var(--lightgrey-2);
+	--c-ac-fg-primary: var(--darkgrey-1);
 }
