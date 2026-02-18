@@ -1,11 +1,12 @@
 <script lang="ts">
-	import type { Snippet } from 'svelte';
+	import { onMount, type Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
 	import './styles/app.scss';
 	import { onNavigate } from '$app/navigation';
 	import { pwaInfo } from 'virtual:pwa-info';
+	import { theme } from '$lib/utils/theme';
 
-	let { data, children }: { data: LayoutData; children: Snippet } = $props();
+	let { children }: { data: LayoutData; children: Snippet } = $props();
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -16,6 +17,11 @@
 				await navigation.complete;
 			});
 		});
+	});
+
+	onMount(() => {
+		// マウント時に現在のテーマを DOM に適用
+		document.documentElement.setAttribute('data-theme', $theme);
 	});
 
 	let webManifest = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : '');
