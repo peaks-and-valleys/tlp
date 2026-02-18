@@ -1,12 +1,16 @@
 <script lang="ts">
 	import Breadcrumbs from './Breadcrumbs.svelte';
 	import LinkIcons from './LinkIcons.svelte';
+	import ThemeToggle from './ThemeToggle.svelte';
 </script>
 
 <footer>
 	<Breadcrumbs />
 	<div class="content">
-		<LinkIcons />
+		<div class="submenu">
+			<ThemeToggle />
+			<LinkIcons />
+		</div>
 		<p>
 			All contents on this website are licensed under <a
 				href="https://creativecommons.org/licenses/by-sa/4.0/"
@@ -22,15 +26,23 @@
 		margin-block-start: var(--spacing-m);
 		view-transition-name: footer;
 	}
+
 	.content {
 		padding: var(--spacing-s);
 		margin-block-start: var(--spacing-s);
-		border-block: 1px solid var(--darkgrey-3);
+		border-block: 1px solid var(--c-tertiary);
 
 		p {
 			margin-block-start: calc(var(--spacing-s) - var(--half-leading));
 			font-size: 0.75rem;
 			color: var(--c-secondary);
 		}
+	}
+
+	.submenu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		column-gap: var(--spacing-xxs);
 	}
 </style>

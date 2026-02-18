@@ -51,7 +51,7 @@
 			color: var(--c-primary);
 			font-size: 0.75rem;
 			list-style: none;
-			border: 1px solid var(--darkgrey-3);
+			border: 1px solid var(--c-tertiary);
 			border-radius: 8px;
 
 			&::-webkit-details-marker {
@@ -94,7 +94,7 @@
 		row-gap: calc(var(--spacing-xs) - var(--half-leading));
 		justify-content: space-around;
 
-		border-block: 1px solid var(--darkgrey-3);
+		border-block: 1px solid var(--c-tertiary);
 
 		@media screen and (min-width: 1024px) {
 			flex-direction: column;
@@ -118,7 +118,7 @@
 
 			&[aria-current='true'] {
 				background-color: var(--c-ac-primary);
-				color: var(--lightgrey-1);
+				color: var(--c-ac-fg-primary);
 			}
 			@media screen and (min-width: 640px) {
 				font-size: 1rem;

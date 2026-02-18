@@ -164,6 +164,7 @@
 	.wrapper {
 		display: flex;
 		justify-content: center;
+		max-inline-size: 75%;
 	}
 
 	.content {
@@ -171,7 +172,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: var(--spacing-s);
-		justify-content: space-around;
+		justify-content: flex-end;
 		list-style: none;
 		padding: 0;
 		margin: 0;
