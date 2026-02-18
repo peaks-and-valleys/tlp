@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { theme, toggleTheme } from '$lib/utils/theme';
+	import type { HTMLButtonAttributes } from 'svelte/elements';
+
+	let props: HTMLButtonAttributes = $props();
 </script>
 
-<button onclick={toggleTheme} aria-label="Change color scheme">
+<button onclick={toggleTheme} aria-label="Change color scheme" {...props}>
 	{#if $theme === 'light'}
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
