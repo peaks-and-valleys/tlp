@@ -8,10 +8,8 @@
 	<Breadcrumbs />
 	<div class="content">
 		<div class="submenu">
-					<ThemeToggle />
-
-		<LinkIcons />
-
+			<ThemeToggle />
+			<LinkIcons />
 		</div>
 		<p>
 			All contents on this website are licensed under <a
@@ -45,5 +43,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		column-gap: var(--spacing-xxs);
 	}
 </style>
