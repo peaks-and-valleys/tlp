@@ -12,7 +12,7 @@
 			<LinkIcons />
 		</div>
 		<p>
-			All contents on this website are licensed under <a
+			All texts on this website are licensed under <a
 				href="https://creativecommons.org/licenses/by-sa/4.0/"
 				rel="external noopener noreferrer"
 				translate="no">CC BY-SA 4.0</a
@@ -24,13 +24,11 @@
 <style lang="scss">
 	footer {
 		margin-block-start: var(--spacing-m);
-		view-transition-name: footer;
+		border-block-start: 1px solid var(--c-tertiary);
 	}
 
 	.content {
-		padding: var(--spacing-s);
 		margin-block-start: var(--spacing-s);
-		border-block: 1px solid var(--c-tertiary);
 
 		p {
 			margin-block-start: calc(var(--spacing-s) - var(--half-leading));

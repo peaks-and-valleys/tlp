@@ -171,7 +171,7 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: var(--spacing-s);
+		gap: var(--spacing-xs);
 		justify-content: flex-end;
 		list-style: none;
 		padding: 0;
@@ -181,8 +181,8 @@
 		a {
 			text-decoration: none;
 			display: inline-block;
-			margin: -0.25rem;
-			padding: 0.25rem;
+			margin: -4px;
+			padding: 4px;
 
 			&[rel~='external']::after {
 				content: '';
