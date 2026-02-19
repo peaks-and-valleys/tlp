@@ -24,6 +24,7 @@
 <style lang="scss">
 	.wrapper {
 		padding: 16px;
+		padding-block-end: 24px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -35,6 +36,7 @@
 		@media screen and (max-width: 1023.8px) {
 			display: flex;
 			flex-direction: column;
+			inline-size: 100%;
 			max-inline-size: 768px;
 		}
 		@media screen and (min-width: 1024px) {
