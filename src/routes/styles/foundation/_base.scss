@@ -28,7 +28,6 @@
 }
 
 html {
-	font-size: clamp(14px, round(down, 2.5vw, 2px), 16px); // 画面幅 640px で 16px に切り替え
 	line-height: 1.8;
 	text-underline-offset: calc(var(--half-leading) / 3);
 	overflow-wrap: anywhere;
@@ -37,10 +36,10 @@ html {
 	font-weight: 400;
 	font-variation-settings: 'wght' 400;
 	color-scheme: light dark;
+	scrollbar-gutter: stable;
 }
 
 body {
-	padding-inline-start: var(--scrollbar-gutter);
 	margin: 0;
 	color: var(--c-primary);
 	font-feature-settings: 'case';
