@@ -16,6 +16,11 @@
 				>
 			</li>
 			<li>
+				<a href="/news" aria-current={page.url.pathname.startsWith('/news') ? 'true' : undefined}
+					>News</a
+				>
+			</li>
+			<li>
 				<a
 					href="/discography"
 					aria-current={page.url.pathname.startsWith('/discography') ? 'true' : undefined}
@@ -25,11 +30,6 @@
 			<li>
 				<a href="/shows" aria-current={page.url.pathname.startsWith('/shows') ? 'true' : undefined}
 					>Shows</a
-				>
-			</li>
-			<li>
-				<a href="/blog" aria-current={page.url.pathname.startsWith('/blog') ? 'true' : undefined}
-					>Blog</a
 				>
 			</li>
 			<li>
@@ -83,7 +83,7 @@
 	.menu {
 		margin-block-start: var(--spacing-m);
 		margin-block-end: 0;
-		padding-inline: var(--spacing-xxs);
+		padding-inline: 0;
 		padding-block: calc(var(--spacing-s) - var(--half-leading));
 
 		display: flex;
@@ -113,8 +113,9 @@
 			line-height: 1.333;
 			font-size: 0.875rem;
 			text-decoration: none;
-			margin: -4px;
-			padding: 4px;
+			margin-block: -4px;
+			padding-block: 4px;
+			text-transform: uppercase;
 
 			&[aria-current='true'] {
 				background-color: var(--c-ac-primary);
