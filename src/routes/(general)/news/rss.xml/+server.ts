@@ -69,7 +69,7 @@ function createItemElement(post: BlogPost, baseUrl: string): string {
         <title>${escapeXml(post.title)}</title>
         <description>${escapeXml(post.description)}</description>
         <link>${link}</link>
-        <guid isPermaLink="true">${link}</guid>
+        <guid isPermaLink="false">news/${post.slug}</guid>
         <pubDate>${new Date(post.date).toUTCString()}</pubDate>
         <category>News</category>
     </item>`;
