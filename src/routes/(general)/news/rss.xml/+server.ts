@@ -48,9 +48,9 @@ function extractSlugFromPath(path: string): string | null {
 function generateRss(posts: BlogPost[]): string {
 	const baseUrl = 'https://tohlpeaks.party';
 	const channelData = {
-		title: 'FATAL WOVND [Blog]',
-		link: `${baseUrl}/blog`,
-		description: 'Blog posts by TohLPeaks',
+		title: 'FATAL WOVND [NEWS]',
+		link: `${baseUrl}/news`,
+		description: 'FATAL WOVND, by TohLPeaks',
 		language: 'ja',
 		copyright: 'Creative Commons Attribution-ShareAlike 4.0 International'
 	};
@@ -63,7 +63,7 @@ function generateRss(posts: BlogPost[]): string {
 }
 
 function createItemElement(post: BlogPost, baseUrl: string): string {
-	const link = `${baseUrl}/blog/${post.slug}`;
+	const link = `${baseUrl}/news/${post.slug}`;
 	return `
     <item>
         <title>${escapeXml(post.title)}</title>
@@ -71,7 +71,7 @@ function createItemElement(post: BlogPost, baseUrl: string): string {
         <link>${link}</link>
         <guid isPermaLink="true">${link}</guid>
         <pubDate>${new Date(post.date).toUTCString()}</pubDate>
-        <category>Blog</category>
+        <category>News</category>
     </item>`;
 }
 

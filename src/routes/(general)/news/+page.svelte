@@ -18,14 +18,14 @@
 	<link
 		rel="alternate"
 		type="application/rss+xml"
-		title="FATAL WOVND [Blog]"
+		title="FATAL WOVND [NEWS/BLOG]"
 		href="/blog/rss.xml"
 	/>
 </svelte:head>
 
 <HeadProperties {metadata} />
 
-<h1>Blog</h1>
+<h1>News</h1>
 
 <a href="/blog/rss.xml" class="rss">RSS Feed</a>
 
@@ -37,7 +37,7 @@
 		<li class="post">
 			<article lang="ja">
 				<span role="heading" aria-level="2">
-					<a href="/blog/{post.slug}">
+					<a href="/news/{post.slug}">
 						{post.title}
 					</a>
 				</span>
@@ -51,7 +51,7 @@
 	<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Past Archive</a>
 </aside>
 
-<style>
+<style>	
 	.rss {
 		font-size: 0.875rem;
 		display: inline-block;

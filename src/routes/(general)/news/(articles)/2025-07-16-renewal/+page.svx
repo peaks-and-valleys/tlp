@@ -2,7 +2,7 @@
 title: "tohlpeaks.party リニューアル"
 description: "こんなことをしている場合ではない"
 date: "2025-07-16"
-draft: false
+draft: true
 ---
 
 ## リニューアルした
