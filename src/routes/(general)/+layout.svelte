@@ -47,8 +47,6 @@
 	}
 
 	.menu-container {
-		view-transition-name: menu;
-
 		@media screen and (min-width: 1024px) {
 			inline-size: 160px;
 			position: sticky;
