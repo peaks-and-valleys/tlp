@@ -23,7 +23,7 @@
 
 <style lang="scss">
 	footer {
-		margin-block-start: var(--spacing-m);
+		margin-block-start: var(--spacing-l);
 		border-block-start: 1px solid var(--c-tertiary);
 	}
 
