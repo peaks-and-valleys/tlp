@@ -9,8 +9,8 @@
 	const { data }: Props = $props();
 
 	const metadata = {
-		pageTitle: 'Blog',
-		description: 'Article list'
+		pageTitle: 'News',
+		description: 'News Article list'
 	};
 </script>
 
@@ -19,7 +19,7 @@
 		rel="alternate"
 		type="application/rss+xml"
 		title="FATAL WOVND [NEWS/BLOG]"
-		href="/blog/rss.xml"
+		href="/news/rss.xml"
 	/>
 </svelte:head>
 
@@ -27,7 +27,7 @@
 
 <h1>News</h1>
 
-<a href="/blog/rss.xml" class="rss">RSS Feed</a>
+<a href="/news/rss.xml" class="rss">RSS Feed</a>
 
 <ul class="posts">
 	{#if data.posts.length === 0}
