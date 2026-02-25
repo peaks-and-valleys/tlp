@@ -5,7 +5,12 @@
 		aria-label="External links to content distrubution platforms, shops, and social media"
 	>
 		<li>
-			<a href="https://tohlpeaks.bandcamp.com/" rel="external  noreferrer" aria-label="Bandcamp">
+			<a
+				href="https://tohlpeaks.bandcamp.com/"
+				rel="external noopener noreferrer"
+				target="_blank"
+				aria-label="Bandcamp"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -27,7 +32,8 @@
 		<li>
 			<a
 				href="https://shop.tohlpeaks.party/"
-				rel="external  noreferrer"
+				rel="external noopener noreferrer"
+				target="_blank"
 				aria-label="Merchandise Shop"
 			>
 				<svg
@@ -49,7 +55,12 @@
 			</a>
 		</li>
 		<li>
-			<a href="https://soundcloud.com/tohlpeaks" rel="external  noreferrer" aria-label="SoundCloud">
+			<a
+				href="https://soundcloud.com/tohlpeaks"
+				rel="external noopener noreferrer"
+				target="_blank"
+				aria-label="SoundCloud"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -69,7 +80,12 @@
 			</a>
 		</li>
 		<li>
-			<a href="https://www.youtube.com/@tohlpeaks" rel="external  noreferrer" aria-label="YouTube">
+			<a
+				href="https://www.youtube.com/@tohlpeaks"
+				rel="external noopener noreferrer"
+				target="_blank"
+				aria-label="YouTube"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -91,7 +107,8 @@
 		<li>
 			<a
 				href="https://bsky.app/profile/tohlpeaks.party"
-				rel="external  noreferrer"
+				rel="external noopener noreferrer"
+				target="_blank"
 				aria-label="Bluesky"
 			>
 				<svg
@@ -113,7 +130,12 @@
 			</a>
 		</li>
 		<li>
-			<a href="https://x.com/tohlpeaks" rel="external  noreferrer" aria-label="X (Twitter)">
+			<a
+				href="https://x.com/tohlpeaks"
+				rel="external noopener noreferrer"
+				target="_blank"
+				aria-label="X (Twitter)"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -136,7 +158,8 @@
 		<li>
 			<a
 				href="https://www.instagram.com/tohlpeaks"
-				rel="external  noreferrer"
+				rel="external noopener noreferrer"
+				target="_blank"
 				aria-label="Instagram"
 			>
 				<svg
