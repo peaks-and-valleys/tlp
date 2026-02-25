@@ -5,7 +5,7 @@ date: "2025-06-04"
 draft: false
 ---
 
-<img src="/images/blog/as-i-said-before/as-i-said-before.jpg" alt="">
+<img src="/images/news/as-i-said-before/as-i-said-before.jpg" alt="">
 
 ## トラックリスト
 
@@ -77,6 +77,6 @@ AI生成だったりインターネットに落ちてたりしたテクスチャ
 タイトル文字に使ったフォントは[Sprat](https://www.collletttivo.it/typefaces/sprat)。
 
 <video controls width="100%" preload="none">
-    <source src="/images/blog/as-i-said-before/aisb-artwork-process.webm" type="video/webm">
-    <source src="/images/blog/as-i-said-before/aisb-artwork-process.mp4" type="video/mp4">
+    <source src="/images/news/as-i-said-before/aisb-artwork-process.webm" type="video/webm">
+    <source src="/images/news/as-i-said-before/aisb-artwork-process.mp4" type="video/mp4">
 </video>

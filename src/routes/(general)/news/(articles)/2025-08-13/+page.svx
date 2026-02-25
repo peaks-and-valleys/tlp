@@ -7,15 +7,10 @@ draft: false
 
 ## WIP （ほぼ完成）
 
-以下の2曲は99%くらいできていて、一秒でも早く世に出したいのだが我慢している。
-
 <video controls width="100%" preload="none">
-    <source src="/images/blog/2025-08-13/wip-01.webm" type="video/webm" />
+    <source src="/images/news/2025-08-13/wip-01.webm" type="video/webm" />
 </video>
 
 <video controls width="100%" preload="none">
-    <source src="/images/blog/2025-08-13/wip-02.webm" type="video/webm" />
+    <source src="/images/news/2025-08-13/wip-02.webm" type="video/webm" />
 </video>
-
-制作からリリースまではどうしてもラグがあるのだが、どちらも年内にはフルで聴けるようになると思う。
-というか、そうする。
