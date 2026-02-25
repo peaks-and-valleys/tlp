@@ -6,7 +6,21 @@ import rehypeExternalLinks from 'rehype-external-links';
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.svx'],
-	rehypePlugins: [[rehypeExternalLinks, { rel: 'external noopener noreferrer' }]]
+	smartypants: {
+		quotes: true,
+		ellipses: true,
+		dashes: 'oldschool'
+	},
+
+	rehypePlugins: [
+		[
+			rehypeExternalLinks,
+			{
+				target: '_blank',
+				rel: ['noopener', 'noreferrer', 'external']
+			}
+		]
+	]
 };
 
 /** @type {import('@sveltejs/kit').Config} */
