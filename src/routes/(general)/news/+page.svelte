@@ -51,7 +51,7 @@
 	<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Past Archive</a>
 </aside>
 
-<style>	
+<style>
 	.rss {
 		font-size: 0.875rem;
 		display: inline-block;
