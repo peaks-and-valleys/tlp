@@ -55,11 +55,11 @@
 		display: flex;
 		justify-content: center;
 		a {
-			inline-size: clamp(64px, 25%, 96px);
+			inline-size: clamp(4rem, 25%, 6rem);
 			block-size: auto;
 
 			@media screen and (min-width: 1024px) {
-				inline-size: 96px;
+				inline-size: 6rem;
 			}
 
 			@media (any-hover) {
