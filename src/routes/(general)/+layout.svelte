@@ -23,8 +23,7 @@
 
 <style lang="scss">
 	.wrapper {
-		padding: 16px;
-		padding-block-end: 24px;
+		padding: 24px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -50,7 +49,6 @@
 		@media screen and (min-width: 1024px) {
 			inline-size: 10rem;
 			position: sticky;
-			inset-block-start: var(--spacing-xs);
 			align-self: flex-start;
 		}
 	}
