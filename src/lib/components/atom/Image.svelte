@@ -2,9 +2,9 @@
 	import type { HTMLImgAttributes } from 'svelte/elements';
 
 	interface Props extends HTMLImgAttributes {
-		marginBlockStartPx?: string;
-		maxInlineSizePx?: string;
-		containIntrinsicSizePx?: string;
+		marginBlockStart?: string;
+		maxInlineSize?: string;
+		containIntrinsicSize?: string;
 	}
 
 	let {
@@ -12,16 +12,16 @@
 		alt,
 		class: className,
 		style,
-		marginBlockStartPx,
-		maxInlineSizePx,
-		containIntrinsicSizePx,
+		marginBlockStart,
+		maxInlineSize,
+		containIntrinsicSize,
 		...restProps
 	}: Props = $props();
 
 	const computedStyle = `
-		--margin-block-start-size: ${marginBlockStartPx ?? '1rem'};
-        --max-inline-size: ${maxInlineSizePx ?? '600px'};
-        --intrinsic-size: ${containIntrinsicSizePx ?? '320px'}
+		--margin-block-start-size: ${marginBlockStart ?? '1.5rem'};
+        --max-inline-size: ${maxInlineSize ?? '35rem'};
+        --intrinsic-size: ${containIntrinsicSize ?? '20rem'}
         ${style || ''}
     `;
 </script>
