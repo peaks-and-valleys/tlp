@@ -15,7 +15,6 @@
 		"test": "npm run test:unit -- --run"
 	},
 	"devDependencies": {
-		"@csstools/postcss-oklab-function": "^5.0.1",
 		"@eslint/compat": "^2.0.2",
 		"@eslint/js": "^10.0.1",
 		"@sveltejs/adapter-cloudflare": "^7.2.8",

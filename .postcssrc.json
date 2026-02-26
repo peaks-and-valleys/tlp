@@ -1,6 +1,5 @@
 {
 	"plugins": {
-		"autoprefixer": {},
-		"@csstools/postcss-oklab-function": { "preserve": true }
+		"autoprefixer": {}
 	}
 }

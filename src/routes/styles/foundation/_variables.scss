@@ -1,11 +1,10 @@
 :root {
-	--darkgrey-1: oklch(0.28 0.0072 276.84);
-	--darkgrey-2: oklch(0.35 0.0072 276.84);
-	--darkgrey-3: oklch(0.47 0.0072 276.84);
-	--lightgrey-1: oklch(0.93 0.0072 276.83);
-	--lightgrey-2: oklch(0.88 0.0072 276.83);
-	--lightgrey-3: oklch(0.82 0.0072 276.83);
-	--darkblue-1: oklch(0.32 0.14 276.83);
+	--darkgrey-1: #25252a;
+	--darkgrey-2: #3a3a3f;
+	--darkgrey-3: #5a5a5f;
+	--lightgrey-1: #e5e5ea;
+	--lightgrey-2: #d5d5da;
+	--lightgrey-3: #c5c5ca;
 
 	// Spacing
 	--spacing-unit: 0.5rem;
