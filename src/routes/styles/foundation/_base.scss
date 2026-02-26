@@ -76,7 +76,7 @@ h3 + h4 {
 h1 {
 	font-size: 1.875rem;
 	@media screen and (min-width: 1024px) {
-		margin-block-start: calc(var(--spacing-s) - var(--half-leading));
+		margin-block-start: 0;
 	}
 }
 
