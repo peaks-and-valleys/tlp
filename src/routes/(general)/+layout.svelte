@@ -32,13 +32,13 @@
 	}
 
 	.container {
-		@media screen and (max-width: 1023.8px) {
+		@media screen and (max-width: calc(64rem - 0.2px)) {
 			display: flex;
 			flex-direction: column;
 			inline-size: 100%;
 			max-inline-size: 45rem;
 		}
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 64rem) {
 			display: flex;
 			flex-direction: row;
 			gap: 2.5rem;
@@ -46,7 +46,7 @@
 	}
 
 	.menu-container {
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 64rem) {
 			inline-size: 10rem;
 			position: sticky;
 			align-self: flex-start;
@@ -59,7 +59,7 @@
 		display: flex;
 		flex-direction: column;
 
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 64rem) {
 			inline-size: 45rem;
 		}
 

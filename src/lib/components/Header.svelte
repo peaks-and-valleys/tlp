@@ -58,7 +58,7 @@
 			inline-size: clamp(4rem, 25%, 6rem);
 			block-size: auto;
 
-			@media screen and (min-width: 1024px) {
+			@media screen and (min-width: 64rem) {
 				inline-size: 6rem;
 			}
 

@@ -1,11 +1,21 @@
 <script lang="ts">
 	import { page } from '$app/state';
 
-	let innerWidth = $state(0);
-	let isOpen = $derived(innerWidth >= 640);
-</script>
+	let isOpen = $state(false);
 
-<svelte:window bind:innerWidth />
+	$effect(() => {
+		const mql = window.matchMedia('(min-width: 40rem)');
+
+		isOpen = mql.matches;
+
+		const handler = (e: MediaQueryListEvent) => {
+			isOpen = e.matches;
+		};
+
+		mql.addEventListener('change', handler);
+		return () => mql.removeEventListener('change', handler);
+	});
+</script>
 
 <nav aria-label="Main navigation">
 	<details bind:open={isOpen}>
@@ -65,7 +75,7 @@
 				margin-inline: 0.5rem;
 			}
 
-			@media screen and (min-width: 640px) {
+			@media screen and (min-width: 40rem) {
 				display: none;
 			}
 		}
@@ -96,7 +106,7 @@
 
 		border-block: 1px solid var(--c-tertiary);
 
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 64rem) {
 			flex-direction: column;
 			align-items: flex-start;
 			row-gap: calc(var(--spacing-s) - var(--half-leading));
@@ -121,7 +131,7 @@
 				background-color: var(--c-ac-primary);
 				color: var(--c-ac-fg-primary);
 			}
-			@media screen and (min-width: 640px) {
+			@media screen and (min-width: 40rem) {
 				font-size: 1rem;
 			}
 		}
