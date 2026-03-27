@@ -11,12 +11,12 @@
 		// マウント時に現在のテーマを DOM に適用
 		document.documentElement.setAttribute('data-theme', $theme);
 	});
-
-	let webManifest = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : '');
 </script>
 
 <svelte:head>
-	{@html webManifest}
+	{#if pwaInfo}
+		<link rel="manifest" href={pwaInfo.webManifest.href} />
+	{/if}
 </svelte:head>
 
 {@render children()}
