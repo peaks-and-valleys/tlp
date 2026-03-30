@@ -47,10 +47,6 @@
 	{/each}
 </ul>
 
-<aside>
-	<a href="https://log.tohlpeaks.party/" rel="external me noopener noreferrer">Past Archive</a>
-</aside>
-
 <style>
 	.rss {
 		font-size: 0.875rem;
@@ -62,16 +58,12 @@
 		display: flex;
 		flex-direction: column;
 		gap: calc(var(--spacing-s) - var(--half-leading));
-		margin-block-start: calc(var(--spacing-m) - var(--half-leading));
+		margin-block-start: calc(var(--spacing-l) - var(--half-leading));
 	}
 
 	time {
 		color: var(--c-secondary);
 		font-size: 0.875rem;
-	}
-
-	aside {
-		margin-top: calc(var(--spacing-l) - var(--half-leading));
-		font-size: 0.75rem;
+		margin-inline-start: var(--spacing-xxs);
 	}
 </style>

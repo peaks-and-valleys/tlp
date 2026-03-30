@@ -1,10 +1,10 @@
 :root {
-	--darkgrey-1: #25252a;
-	--darkgrey-2: #3a3a3f;
-	--darkgrey-3: #5a5a5f;
-	--lightgrey-1: #e5e5ea;
-	--lightgrey-2: #d5d5da;
-	--lightgrey-3: #c5c5ca;
+	--darkgrey-1: #1a1c1f;
+	--darkgrey-2: #2a2c2f;
+	--darkgrey-3: #3a3c3f;
+	--lightgrey-1: #e0e2e5;
+	--lightgrey-2: #d0d2d5;
+	--lightgrey-3: #c0c2c5;
 
 	// Spacing
 	--spacing-unit: 0.5rem;
@@ -13,6 +13,7 @@
 	--spacing-s: calc(var(--spacing-unit) * 2);
 	--spacing-m: calc(var(--spacing-unit) * 3);
 	--spacing-l: calc(var(--spacing-unit) * 5);
+	--spacing-xl: calc(var(--spacing-unit) * 8);
 
 	// Utility
 	--half-leading: calc((1lh - 1em) / 2);
@@ -27,8 +28,8 @@
 
 	// ff: font family
 	--ff-sans-serif:
-		'Work Sans Variable', 'Helvetica Neue', 'Arial', 'BIZ UDGothic', 'Hiragino Kaku Gothic ProN',
-		'Hiragino Sans', 'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+		'Work Sans Variable', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
 }
 
 [data-theme='light'] {
