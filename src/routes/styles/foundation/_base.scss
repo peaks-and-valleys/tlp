@@ -37,6 +37,11 @@ html {
 	font-variation-settings: 'wght' 400;
 	color-scheme: light dark;
 	scrollbar-gutter: stable both-edges;
+	font-size: 100%;
+
+	@media screen and (min-width: 80rem) {
+		font-size: 112.5%;
+	}
 }
 
 body {
