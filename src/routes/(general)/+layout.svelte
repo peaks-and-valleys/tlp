@@ -36,7 +36,7 @@
 			display: flex;
 			flex-direction: column;
 			inline-size: 100%;
-			max-inline-size: 45rem;
+			max-inline-size: 42rem;
 		}
 		@media screen and (min-width: 64rem) {
 			display: flex;
@@ -50,6 +50,7 @@
 			inline-size: 10rem;
 			position: sticky;
 			align-self: flex-start;
+			inset-block-start: 24px;
 		}
 	}
 
@@ -60,7 +61,7 @@
 		flex-direction: column;
 
 		@media screen and (min-width: 64rem) {
-			inline-size: 45rem;
+			inline-size: 42rem;
 		}
 
 		main {
