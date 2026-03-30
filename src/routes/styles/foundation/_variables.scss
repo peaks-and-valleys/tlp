@@ -13,6 +13,7 @@
 	--spacing-s: calc(var(--spacing-unit) * 2);
 	--spacing-m: calc(var(--spacing-unit) * 3);
 	--spacing-l: calc(var(--spacing-unit) * 5);
+	--spacing-xl: calc(var(--spacing-unit) * 8);
 
 	// Utility
 	--half-leading: calc((1lh - 1em) / 2);
@@ -27,8 +28,8 @@
 
 	// ff: font family
 	--ff-sans-serif:
-		'Work Sans Variable', 'Helvetica Neue', 'Arial', 'BIZ UDGothic', 'Hiragino Kaku Gothic ProN',
-		'Hiragino Sans', 'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+		'Work Sans Variable', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
 }
 
 [data-theme='light'] {
