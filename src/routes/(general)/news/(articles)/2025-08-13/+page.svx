@@ -1,0 +1,16 @@
+---
+title: "WIP"
+description: "日記 2025-08-13"
+date: "2025-08-13"
+draft: false
+---
+
+## WIP （ほぼ完成）
+
+<video controls width="100%" preload="none">
+    <source src="/images/news/2025-08-13/wip-01.webm" type="video/webm" />
+</video>
+
+<video controls width="100%" preload="none">
+    <source src="/images/news/2025-08-13/wip-02.webm" type="video/webm" />
+</video>
