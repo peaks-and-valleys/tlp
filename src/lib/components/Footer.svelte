@@ -32,7 +32,7 @@
 
 		p {
 			margin-block-start: calc(var(--spacing-s) - var(--half-leading));
-			font-size: 0.75rem;
+			font-size: var(--text-xs);
 			color: var(--c-secondary);
 		}
 	}

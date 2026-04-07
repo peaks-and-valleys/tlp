@@ -50,7 +50,7 @@
 		border-radius: 2px;
 		border: 1px solid var(--c-secondary);
 		background: transparent;
-		font-size: 0.75rem;
+		font-size: var(--text-xs);
 		color: var(--c-secondary);
 		padding: 4px;
 		display: flex;

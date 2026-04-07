@@ -78,7 +78,7 @@
 		margin-block-start: calc(var(--spacing-m) - var(--half-leading));
 		ol {
 			color: var(--c-secondary);
-			font-size: 0.75rem;
+			font-size: var(--text-xs);
 			margin-block: 0;
 			padding-inline-start: 0;
 			display: flex;

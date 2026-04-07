@@ -49,9 +49,9 @@
 
 <style>
 	.rss {
-		font-size: 0.875rem;
+		font-size: var(--text-s);
 		display: inline-block;
-		margin-top: calc(var(--spacing-xxs) - var(--half-leading));
+		margin-top: calc(var(--spacing-xs) - var(--half-leading));
 	}
 
 	.posts {
@@ -63,7 +63,7 @@
 
 	time {
 		color: var(--c-secondary);
-		font-size: 0.875rem;
+		font-size: var(--text-s);
 		margin-inline-start: var(--spacing-xxs);
 	}
 </style>
