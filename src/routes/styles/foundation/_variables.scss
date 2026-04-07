@@ -24,6 +24,14 @@
 		}
 	}
 
+	--text-3xl: calc(1rem * 9 / 4);
+	--text-2xl: calc(1rem * 9 / 6);
+	--text-xl: calc(1rem * 9 / 7);
+	--text-l: calc(1rem * 9 / 8);
+	--text-m: calc(1rem * 9 / 9);
+	--text-s: calc(1rem * 9 / 10);
+	--text-xs: calc(1rem * 9 / 12);
+
 	--scrollbar-gutter: calc(100vw - 100%);
 
 	// ff: font family
