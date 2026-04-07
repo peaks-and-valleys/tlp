@@ -34,7 +34,7 @@
 	hgroup {
 		p {
 			margin-block-start: calc(var(--spacing-s) - var(--half-leading));
-			font-size: 0.875rem;
+			font-size: var(--text-s);
 			color: var(--c-secondary);
 		}
 	}

@@ -59,7 +59,7 @@
 			inline-size: min(100%, 120px);
 			text-align: center;
 			color: var(--c-primary);
-			font-size: 0.75rem;
+			font-size: var(--text-xs);
 			list-style: none;
 			border: 1px solid var(--c-tertiary);
 			border-radius: 8px;
@@ -121,7 +121,7 @@
 		a {
 			display: inline-block;
 			line-height: 1.333;
-			font-size: 0.875rem;
+			font-size: var(--text-s);
 			text-decoration: none;
 			margin-block: -4px;
 			padding-block: 4px;
