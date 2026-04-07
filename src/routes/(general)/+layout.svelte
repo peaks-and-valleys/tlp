@@ -27,8 +27,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		min-block-size: 100vh;
-		min-block-size: 100dvh;
+		min-block-size: 100dvb;
 	}
 
 	.container {
