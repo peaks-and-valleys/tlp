@@ -2,9 +2,11 @@
 	--darkgrey-1: #1a1c1f;
 	--darkgrey-2: #2a2c2f;
 	--darkgrey-3: #3a3c3f;
+	--darkgrey-4: #4a4c4f;
 	--lightgrey-1: #e0e2e5;
 	--lightgrey-2: #d0d2d5;
 	--lightgrey-3: #c0c2c5;
+	--lightgrey-4: #b0b2b5;
 
 	// Spacing
 	--spacing-unit: 0.5rem;
@@ -41,9 +43,9 @@
 }
 
 [data-theme='light'] {
-	--c-primary: var(--darkgrey-1);
-	--c-secondary: var(--darkgrey-2);
-	--c-tertiary: var(--darkgrey-3);
+	--c-primary: var(--darkgrey-2);
+	--c-secondary: var(--darkgrey-3);
+	--c-tertiary: var(--darkgrey-4);
 	--c-bg-primary: var(--lightgrey-1);
 	--c-bg-secondary: var(--lightgrey-2);
 	--c-ac-primary: var(--darkgrey-2);
@@ -51,9 +53,9 @@
 }
 
 [data-theme='dark'] {
-	--c-primary: var(--lightgrey-1);
-	--c-secondary: var(--lightgrey-2);
-	--c-tertiary: var(--lightgrey-3);
+	--c-primary: var(--lightgrey-2);
+	--c-secondary: var(--lightgrey-3);
+	--c-tertiary: var(--lightgrey-4);
 	--c-bg-primary: var(--darkgrey-1);
 	--c-bg-secondary: var(--darkgrey-2);
 	--c-ac-primary: var(--lightgrey-2);
