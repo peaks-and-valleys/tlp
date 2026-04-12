@@ -40,6 +40,7 @@
 		"vitest": "^4.1.0"
 	},
 	"dependencies": {
+		"@fontsource-variable/playfair-display": "^5.2.8",
 		"@fontsource-variable/work-sans": "^5.2.8"
 	}
 }
