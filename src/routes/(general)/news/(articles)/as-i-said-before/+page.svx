@@ -1,8 +1,9 @@
 ---
-title: "as i said before"
+title: "as i said before （雑記）"
 description: "俺なりのニューメタルをリリースした、ことについての告知と余談"
 date: "2025-06-04"
 draft: false
+category: "blog"
 ---
 
 <img src="/images/news/as-i-said-before/as-i-said-before.jpg" alt="">

@@ -3,6 +3,7 @@ title: "we live in a void カセットテープ版のオンライン販売開始
 description: "新作EP \"we live in a void\" のカセットテープを販売開始しました"
 date: "2026-02-25"
 draft: false
+category: "news"
 ---
 
 <script lang="ts">

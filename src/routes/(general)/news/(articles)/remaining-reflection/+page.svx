@@ -3,6 +3,7 @@ title: "remaining reflection"
 description: "過去曲のリメイク2曲を収録したシングル"
 date: "2025-08-02"
 draft: false
+category: "blog"
 ---
 
 *このページも見て: [2025 singles](/discography/2025-singles)*

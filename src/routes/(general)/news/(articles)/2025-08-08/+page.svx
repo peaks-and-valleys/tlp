@@ -3,6 +3,7 @@ title: "2025-08-08"
 description: "日記 2025-08-08"
 date: "2025-08-08"
 draft: false
+category: "blog"
 ---
 
 ## 記録を付ける

@@ -24,6 +24,7 @@ export async function load({ url }: { url: URL }) {
 			title: module.metadata.title,
 			description: module.metadata.description,
 			date: module.metadata.date,
+			category: module.metadata.category,
 			draft: module.metadata.draft,
 			slug
 		};

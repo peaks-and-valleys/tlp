@@ -10,7 +10,7 @@
 
 	const metadata = {
 		pageTitle: 'News',
-		description: 'News Article list'
+		description: 'ニュース・ブログの記事一覧'
 	};
 </script>
 
@@ -29,9 +29,14 @@
 
 <a href="/news/rss.xml" class="rss">RSS Feed</a>
 
+<ul class="category-notice">
+	<li><span class="category">news</span> - ちゃんとした告知です</li>
+	<li><span class="category">blog</span> - どうでもよいことで、文体も雑です</li>
+</ul>
+
 <ul class="posts">
 	{#if data.posts.length === 0}
-		<li>No posts available.</li>
+		<li>投稿がありません</li>
 	{/if}
 	{#each data.posts as post (post.slug)}
 		<li class="post">
@@ -41,7 +46,12 @@
 						{post.title}
 					</a>
 				</span>
-				<time datetime={post.date}>{new Date(post.date).toLocaleDateString('ja-JP')}</time>
+				<div class="post-meta">
+					<time datetime={post.date}>{new Date(post.date).toLocaleDateString('ja-JP')}</time>
+					{#if post.category}
+						<span class="category">{post.category}</span>
+					{/if}
+				</div>
 			</article>
 		</li>
 	{/each}
@@ -54,16 +64,44 @@
 		margin-top: calc(var(--spacing-xs) - var(--half-leading));
 	}
 
+	.category-notice {
+		font-size: var(--text-xs);
+		margin-block-start: var(--spacing-s);
+		list-style: none;
+		padding-inline-start: 0;
+	}
+
 	.posts {
 		display: flex;
 		flex-direction: column;
-		gap: calc(var(--spacing-s) - var(--half-leading));
+		gap: calc(var(--spacing-m) - var(--half-leading));
 		margin-block-start: calc(var(--spacing-l) - var(--half-leading));
+		padding-inline-start: 0;
+	}
+
+	.post {
+		list-style: none;
+		border-inline-start: 0.25rem solid var(--c-secondary);
+		padding-inline-start: var(--spacing-s);
+	}
+
+	.post-meta {
+		display: flex;
+		align-items: center;
+		gap: var(--spacing-xs);
+		margin-top: var(--spacing-xxs);
+		font-size: var(--text-xs);
 	}
 
 	time {
 		color: var(--c-secondary);
-		font-size: var(--text-s);
-		margin-inline-start: var(--spacing-xxs);
+	}
+
+	.category {
+		background-color: var(--c-bg-secondary);
+		color: var(--c-primary);
+		padding-inline: 2px;
+		border-radius: 2px;
+		text-transform: uppercase;
 	}
 </style>
