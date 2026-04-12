@@ -1,0 +1,13 @@
+{
+	"permissions": {
+		"allow": [
+			"Bash(* --version)",
+			"Bash(* --help *)",
+			"Bash(git status *)",
+			"Bash(git diff *)",
+			"Bash(pnpm format)",
+			"Bash(pnpm lint)"
+		],
+		"deny": ["Bash(git push *)", "Bash(rm *)"]
+	}
+}
