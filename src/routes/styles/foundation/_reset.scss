@@ -61,3 +61,11 @@ select {
 	font-family: inherit;
 	font-size: inherit;
 }
+
+@media (prefers-reduced-motion) {
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation: none !important;
+	}
+}
