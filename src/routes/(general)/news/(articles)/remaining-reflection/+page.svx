@@ -1,5 +1,5 @@
 ---
-title: "remaining reflection"
+title: "remaining reflection （雑記）"
 description: "過去曲のリメイク2曲を収録したシングル"
 date: "2025-08-02"
 draft: false
