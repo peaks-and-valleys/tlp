@@ -7,13 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@fontsource-variable/playfair-display':
-        specifier: ^5.2.8
-        version: 5.2.8
-      '@fontsource-variable/work-sans':
-        specifier: ^5.2.8
-        version: 5.2.8
     devDependencies:
       '@eslint/compat':
         specifier: ^2.0.5
@@ -496,12 +489,6 @@ packages:
   '@eslint/plugin-kit@0.7.1':
     resolution: {integrity: sha512-rZAP3aVgB9ds9KOeUSL+zZ21hPmo8dh6fnIFwRQj5EAZl9gzR7wxYbYXYysAM8CTqGmUGyp2S4kUdV17MnGuWQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
-
-  '@fontsource-variable/playfair-display@5.2.8':
-    resolution: {integrity: sha512-ZzVIXPOrL85yyOvZYoBzUszIJM+xKkHqni4IYn2CVLaGQQdJR8sBeC8yFNgjxSJ7ludTwta8qpULeOFuk5X75A==}
-
-  '@fontsource-variable/work-sans@5.2.8':
-    resolution: {integrity: sha512-8uWtTt0/B5NxGie9xUVD5y5Ch4Q+Hy7kFYKtUpwYbzSAgJEoaMxT8rMnfnK7zfAYSLC8GnGO1/tXrFtKIYYQVQ==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2291,10 +2278,6 @@ snapshots:
     dependencies:
       '@eslint/core': 1.2.1
       levn: 0.4.1
-
-  '@fontsource-variable/playfair-display@5.2.8': {}
-
-  '@fontsource-variable/work-sans@5.2.8': {}
 
   '@humanfs/core@0.19.1': {}
 
