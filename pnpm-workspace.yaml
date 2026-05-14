@@ -4,3 +4,5 @@ allowBuilds:
   sharp: true
   svelte-preprocess: true
   workerd: true
+minimumReleaseAge: 4320
+trustPolicy: no-downgrade
