@@ -1,15 +1,15 @@
 <script>
-	import HeadProperties from '$lib/components/HeadProperties.svelte';
-	import Article from './Article.svx';
+  import HeadProperties from '$lib/components/HeadProperties.svelte';
+  import Article from './Article.svx';
 
-	const metadata = {
-		pageTitle: 'Links',
-		description: 'Recommended website link list'
-	};
+  const metadata = {
+    pageTitle: 'Links',
+    description: 'Recommended website link list'
+  };
 </script>
 
 <HeadProperties {metadata} />
 
 <article>
-	<Article />
+  <Article />
 </article>

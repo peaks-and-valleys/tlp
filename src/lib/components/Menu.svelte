@@ -1,139 +1,152 @@
 <script lang="ts">
-	import { page } from '$app/state';
+  import { page } from '$app/state';
 
-	let isOpen = $state(false);
+  let isOpen = $state(false);
 
-	$effect(() => {
-		const mql = window.matchMedia('(min-width: 40rem)');
+  $effect(() => {
+    const mql = window.matchMedia('(min-width: 40rem)');
 
-		isOpen = mql.matches;
+    isOpen = mql.matches;
 
-		const handler = (e: MediaQueryListEvent) => {
-			isOpen = e.matches;
-		};
+    const handler = (e: MediaQueryListEvent) => {
+      isOpen = e.matches;
+    };
 
-		mql.addEventListener('change', handler);
-		return () => mql.removeEventListener('change', handler);
-	});
+    mql.addEventListener('change', handler);
+    return () => mql.removeEventListener('change', handler);
+  });
 </script>
 
 <nav aria-label="Main navigation">
-	<details bind:open={isOpen}>
-		<summary>Menu</summary>
-		<ul class="menu">
-			<li>
-				<a href="/about" aria-current={page.url.pathname === '/about' ? 'true' : undefined}>About</a
-				>
-			</li>
-			<li>
-				<a href="/news" aria-current={page.url.pathname.startsWith('/news') ? 'true' : undefined}
-					>News</a
-				>
-			</li>
-			<li>
-				<a
-					href="/discography"
-					aria-current={page.url.pathname.startsWith('/discography') ? 'true' : undefined}
-					>Discography</a
-				>
-			</li>
-			<li>
-				<a href="/shows" aria-current={page.url.pathname.startsWith('/shows') ? 'true' : undefined}
-					>Shows</a
-				>
-			</li>
-			<li>
-				<a href="/links" aria-current={page.url.pathname === '/links' ? 'true' : undefined}>Links</a
-				>
-			</li>
-		</ul>
-	</details>
+  <details bind:open={isOpen}>
+    <summary>Menu</summary>
+    <ul class="menu">
+      <li>
+        <a
+          href="/about"
+          aria-current={page.url.pathname === '/about' ? 'true' : undefined}
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          href="/news"
+          aria-current={page.url.pathname.startsWith('/news')
+            ? 'true'
+            : undefined}>News</a
+        >
+      </li>
+      <li>
+        <a
+          href="/discography"
+          aria-current={page.url.pathname.startsWith('/discography')
+            ? 'true'
+            : undefined}>Discography</a
+        >
+      </li>
+      <li>
+        <a
+          href="/shows"
+          aria-current={page.url.pathname.startsWith('/shows')
+            ? 'true'
+            : undefined}>Shows</a
+        >
+      </li>
+      <li>
+        <a
+          href="/links"
+          aria-current={page.url.pathname === '/links' ? 'true' : undefined}
+          >Links</a
+        >
+      </li>
+    </ul>
+  </details>
 </nav>
 
 <style lang="scss">
-	details {
-		summary {
-			margin-block-start: var(--spacing-m);
-			padding-block: calc(var(--spacing-xxs) - var(--half-leading));
-			margin-inline: auto;
-			inline-size: min(100%, 120px);
-			text-align: center;
-			color: var(--c-primary);
-			font-size: var(--text-xs);
-			list-style: none;
-			border: 1px solid var(--c-tertiary);
-			border-radius: 8px;
+  details {
+    summary {
+      margin-block-start: var(--spacing-m);
+      padding-block: calc(var(--spacing-xxs) - var(--half-leading));
+      margin-inline: auto;
+      inline-size: min(100%, 120px);
+      text-align: center;
+      color: var(--c-primary);
+      font-size: var(--text-xs);
+      list-style: none;
+      border: 1px solid var(--c-tertiary);
+      border-radius: 8px;
 
-			&::-webkit-details-marker {
-				display: none;
-			}
+      &::-webkit-details-marker {
+        display: none;
+      }
 
-			&::before,
-			&::after {
-				content: '+';
-				display: inline-block;
-				margin-inline: 0.5rem;
-			}
+      &::before,
+      &::after {
+        content: '+';
+        display: inline-block;
+        margin-inline: 0.5rem;
+      }
 
-			@media screen and (min-width: 40rem) {
-				display: none;
-			}
-		}
+      @media screen and (min-width: 40rem) {
+        display: none;
+      }
+    }
 
-		&[open] {
-			summary {
-				&::before,
-				&::after {
-					content: '-';
-				}
-			}
-		}
-	}
+    &[open] {
+      summary {
+        &::before,
+        &::after {
+          content: '-';
+        }
+      }
+    }
+  }
 
-	.menu {
-		margin-block-start: var(--spacing-m);
-		margin-block-end: 0;
-		padding-inline: 0;
-		padding-block: calc(var(--spacing-s) - var(--half-leading));
+  .menu {
+    margin-block-start: var(--spacing-m);
+    margin-block-end: 0;
+    padding-inline: 0;
+    padding-block: calc(var(--spacing-s) - var(--half-leading));
 
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		list-style: none;
-		column-gap: var(--spacing-xs);
-		row-gap: calc(var(--spacing-xs) - var(--half-leading));
-		justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    column-gap: var(--spacing-xs);
+    row-gap: calc(var(--spacing-xs) - var(--half-leading));
+    justify-content: space-around;
 
-		border-block: 1px solid var(--c-tertiary);
+    border-block: 1px solid var(--c-tertiary);
 
-		@media screen and (min-width: 64rem) {
-			flex-direction: column;
-			align-items: flex-start;
-			row-gap: calc(var(--spacing-s) - var(--half-leading));
-			li {
-				inline-size: 100%;
-				a {
-					inline-size: 100%;
-				}
-			}
-		}
+    @media screen and (min-width: 64rem) {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: calc(var(--spacing-s) - var(--half-leading));
+      li {
+        inline-size: 100%;
+        a {
+          inline-size: 100%;
+        }
+      }
+    }
 
-		a {
-			display: inline-block;
-			line-height: 1.333;
-			font-size: var(--text-s);
-			text-decoration: none;
-			margin-block: -4px;
-			padding-block: 4px;
-			text-transform: uppercase;
+    a {
+      display: inline-block;
+      line-height: 1.333;
+      font-size: var(--text-s);
+      text-decoration: none;
+      margin-block: -4px;
+      padding-block: 4px;
+      text-transform: uppercase;
 
-			&[aria-current='true'] {
-				background-color: var(--c-ac-primary);
-				color: var(--c-ac-fg-primary);
-			}
-			@media screen and (min-width: 40rem) {
-				font-size: 1rem;
-			}
-		}
-	}
+      &[aria-current='true'] {
+        background-color: var(--c-ac-primary);
+        color: var(--c-ac-fg-primary);
+      }
+      @media screen and (min-width: 40rem) {
+        font-size: 1rem;
+      }
+    }
+  }
 </style>
