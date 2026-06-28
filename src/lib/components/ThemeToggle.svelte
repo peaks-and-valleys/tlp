@@ -47,12 +47,12 @@
 
 <style lang="scss">
   button {
-    border-radius: 2px;
-    border: 1px solid var(--c-secondary);
+    border: none;
     background: transparent;
     font-size: var(--text-xs);
     color: var(--c-secondary);
     padding: 4px;
+    margin: -4px;
     display: flex;
     justify-content: center;
     align-items: center;
