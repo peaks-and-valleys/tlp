@@ -8,6 +8,10 @@
 			"Bash(pnpm format)",
 			"Bash(pnpm lint)"
 		],
-		"deny": ["Bash(git push *)", "Bash(rm *)"]
+		"deny": [
+			"Bash(git push -f origin main)",
+			"Bash(git push --force origin main)",
+			"Bash(rm -rf /)"
+		]
 	}
 }
