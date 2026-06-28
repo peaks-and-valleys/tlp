@@ -1,21 +1,21 @@
 @keyframes fade-in {
-	from {
-		opacity: 0;
-		filter: blur(0.01rem);
-	}
+  from {
+    opacity: 0;
+    filter: blur(0.01rem);
+  }
 }
 
 @keyframes fade-out {
-	to {
-		opacity: 0;
-		filter: blur(0.01rem);
-	}
+  to {
+    opacity: 0;
+    filter: blur(0.01rem);
+  }
 }
 
 :root::view-transition-old(root) {
-	animation: 0.6s ease-in-out both fade-out;
+  animation: 0.6s ease-in-out both fade-out;
 }
 
 :root::view-transition-new(root) {
-	animation: 0.6s ease-in both fade-in;
+  animation: 0.6s ease-in both fade-in;
 }

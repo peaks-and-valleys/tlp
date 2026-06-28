@@ -1,12 +1,16 @@
 {
-	"defaults": {
-		"chromeLaunchConfig": {
-			"executablePath": "/usr/bin/google-chrome"
-		},
-		"concurrency": 1,
-		"standard": "WCAG2AA",
-		"includeWarnings": true,
-		"timeout": 5000
-	},
-	"urls": ["http://localhost:5173", "http://localhost:5173/about", "http://localhost:5173/blog"]
+  "defaults": {
+    "chromeLaunchConfig": {
+      "executablePath": "/usr/bin/google-chrome"
+    },
+    "concurrency": 1,
+    "standard": "WCAG2AA",
+    "includeWarnings": true,
+    "timeout": 5000
+  },
+  "urls": [
+    "http://localhost:5173",
+    "http://localhost:5173/about",
+    "http://localhost:5173/blog"
+  ]
 }

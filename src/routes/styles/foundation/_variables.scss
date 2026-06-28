@@ -1,63 +1,63 @@
 :root {
-	--darkgrey-1: #1a1a1c;
-	--darkgrey-2: #2a2a2c;
-	--darkgrey-3: #3a3a3c;
-	--darkgrey-4: #4a4a4c;
-	--lightgrey-1: #eaeaec;
-	--lightgrey-2: #dadadc;
-	--lightgrey-3: #cacacc;
-	--lightgrey-4: #bababc;
+  --darkgrey-1: #1a1a1c;
+  --darkgrey-2: #2a2a2c;
+  --darkgrey-3: #3a3a3c;
+  --darkgrey-4: #4a4a4c;
+  --lightgrey-1: #eaeaec;
+  --lightgrey-2: #dadadc;
+  --lightgrey-3: #cacacc;
+  --lightgrey-4: #bababc;
 
-	// Spacing
-	--spacing-unit: 0.5rem;
-	--spacing-xxs: var(--spacing-unit);
-	--spacing-xs: calc(var(--spacing-unit) * 1.5);
-	--spacing-s: calc(var(--spacing-unit) * 2);
-	--spacing-m: calc(var(--spacing-unit) * 3);
-	--spacing-l: calc(var(--spacing-unit) * 5);
-	--spacing-xl: calc(var(--spacing-unit) * 8);
+  // Spacing
+  --spacing-unit: 0.5rem;
+  --spacing-xxs: var(--spacing-unit);
+  --spacing-xs: calc(var(--spacing-unit) * 1.5);
+  --spacing-s: calc(var(--spacing-unit) * 2);
+  --spacing-m: calc(var(--spacing-unit) * 3);
+  --spacing-l: calc(var(--spacing-unit) * 5);
+  --spacing-xl: calc(var(--spacing-unit) * 8);
 
-	// Utility
-	--half-leading: calc((1lh - 1em) / 2);
+  // Utility
+  --half-leading: calc((1lh - 1em) / 2);
 
-	@supports not (top: 1lh) {
-		:root {
-			--half-leading: 0px;
-		}
-	}
+  @supports not (top: 1lh) {
+    :root {
+      --half-leading: 0px;
+    }
+  }
 
-	--text-3xl: calc(1rem * 9 / 4);
-	--text-2xl: calc(1rem * 9 / 6);
-	--text-xl: calc(1rem * 9 / 7);
-	--text-l: calc(1rem * 9 / 8);
-	--text-m: calc(1rem * 9 / 9);
-	--text-s: calc(1rem * 9 / 10);
-	--text-xs: calc(1rem * 9 / 12);
+  --text-3xl: calc(1rem * 9 / 4);
+  --text-2xl: calc(1rem * 9 / 6);
+  --text-xl: calc(1rem * 9 / 7);
+  --text-l: calc(1rem * 9 / 8);
+  --text-m: calc(1rem * 9 / 9);
+  --text-s: calc(1rem * 9 / 10);
+  --text-xs: calc(1rem * 9 / 12);
 
-	--scrollbar-gutter: calc(100vw - 100%);
+  --scrollbar-gutter: calc(100vw - 100%);
 
-	// ff: font family
-	--ff-sans-serif:
-		'Plus Jakarta Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
-		'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+  // ff: font family
+  --ff-sans-serif:
+    'Plus Jakarta Sans', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN',
+    'Hiragino Sans', 'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
 }
 
 [data-theme='light'] {
-	--c-primary: var(--darkgrey-2);
-	--c-secondary: var(--darkgrey-3);
-	--c-tertiary: var(--darkgrey-4);
-	--c-bg-primary: var(--lightgrey-1);
-	--c-bg-secondary: var(--lightgrey-2);
-	--c-ac-primary: var(--darkgrey-2);
-	--c-ac-fg-primary: var(--lightgrey-1);
+  --c-primary: var(--darkgrey-2);
+  --c-secondary: var(--darkgrey-3);
+  --c-tertiary: var(--darkgrey-4);
+  --c-bg-primary: var(--lightgrey-1);
+  --c-bg-secondary: var(--lightgrey-2);
+  --c-ac-primary: var(--darkgrey-2);
+  --c-ac-fg-primary: var(--lightgrey-1);
 }
 
 [data-theme='dark'] {
-	--c-primary: var(--lightgrey-2);
-	--c-secondary: var(--lightgrey-3);
-	--c-tertiary: var(--lightgrey-4);
-	--c-bg-primary: var(--darkgrey-1);
-	--c-bg-secondary: var(--darkgrey-2);
-	--c-ac-primary: var(--lightgrey-2);
-	--c-ac-fg-primary: var(--darkgrey-1);
+  --c-primary: var(--lightgrey-2);
+  --c-secondary: var(--lightgrey-3);
+  --c-tertiary: var(--lightgrey-4);
+  --c-bg-primary: var(--darkgrey-1);
+  --c-bg-secondary: var(--darkgrey-2);
+  --c-ac-primary: var(--lightgrey-2);
+  --c-ac-fg-primary: var(--darkgrey-1);
 }
