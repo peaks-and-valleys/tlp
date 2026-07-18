@@ -4,3 +4,16 @@ allowBuilds:
   sharp: true
   svelte-preprocess: true
   workerd: true
+minimumReleaseAgeExclude:
+  - cookie@0.7.0
+  - ws@8.20.1
+  - esbuild@0.28.1
+  - undici@7.28.0
+  - ws@8.21.0
+overrides:
+  cookie@<0.7.0: ^0.7.0
+  esbuild@>=0.27.3 <0.28.1: ^0.28.1
+  undici@>=7.0.0 <7.28.0: ^7.28.0
+  undici@>=7.23.0 <7.28.0: ^7.28.0
+  ws@>=8.0.0 <8.20.1: ^8.20.1
+  ws@>=8.0.0 <8.21.0: ^8.21.0
