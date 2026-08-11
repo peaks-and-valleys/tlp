@@ -37,15 +37,10 @@ ol[role='list'] {
   list-style: none;
 }
 
-/* Set shorter line heights on headings and interactive elements */
-h1,
-h2,
-h3,
-h4,
-button,
-input,
-label {
-  line-height: 1.333;
+/* A elements get default styles */
+a {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
 }
 
 /* Make images easier to work with */
@@ -109,8 +104,8 @@ select {
 
   /* ff: font family */
   --ff-sans-serif:
-    'Plus Jakarta Sans', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
-    'Noto Sans JP', 'BIZ UDPGothic', sans-serif;
+    'Plus Jakarta Sans', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+    'Noto Sans JP', 'Noto Sans CJK JP', sans-serif;
 }
 
 @supports not (top: 1lh) {
@@ -167,11 +162,7 @@ html {
   font-variation-settings: 'wght' 400;
   color-scheme: light dark;
   text-autospace: normal;
-  font-size: 93.75%;
-
-  @media screen and (min-width: 40rem) {
-    font-size: 100%;
-  }
+  font-size: 100%;
 
   @media screen and (min-width: 64rem) {
     font-size: 106.25%;
@@ -192,6 +183,16 @@ body {
 strong {
   font-weight: 600;
   font-variation-settings: 'wght' 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.333;
 }
 
 h1,
@@ -262,8 +263,6 @@ h4 + ul {
 }
 
 a:not(:has(img)) {
-  color: var(--c-secondary);
-
   @media (any-hover) {
     &:hover {
       text-decoration: none;
