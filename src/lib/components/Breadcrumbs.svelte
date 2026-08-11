@@ -75,7 +75,7 @@
   </ol>
 </nav>
 
-<style lang="scss">
+<style>
   nav {
     overflow-wrap: normal;
     margin-block-start: calc(var(--spacing-m) - var(--half-leading));

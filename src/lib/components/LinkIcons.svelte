@@ -187,7 +187,7 @@
   </ul>
 </div>
 
-<style lang="scss">
+<style>
   .wrapper {
     display: flex;
     justify-content: center;

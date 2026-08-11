@@ -21,7 +21,7 @@
   </div>
 </footer>
 
-<style lang="scss">
+<style>
   footer {
     margin-block-start: var(--spacing-xl);
     border-block-start: 1px solid var(--c-tertiary);

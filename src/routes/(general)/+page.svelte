@@ -57,7 +57,7 @@
   </svg>
 </div>
 
-<style lang="scss">
+<style>
   .logo {
     display: flex;
     justify-content: center;

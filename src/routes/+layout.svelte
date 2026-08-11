@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount, type Snippet } from 'svelte';
   import type { LayoutData } from './$types';
-  import './styles/app.scss';
+  import './styles/app.css';
   import { theme } from '$lib/utils/theme';
   import { onNavigate } from '$app/navigation';
 

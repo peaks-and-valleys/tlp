@@ -21,7 +21,7 @@
   </div>
 </div>
 
-<style lang="scss">
+<style>
   .wrapper {
     padding: 24px;
     display: flex;

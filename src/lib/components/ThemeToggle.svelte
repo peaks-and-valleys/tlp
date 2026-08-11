@@ -45,7 +45,7 @@
   {/if}
 </button>
 
-<style lang="scss">
+<style>
   button {
     border: none;
     background: transparent;
