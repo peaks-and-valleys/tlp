@@ -57,7 +57,16 @@
   <Menu />
 </header>
 
-<style lang="scss">
+<style>
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(-1turn);
+    }
+  }
+
   .home-symbol {
     display: flex;
     justify-content: center;
@@ -74,15 +83,6 @@
           animation: rotate 5000ms linear infinite;
           color: var(--c-primary);
           background: none;
-
-          @keyframes rotate {
-            0% {
-              transform: rotate(0);
-            }
-            100% {
-              transform: rotate(-1turn);
-            }
-          }
         }
       }
     }

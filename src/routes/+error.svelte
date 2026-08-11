@@ -57,7 +57,7 @@
   </div>
 </div>
 
-<style lang="scss">
+<style>
   .error-container {
     display: flex;
     justify-content: center;

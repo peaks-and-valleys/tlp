@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a SvelteKit-based website for "FATAL WOVND", an egocentric platform. The site uses modern web technologies including Svelte 5, TypeScript, SCSS, and MDsveX for content management.
+This is a SvelteKit-based website for "FATAL WOVND", an egocentric platform. The site uses modern web technologies including Svelte 5, TypeScript, CSS, and MDsveX for content management.
 
 ## Architecture Overview
 
@@ -16,7 +16,8 @@ This is a SvelteKit-based website for "FATAL WOVND", an egocentric platform. The
 
 ### Styling System
 
-- **SCSS** with modular architecture using foundation and layout patterns
+- **Plain CSS** — no preprocessor. Global styles live in a single `src/routes/styles/app.css`; everything else is Svelte scoped `<style>` blocks
+- **Native CSS nesting** is used in both global and scoped styles (no `lang="scss"`)
 - **CSS Variables** for theming and consistent spacing/sizing
 - Responsive design with mobile-first approach
 
@@ -46,9 +47,8 @@ src/
 │   ├── components/         # Shared UI components
 │   ├── types/             # TypeScript interfaces
 │   └── utils/             # Utility functions
-└── routes/styles/         # SCSS styling system
-    ├── foundation/        # Base styles, variables, reset
-    └── layout/            # Layout-specific styles
+└── routes/styles/         # Global styling
+    └── app.css            # Reset, CSS variables, base element styles
 ```
 
 ### Component Structure

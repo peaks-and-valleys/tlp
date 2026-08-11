@@ -63,7 +63,7 @@
   </details>
 </nav>
 
-<style lang="scss">
+<style>
   details {
     summary {
       margin-block-start: var(--spacing-m);

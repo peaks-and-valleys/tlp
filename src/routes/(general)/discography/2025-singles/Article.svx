@@ -45,7 +45,7 @@ Downloading them from **bandcamp**, you will get the stem tracks of each song.
 - [SoundCloud](https://soundcloud.com/tohlpeaks/dead-to-you)
 - [YouTube](https://youtu.be/ud4V4NL38To)
 
-<style lang="scss">
+<style>
 	img {
 		width: min(400px, 100%);
 	}
