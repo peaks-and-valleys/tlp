@@ -29,9 +29,9 @@ This is a SvelteKit-based website for "FATAL WOVND", an egocentric platform. The
 
 ### Theming
 
-- Light/dark theme support with localStorage persistence
-- CSS custom properties for color scheme management
-- Automatic detection of system preference with manual override
+- Dark theme only — there is no runtime theme switching, no toggle UI, and no persisted preference
+- Semantic color tokens (`--c-primary`, `--c-bg-primary`, `--c-ac-primary`, …) are defined once on `:root` in `src/routes/styles/app.css`, mapped from the `--color-*` palette
+- `html { color-scheme: dark }` so native UI (scrollbars, form controls) matches
 
 ### Key Directories
 
@@ -45,8 +45,7 @@ src/
 │   │   └── links/          # External links
 ├── lib/                    # Reusable components and utilities
 │   ├── components/         # Shared UI components
-│   ├── types/             # TypeScript interfaces
-│   └── utils/             # Utility functions
+│   └── types/             # TypeScript interfaces
 └── routes/styles/         # Global styling
     └── app.css            # Reset, CSS variables, base element styles
 ```
@@ -54,7 +53,6 @@ src/
 ### Component Structure
 
 - Components follow Svelte 5 best practices with runes API
-- Theme management through Svelte stores
 - Semantic HTML with accessible markup
 - SVG animations and effects for visual interest
 

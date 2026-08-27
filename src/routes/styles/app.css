@@ -76,9 +76,16 @@ select {
   --color-light-1: oklch(0.95 0.002 246);
   --color-light-2: oklch(0.88 0.005 246);
   --color-light-3: oklch(0.81 0.009 246);
-  --color-dark-3: oklch(0.32 0.007 246);
   --color-dark-2: oklch(0.25 0.006 246);
   --color-dark-1: oklch(0.18 0.004 246);
+
+  --c-primary: var(--color-light-1);
+  --c-secondary: var(--color-light-2);
+  --c-tertiary: var(--color-light-3);
+  --c-bg-primary: var(--color-dark-1);
+  --c-bg-secondary: var(--color-dark-2);
+  --c-ac-primary: var(--color-light-1);
+  --c-ac-fg-primary: var(--color-dark-1);
 
   /* Spacing */
   --spacing-unit: 0.5rem;
@@ -114,26 +121,6 @@ select {
   }
 }
 
-[data-theme='light'] {
-  --c-primary: var(--color-dark-1);
-  --c-secondary: var(--color-dark-2);
-  --c-tertiary: var(--color-dark-3);
-  --c-bg-primary: var(--color-light-1);
-  --c-bg-secondary: var(--color-light-2);
-  --c-ac-primary: var(--color-dark-1);
-  --c-ac-fg-primary: var(--color-light-1);
-}
-
-[data-theme='dark'] {
-  --c-primary: var(--color-light-1);
-  --c-secondary: var(--color-light-2);
-  --c-tertiary: var(--color-light-3);
-  --c-bg-primary: var(--color-dark-1);
-  --c-bg-secondary: var(--color-dark-2);
-  --c-ac-primary: var(--color-light-1);
-  --c-ac-fg-primary: var(--color-dark-1);
-}
-
 /* ===========================================================
    Base
    =========================================================== */
@@ -160,7 +147,7 @@ html {
   font-family: var(--ff-sans-serif);
   font-weight: 400;
   font-variation-settings: 'wght' 400;
-  color-scheme: light dark;
+  color-scheme: dark;
   text-autospace: normal;
   font-size: 100%;
 
