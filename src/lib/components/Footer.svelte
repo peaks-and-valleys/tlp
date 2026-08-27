@@ -1,14 +1,12 @@
 <script lang="ts">
   import Breadcrumbs from './Breadcrumbs.svelte';
   import LinkIcons from './LinkIcons.svelte';
-  import ThemeToggle from './ThemeToggle.svelte';
 </script>
 
 <footer>
   <Breadcrumbs />
   <div class="content">
     <div class="submenu">
-      <ThemeToggle />
       <LinkIcons />
     </div>
     <p>
@@ -39,8 +37,6 @@
 
   .submenu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: var(--spacing-xxs);
+    justify-content: flex-end;
   }
 </style>
