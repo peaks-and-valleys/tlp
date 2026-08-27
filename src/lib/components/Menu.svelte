@@ -30,14 +30,6 @@
       </li>
       <li>
         <a
-          href="/news"
-          aria-current={page.url.pathname.startsWith('/news')
-            ? 'true'
-            : undefined}>News</a
-        >
-      </li>
-      <li>
-        <a
           href="/discography"
           aria-current={page.url.pathname.startsWith('/discography')
             ? 'true'

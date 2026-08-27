@@ -25,7 +25,6 @@ This is a SvelteKit-based website for "FATAL WOVND", an egocentric platform. The
 
 - **MDsveX** for Markdown/MDX-like content with Svelte components
 - Content pages stored as `.svx` files in route directories
-- RSS feed generation for news articles
 
 ### Theming
 
@@ -39,7 +38,6 @@ This is a SvelteKit-based website for "FATAL WOVND", an egocentric platform. The
 src/
 ├── routes/                 # Page routes and content
 │   ├── (general)/          # Main site pages
-│   │   ├── news/           # News articles and RSS
 │   │   ├── discography/    # Music discography content
 │   │   ├── shows/          # Shows/events information
 │   │   └── links/          # External links
