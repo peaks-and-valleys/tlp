@@ -203,13 +203,9 @@
       }
 
       .icon {
-        inline-size: 1.75rem;
+        inline-size: var(--text-3xl);
         block-size: 100%;
         stroke-width: 1.5;
-
-        @media screen and (min-width: 40rem) {
-          inline-size: var(--text-3xl);
-        }
       }
     }
   }
