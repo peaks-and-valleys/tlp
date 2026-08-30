@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
+  import { resolve } from '$app/paths';
   import HeadProperties from '$lib/components/HeadProperties.svelte';
 
   const metadata = {
@@ -51,7 +52,7 @@
     {/if}
 
     <nav>
-      <a href="/">Go home</a>
+      <a href={resolve('/')}>Go home</a>
       <button on:click={() => history.back()}>Go back</button>
     </nav>
   </div>
