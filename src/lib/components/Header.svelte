@@ -1,6 +1,5 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import Menu from './Menu.svelte';
 </script>
 
 <header>
@@ -54,7 +53,6 @@
       </svg>
     </a>
   </div>
-  <Menu />
 </header>
 
 <style>
