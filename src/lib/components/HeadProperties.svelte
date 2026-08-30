@@ -15,7 +15,7 @@
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalUrl} />
-  <meta property="og:site_name" content="FATAL WOVND, by TohLPeaks" />
+  <meta property="og:site_name" content="TohLPeaks" />
   <meta property="og:locale" content={contentLang} />
   <meta property="og:type" content={pageType} />
   <meta property="og:image" content="https://tohlpeaks.party/images/ogp.jpg" />

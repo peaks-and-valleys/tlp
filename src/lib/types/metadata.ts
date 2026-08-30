@@ -21,7 +21,7 @@ const DEFAULT_METADATA: Required<
   pageType: 'website'
 };
 
-const BASE_TITLE = 'FATAL WOVND, by TohLPeaks';
+const BASE_TITLE = 'TohLPeaks';
 const BASE_URL = 'https://tohlpeaks.party';
 
 export function generateMetadata(metadata: Metadata = {}): {
