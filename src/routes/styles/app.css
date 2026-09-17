@@ -99,7 +99,7 @@ select {
   /* Utility */
   --half-leading: calc((1lh - 1em) / 2);
 
-  --text-3xl: calc(1rem * 9 / 4);
+  --text-3xl: calc(1rem * 9 / 5);
   --text-2xl: calc(1rem * 9 / 6);
   --text-xl: calc(1rem * 9 / 7);
   --text-l: calc(1rem * 9 / 8);
