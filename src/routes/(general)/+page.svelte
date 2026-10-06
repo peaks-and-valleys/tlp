@@ -1,7 +1,7 @@
 <script lang="ts">
-  import BackgroundVideo from '$lib/components/BackgroundVideo.svelte';
-  import HeadProperties from '$lib/components/HeadProperties.svelte';
-  import LinkIcons from '$lib/components/LinkIcons.svelte';
+  import BackgroundVideo from '#lib/components/BackgroundVideo.svelte';
+  import HeadProperties from '#lib/components/HeadProperties.svelte';
+  import LinkIcons from '#lib/components/LinkIcons.svelte';
 
   const metadata = {
     description: 'TohLPeaks'

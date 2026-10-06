@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { generateMetadata, type Metadata } from '$lib/types/metadata';
+  import { generateMetadata, type Metadata } from '#lib/types/metadata.js';
 
   let { metadata = {} }: { metadata?: Metadata } = $props();
 
