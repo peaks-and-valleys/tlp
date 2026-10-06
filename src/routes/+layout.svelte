@@ -7,6 +7,7 @@
   let { children }: { data: LayoutData; children: Snippet } = $props();
 
   onNavigate((navigation) => {
+    if (navigation.shallow) return;
     if (!document.startViewTransition) return;
 
     return new Promise((resolve) => {
